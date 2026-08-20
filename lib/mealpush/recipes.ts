@@ -1,4 +1,5 @@
 import { ingredients } from "@/lib/mealpush/ingredients";
+import type { MealRecommendation } from "@/lib/mealpush/recommendation-types";
 
 export type Recipe = {
   id: string;
@@ -16,9 +17,29 @@ export type StoredWeekPlans = Record<
   string,
   {
     selectedIds: string[];
+    recipeIds?: string[];
+    recipes?: MealRecommendation[];
     savedAt: string;
   }
 >;
+
+export function recipesFromRecommendations(
+  recommendations: MealRecommendation[],
+): Recipe[] {
+  const tones: Recipe["tone"][] = ["orange", "green", "yellow"];
+
+  return recommendations.map((meal, index) => ({
+    id: meal.recipeId,
+    title: meal.name,
+    subtitle: `${meal.cuisine.replaceAll("_", " ")} · $${meal.costPerServing.toFixed(2)} per serving`,
+    time: meal.totalMinutes,
+    calories: meal.calories,
+    protein: meal.macros.protein,
+    servings: meal.servings,
+    tone: tones[index % tones.length],
+    steps: meal.steps,
+  }));
+}
 
 export const currentRecipes: Recipe[] = [
   {

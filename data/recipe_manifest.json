@@ -1,0 +1,6502 @@
+[
+  {
+    "recipe_id": "MP0001",
+    "name": "Basil Pesto Lean ground beef Grain Bowl",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "ground_beef",
+      "whole_wheat_pasta",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0002",
+    "name": "Doenjang Seitan Noodle Bowl",
+    "primary_protein": "other",
+    "cuisine": "korean",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "seitan",
+      "udon_noodles",
+      "spinach",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0003",
+    "name": "Roasted Tomato Shrimp Soup",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "shrimp",
+      "quinoa",
+      "mushroom",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0004",
+    "name": "Balsamic Pork tenderloin Wrap",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "corn_tortilla",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0005",
+    "name": "Tuscan Tomato Beef sirloin Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "beef_sirloin",
+      "potato",
+      "zucchini",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0006",
+    "name": "Smoky BBQ Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "potato",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0007",
+    "name": "Tahini Lemon Salmon Meal-Prep Salad",
+    "primary_protein": "fish",
+    "cuisine": "middle_eastern",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "salmon",
+      "brown_rice",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0008",
+    "name": "Balsamic Herb Chicken thigh Wrap",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_thigh",
+      "pita",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0009",
+    "name": "Lemon Basil Scallops Grain Bowl",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "italian",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "scallops",
+      "potato",
+      "broccoli",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0010",
+    "name": "Herbed Yogurt Firm tofu Grain Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "middle_eastern",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "firm_tofu",
+      "bulgur",
+      "bell_pepper",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0011",
+    "name": "Chili Garlic Cod Sheet-Pan Meal",
+    "primary_protein": "fish",
+    "cuisine": "chinese_inspired",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "cod",
+      "udon_noodles",
+      "mushroom",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0012",
+    "name": "Za'atar Egg Meal-Prep Salad",
+    "primary_protein": "egg_based",
+    "cuisine": "middle_eastern",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "egg",
+      "brown_rice",
+      "cucumber",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0013",
+    "name": "Garlic Herb Lean ground turkey Grain Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "ground_turkey",
+      "quinoa",
+      "green_beans",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0014",
+    "name": "Balsamic Garlic Extra-firm tofu Roast",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "italian",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "potato",
+      "cherry_tomato",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0015",
+    "name": "Cilantro Lime Chicken breast Burrito Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "burrito_bowl",
+    "core_ingredients": [
+      "chicken_breast",
+      "white_rice",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0016",
+    "name": "Miso Herb Tempeh Noodle Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "japanese",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "tempeh",
+      "soba_noodles",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0017",
+    "name": "Spiced Yogurt Firm tofu Stew",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "indian",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "firm_tofu",
+      "brown_rice",
+      "bell_pepper",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0018",
+    "name": "Tahini Lemon Extra-firm tofu Grain Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "middle_eastern",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "quinoa",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0019",
+    "name": "Fajita Chicken thigh Wrap",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_thigh",
+      "pita",
+      "corn",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0020",
+    "name": "Masala Canned tuna Curry",
+    "primary_protein": "fish",
+    "cuisine": "indian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "canned_tuna",
+      "white_rice",
+      "peas",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0021",
+    "name": "Lemongrass-Style Shrimp Noodle Bowl",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "southeast_asian",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "shrimp",
+      "rice_noodles",
+      "cabbage",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0022",
+    "name": "Dill Yogurt Turkey breast Sheet-Pan Meal",
+    "primary_protein": "turkey",
+    "cuisine": "mediterranean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "turkey_breast",
+      "bulgur",
+      "bell_pepper",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0023",
+    "name": "Smoky BBQ Lean ground pork Grain Bowl",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "ground_pork",
+      "whole_wheat_pasta",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0024",
+    "name": "Gochujang Lean ground beef Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_beef",
+      "white_rice",
+      "cabbage",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0025",
+    "name": "Bulgogi Egg Rice Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "korean",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "egg",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0026",
+    "name": "Curry BBQ Salmon Stir-Fry",
+    "primary_protein": "fish",
+    "cuisine": "other_fusion",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "salmon",
+      "brown_rice",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0027",
+    "name": "Honey Mustard Beef sirloin Pasta",
+    "primary_protein": "beef",
+    "cuisine": "american_western",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "beef_sirloin",
+      "whole_wheat_pasta",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0028",
+    "name": "Balsamic Egg Wrap",
+    "primary_protein": "egg_based",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "egg",
+      "corn_tortilla",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0029",
+    "name": "Sweet Chili Basil Cod Meal-Prep Salad",
+    "primary_protein": "fish",
+    "cuisine": "southeast_asian",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "cod",
+      "rice_noodles",
+      "mushroom",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0030",
+    "name": "Thai Basil Lean ground turkey Rice Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "southeast_asian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "ground_turkey",
+      "white_rice",
+      "bell_pepper",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0031",
+    "name": "Salsa Verde Black beans Wrap",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "black_beans",
+      "corn_tortilla",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0032",
+    "name": "Green Curry Chickpeas Curry",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "southeast_asian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "chickpeas",
+      "rice_noodles",
+      "bok_choy",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0033",
+    "name": "Roasted Tomato Chicken breast Soup",
+    "primary_protein": "chicken",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "chicken_breast",
+      "whole_wheat_pasta",
+      "mushroom",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0034",
+    "name": "Pineapple Soy Scallops Noodle Bowl",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "scallops",
+      "soba_noodles",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0035",
+    "name": "Creamy Herb Brown lentils Pasta",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "italian",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "brown_lentils",
+      "whole_wheat_pasta",
+      "eggplant",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0036",
+    "name": "Smoky BBQ Tempeh Sheet-Pan Meal",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "tempeh",
+      "potato",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0037",
+    "name": "Miso Ginger Kidney beans Stir-Fry",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "japanese",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "kidney_beans",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0038",
+    "name": "Balsamic Herb Firm tofu Wrap",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "firm_tofu",
+      "pita",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0039",
+    "name": "Sesame Soy Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "sweet_potato",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0040",
+    "name": "Rustic Tomato Turkey breast Sheet-Pan Meal",
+    "primary_protein": "turkey",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "turkey_breast",
+      "potato",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0041",
+    "name": "Chili Garlic Lean ground beef Rice Bowl",
+    "primary_protein": "beef",
+    "cuisine": "chinese_inspired",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "ground_beef",
+      "brown_rice",
+      "mushroom",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0042",
+    "name": "Smoky BBQ White beans Sheet-Pan Meal",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "white_beans",
+      "sweet_potato",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0043",
+    "name": "Gochujang Lime Extra-firm tofu Rice Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "other_fusion",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "brown_rice",
+      "bell_pepper",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0044",
+    "name": "Doenjang Canned tuna Sheet-Pan Meal",
+    "primary_protein": "fish",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "canned_tuna",
+      "white_rice",
+      "spinach",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0045",
+    "name": "Sweet Soy Salmon Rice Bowl",
+    "primary_protein": "fish",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "salmon",
+      "brown_rice",
+      "mushroom",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0046",
+    "name": "Tangy Ginger Tempeh Sheet-Pan Meal",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "tempeh",
+      "udon_noodles",
+      "green_beans",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0047",
+    "name": "Basil Pesto Beef sirloin Grain Bowl",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "whole_wheat_pasta",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0048",
+    "name": "Garlic Herb Egg Roast",
+    "primary_protein": "egg_based",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "egg",
+      "whole_wheat_pasta",
+      "green_beans",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0049",
+    "name": "Doenjang Chicken breast Stir-Fry",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "chicken_breast",
+      "rice_noodles",
+      "spinach",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0050",
+    "name": "Masala Pork tenderloin Curry",
+    "primary_protein": "pork",
+    "cuisine": "indian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "quinoa",
+      "peas",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0051",
+    "name": "Tomato Olive Lean ground pork Meal-Prep Salad",
+    "primary_protein": "pork",
+    "cuisine": "mediterranean",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "ground_pork",
+      "couscous",
+      "spinach",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0052",
+    "name": "Miso Herb Egg Stir-Fry",
+    "primary_protein": "egg_based",
+    "cuisine": "japanese",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "egg",
+      "white_rice",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0053",
+    "name": "Lemon Herb Chicken thigh Grain Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "pita",
+      "cherry_tomato",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0054",
+    "name": "Fajita Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "white_rice",
+      "corn",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0055",
+    "name": "Garlic Herb Cod Grain Bowl",
+    "primary_protein": "fish",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "cod",
+      "brown_rice",
+      "green_beans",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0056",
+    "name": "Fajita Pork tenderloin Wrap",
+    "primary_protein": "pork",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "pita",
+      "corn",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0057",
+    "name": "Tuscan Tomato Lean ground beef Soup",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "ground_beef",
+      "pasta",
+      "zucchini",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0058",
+    "name": "Balsamic Garlic Beef sirloin Grain Bowl",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "potato",
+      "cherry_tomato",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0059",
+    "name": "Spiced Yogurt Black beans Grain Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "indian",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "black_beans",
+      "potato",
+      "bell_pepper",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0060",
+    "name": "Lemon Herb Lean ground beef Grain Bowl",
+    "primary_protein": "beef",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "ground_beef",
+      "quinoa",
+      "cherry_tomato",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0061",
+    "name": "Tomato Olive Chicken thigh Grain Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "brown_rice",
+      "spinach",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0062",
+    "name": "Roasted Tomato Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "brown_rice",
+      "spinach",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0063",
+    "name": "Dill Yogurt Lean ground turkey Grain Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "ground_turkey",
+      "pita",
+      "bell_pepper",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0064",
+    "name": "Spicy Garlic Lean ground pork Sheet-Pan Meal",
+    "primary_protein": "pork",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_pork",
+      "white_rice",
+      "broccoli",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0065",
+    "name": "Tuscan Tomato Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "italian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "potato",
+      "zucchini",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0066",
+    "name": "Chipotle Canned tuna Wrap",
+    "primary_protein": "fish",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "canned_tuna",
+      "tortilla",
+      "bell_pepper",
+      "corn"
+    ]
+  },
+  {
+    "recipe_id": "MP0067",
+    "name": "Red Curry Shelled edamame Curry",
+    "primary_protein": "other",
+    "cuisine": "southeast_asian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "edamame",
+      "brown_rice",
+      "carrot",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0068",
+    "name": "Shawarma-Spiced Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "middle_eastern",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "pita",
+      "eggplant",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0069",
+    "name": "Tahini Soy Beef sirloin Wrap",
+    "primary_protein": "beef",
+    "cuisine": "other_fusion",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "beef_sirloin",
+      "tortilla",
+      "cabbage",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0070",
+    "name": "Sumac-Style Chicken thigh Meal-Prep Salad",
+    "primary_protein": "chicken",
+    "cuisine": "middle_eastern",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "chicken_thigh",
+      "couscous",
+      "carrot",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0071",
+    "name": "Tikka Salmon Sheet-Pan Meal",
+    "primary_protein": "fish",
+    "cuisine": "indian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "salmon",
+      "white_rice",
+      "cauliflower",
+      "peas"
+    ]
+  },
+  {
+    "recipe_id": "MP0072",
+    "name": "Buffalo Egg Wrap",
+    "primary_protein": "egg_based",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "egg",
+      "pita",
+      "bell_pepper",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0073",
+    "name": "Balsamic Garlic Chickpeas Pasta",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "italian",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "chickpeas",
+      "pasta",
+      "cherry_tomato",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0074",
+    "name": "Sesame Tamari Firm tofu Noodle Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "firm_tofu",
+      "udon_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0075",
+    "name": "Balsamic Chili Extra-firm tofu Noodle Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "other_fusion",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "soba_noodles",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0076",
+    "name": "Smoky Paprika Pork tenderloin Wrap",
+    "primary_protein": "pork",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "pita",
+      "eggplant",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0077",
+    "name": "Balsamic Herb Chicken breast Wrap",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_breast",
+      "pita",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0078",
+    "name": "Garlic Herb Chicken thigh Roast",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "chicken_thigh",
+      "whole_wheat_pasta",
+      "green_beans",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0079",
+    "name": "Green Curry Shrimp Noodle Bowl",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "southeast_asian",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "shrimp",
+      "udon_noodles",
+      "bok_choy",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0080",
+    "name": "Masala Turkey breast Curry",
+    "primary_protein": "turkey",
+    "cuisine": "indian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "turkey_breast",
+      "white_rice",
+      "peas",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0081",
+    "name": "Dill Yogurt Lean ground beef Wrap",
+    "primary_protein": "beef",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "ground_beef",
+      "corn_tortilla",
+      "bell_pepper",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0082",
+    "name": "Lemon Herb Beef sirloin Meal-Prep Salad",
+    "primary_protein": "beef",
+    "cuisine": "mediterranean",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "beef_sirloin",
+      "pita",
+      "cherry_tomato",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0083",
+    "name": "Smoky BBQ Tempeh Grain Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "tempeh",
+      "whole_wheat_pasta",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0084",
+    "name": "Salsa Verde Brown lentils Wrap",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "brown_lentils",
+      "corn_tortilla",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0085",
+    "name": "Tomato Olive Lean ground turkey Roast",
+    "primary_protein": "turkey",
+    "cuisine": "mediterranean",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "ground_turkey",
+      "bulgur",
+      "spinach",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0086",
+    "name": "Sesame Soy Lean ground pork Stew",
+    "primary_protein": "pork",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "ground_pork",
+      "sweet_potato",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0087",
+    "name": "Black Pepper Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "chinese_inspired",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "udon_noodles",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0088",
+    "name": "Roasted Tomato Lean ground beef Soup",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "ground_beef",
+      "whole_wheat_pasta",
+      "mushroom",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0089",
+    "name": "Sumac-Style Turkey breast Stew",
+    "primary_protein": "turkey",
+    "cuisine": "middle_eastern",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "turkey_breast",
+      "quinoa",
+      "carrot",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0090",
+    "name": "Teriyaki Lean ground turkey Rice Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "ground_turkey",
+      "white_rice",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0091",
+    "name": "Salsa Verde Egg Wrap",
+    "primary_protein": "egg_based",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "egg",
+      "corn_tortilla",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0092",
+    "name": "Honey Mustard Cod Wrap",
+    "primary_protein": "fish",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "cod",
+      "tortilla",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0093",
+    "name": "Sesame Soy Firm tofu Stew",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "firm_tofu",
+      "brown_rice",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0094",
+    "name": "Gochujang Chicken thigh Stew",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "chicken_thigh",
+      "white_rice",
+      "cabbage",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0095",
+    "name": "Creamy Herb Egg Pasta",
+    "primary_protein": "egg_based",
+    "cuisine": "italian",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "egg",
+      "whole_wheat_pasta",
+      "eggplant",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0096",
+    "name": "Tahini Lemon Canned tuna Sheet-Pan Meal",
+    "primary_protein": "fish",
+    "cuisine": "middle_eastern",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "canned_tuna",
+      "brown_rice",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0097",
+    "name": "Honey Mustard Turkey breast Stew",
+    "primary_protein": "turkey",
+    "cuisine": "american_western",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "turkey_breast",
+      "whole_wheat_pasta",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0098",
+    "name": "Sesame Tamari Halloumi Noodle Bowl",
+    "primary_protein": "other",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "halloumi",
+      "udon_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0099",
+    "name": "Lemongrass-Style Chicken breast Meal-Prep Salad",
+    "primary_protein": "chicken",
+    "cuisine": "southeast_asian",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "chicken_breast",
+      "white_rice",
+      "cabbage",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0100",
+    "name": "Ginger Scallion Beef sirloin Noodle Bowl",
+    "primary_protein": "beef",
+    "cuisine": "korean",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "udon_noodles",
+      "zucchini",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0101",
+    "name": "Roasted Tomato Lean ground beef Wrap",
+    "primary_protein": "beef",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "ground_beef",
+      "pita",
+      "spinach",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0102",
+    "name": "Salsa Verde Salmon Stew",
+    "primary_protein": "fish",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "salmon",
+      "tortilla",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0103",
+    "name": "Basil Pesto Pork tenderloin Soup",
+    "primary_protein": "pork",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "quinoa",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0104",
+    "name": "Masala Seitan Grain Bowl",
+    "primary_protein": "other",
+    "cuisine": "indian",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "seitan",
+      "white_rice",
+      "peas",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0105",
+    "name": "Salsa Verde Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "sweet_potato",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0106",
+    "name": "Dill Yogurt Scallops Meal-Prep Salad",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "mediterranean",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "scallops",
+      "couscous",
+      "bell_pepper",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0107",
+    "name": "Lemon Herb Extra-firm tofu Roast",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mediterranean",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "brown_rice",
+      "cherry_tomato",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0108",
+    "name": "Bulgogi Tempeh Rice Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "korean",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "tempeh",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0109",
+    "name": "Coconut Curry Shrimp Grain Bowl",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "indian",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "shrimp",
+      "brown_rice",
+      "spinach",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0110",
+    "name": "Sesame Soy Egg Noodle Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "korean",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "egg",
+      "rice_noodles",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0111",
+    "name": "Rustic Tomato Firm tofu Grain Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "firm_tofu",
+      "quinoa",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0112",
+    "name": "Miso Herb Beef sirloin Stir-Fry",
+    "primary_protein": "beef",
+    "cuisine": "japanese",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "beef_sirloin",
+      "white_rice",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0113",
+    "name": "Balsamic Herb Lean ground turkey Roast",
+    "primary_protein": "turkey",
+    "cuisine": "mediterranean",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "ground_turkey",
+      "couscous",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0114",
+    "name": "Sweet Chili Extra-firm tofu Stir-Fry",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "chinese_inspired",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "udon_noodles",
+      "bell_pepper",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0115",
+    "name": "Miso Ginger Chicken breast Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_breast",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0116",
+    "name": "Curry BBQ Chicken thigh Stir-Fry",
+    "primary_protein": "chicken",
+    "cuisine": "other_fusion",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "chicken_thigh",
+      "brown_rice",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0117",
+    "name": "Cilantro Lime Tempeh Rice Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "tempeh",
+      "white_rice",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0118",
+    "name": "Bulgogi Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0119",
+    "name": "Teriyaki Egg Noodle Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "japanese",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "egg",
+      "rice_noodles",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0120",
+    "name": "Salsa Verde Lean ground beef Rice Bowl",
+    "primary_protein": "beef",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "ground_beef",
+      "white_rice",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0121",
+    "name": "Cilantro Lime Kidney beans Burrito Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "burrito_bowl",
+    "core_ingredients": [
+      "kidney_beans",
+      "white_rice",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0122",
+    "name": "Honey Mustard Beef sirloin Wrap",
+    "primary_protein": "beef",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "beef_sirloin",
+      "tortilla",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0123",
+    "name": "Miso Herb Chicken thigh Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "white_rice",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0124",
+    "name": "Gochujang Lean ground beef Stew",
+    "primary_protein": "beef",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "ground_beef",
+      "rice_noodles",
+      "cabbage",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0125",
+    "name": "Enchilada-Style Chicken breast Burrito Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "burrito_bowl",
+    "core_ingredients": [
+      "chicken_breast",
+      "brown_rice",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0126",
+    "name": "Fajita Beef sirloin Burrito Bowl",
+    "primary_protein": "beef",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "burrito_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "brown_rice",
+      "corn",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0127",
+    "name": "Sesame Tamari Cod Rice Bowl",
+    "primary_protein": "fish",
+    "cuisine": "chinese_inspired",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "cod",
+      "white_rice",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0128",
+    "name": "Sweet Soy Canned tuna Rice Bowl",
+    "primary_protein": "fish",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "canned_tuna",
+      "brown_rice",
+      "mushroom",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0129",
+    "name": "Tangy Ginger Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "udon_noodles",
+      "green_beans",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0130",
+    "name": "Bulgogi Lean ground beef Stir-Fry",
+    "primary_protein": "beef",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "ground_beef",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0131",
+    "name": "Tikka Lean ground pork Sheet-Pan Meal",
+    "primary_protein": "pork",
+    "cuisine": "indian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_pork",
+      "white_rice",
+      "cauliflower",
+      "peas"
+    ]
+  },
+  {
+    "recipe_id": "MP0132",
+    "name": "Bulgogi Salmon Sheet-Pan Meal",
+    "primary_protein": "fish",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "salmon",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0133",
+    "name": "Bulgogi White beans Stew",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "white_beans",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0134",
+    "name": "Balsamic Herb Black beans Roast",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mediterranean",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "black_beans",
+      "pita",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0135",
+    "name": "Smoky Paprika Firm tofu Roast",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mediterranean",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "firm_tofu",
+      "bulgur",
+      "eggplant",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0136",
+    "name": "Smoky BBQ Pork tenderloin Roast",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "quinoa",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0137",
+    "name": "Ginger Garlic Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "chinese_inspired",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "rice_noodles",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0138",
+    "name": "Ginger Garlic Chickpeas Noodle Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "chickpeas",
+      "rice_noodles",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0139",
+    "name": "Sesame Tamari Beef sirloin Rice Bowl",
+    "primary_protein": "beef",
+    "cuisine": "chinese_inspired",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "white_rice",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0140",
+    "name": "Black Pepper Brown lentils Noodle Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "brown_lentils",
+      "rice_noodles",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0141",
+    "name": "Lemon Herb Lean ground beef Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "mediterranean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_beef",
+      "pita",
+      "cherry_tomato",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0142",
+    "name": "Enchilada-Style Chicken thigh Stew",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "chicken_thigh",
+      "tortilla",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0143",
+    "name": "Buffalo Extra-firm tofu Stew",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "american_western",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "potato",
+      "bell_pepper",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0144",
+    "name": "Balsamic Tempeh Roast",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "tempeh",
+      "quinoa",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0145",
+    "name": "Roasted Tomato Chicken breast Roast",
+    "primary_protein": "chicken",
+    "cuisine": "italian",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "chicken_breast",
+      "quinoa",
+      "mushroom",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0146",
+    "name": "Lemongrass-Style Kidney beans Stir-Fry",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "southeast_asian",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "kidney_beans",
+      "white_rice",
+      "cabbage",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0147",
+    "name": "Honey Mustard Scallops Pasta",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "american_western",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "scallops",
+      "whole_wheat_pasta",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0148",
+    "name": "Sweet Chili Basil Cod Rice Bowl",
+    "primary_protein": "fish",
+    "cuisine": "southeast_asian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "cod",
+      "brown_rice",
+      "mushroom",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0149",
+    "name": "Creamy Herb Shelled edamame Roast",
+    "primary_protein": "other",
+    "cuisine": "italian",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "edamame",
+      "whole_wheat_pasta",
+      "eggplant",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0150",
+    "name": "Chipotle Halloumi Burrito Bowl",
+    "primary_protein": "other",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "burrito_bowl",
+    "core_ingredients": [
+      "halloumi",
+      "brown_rice",
+      "bell_pepper",
+      "corn"
+    ]
+  },
+  {
+    "recipe_id": "MP0151",
+    "name": "Sweet Chili Lean ground pork Sheet-Pan Meal",
+    "primary_protein": "pork",
+    "cuisine": "chinese_inspired",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_pork",
+      "udon_noodles",
+      "bell_pepper",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0152",
+    "name": "Sesame Soy Seitan Sheet-Pan Meal",
+    "primary_protein": "other",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "seitan",
+      "brown_rice",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0153",
+    "name": "Rustic Tomato Beef sirloin Grain Bowl",
+    "primary_protein": "beef",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "brown_rice",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0154",
+    "name": "Salsa Verde White beans Burrito Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "burrito_bowl",
+    "core_ingredients": [
+      "white_beans",
+      "white_rice",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0155",
+    "name": "Sesame Soy Chicken thigh Stew",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "chicken_thigh",
+      "sweet_potato",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0156",
+    "name": "Coconut Curry Black beans Sheet-Pan Meal",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "indian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "black_beans",
+      "brown_rice",
+      "spinach",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0157",
+    "name": "Balsamic Pork tenderloin Grain Bowl",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "brown_rice",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0158",
+    "name": "Bulgogi Chicken breast Stew",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "chicken_breast",
+      "sweet_potato",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0159",
+    "name": "Herbed Yogurt Egg Wrap",
+    "primary_protein": "egg_based",
+    "cuisine": "middle_eastern",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "egg",
+      "corn_tortilla",
+      "bell_pepper",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0160",
+    "name": "Garlic Herb Lean ground beef Wrap",
+    "primary_protein": "beef",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "ground_beef",
+      "corn_tortilla",
+      "green_beans",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0161",
+    "name": "Sweet Chili Chicken thigh Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "chinese_inspired",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "brown_rice",
+      "bell_pepper",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0162",
+    "name": "Tamari Sesame Canned tuna Noodle Bowl",
+    "primary_protein": "fish",
+    "cuisine": "japanese",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "canned_tuna",
+      "udon_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0163",
+    "name": "Balsamic Herb Chickpeas Grain Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "chickpeas",
+      "pita",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0164",
+    "name": "Chili Garlic Chicken breast Noodle Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "chicken_breast",
+      "udon_noodles",
+      "mushroom",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0165",
+    "name": "Herbed Yogurt Turkey breast Meal-Prep Salad",
+    "primary_protein": "turkey",
+    "cuisine": "middle_eastern",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "turkey_breast",
+      "couscous",
+      "bell_pepper",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0166",
+    "name": "Tangy Ginger Lean ground turkey Sheet-Pan Meal",
+    "primary_protein": "turkey",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_turkey",
+      "udon_noodles",
+      "green_beans",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0167",
+    "name": "Thai Basil Chicken thigh Meal-Prep Salad",
+    "primary_protein": "chicken",
+    "cuisine": "southeast_asian",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "chicken_thigh",
+      "white_rice",
+      "bell_pepper",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0168",
+    "name": "Bulgogi Brown lentils Rice Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "korean",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "brown_lentils",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0169",
+    "name": "Lemon Basil Chicken breast Pasta",
+    "primary_protein": "chicken",
+    "cuisine": "italian",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "chicken_breast",
+      "pasta",
+      "broccoli",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0170",
+    "name": "Spicy Garlic Salmon Sheet-Pan Meal",
+    "primary_protein": "fish",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "salmon",
+      "white_rice",
+      "broccoli",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0171",
+    "name": "Ginger Scallion Firm tofu Rice Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "korean",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "firm_tofu",
+      "brown_rice",
+      "zucchini",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0172",
+    "name": "Roasted Tomato Extra-firm tofu Stew",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "tortilla",
+      "spinach",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0173",
+    "name": "Spiced Yogurt Beef sirloin Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "indian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "beef_sirloin",
+      "brown_rice",
+      "bell_pepper",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0174",
+    "name": "Sesame Tamari Lean ground beef Noodle Bowl",
+    "primary_protein": "beef",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "ground_beef",
+      "udon_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0175",
+    "name": "Spicy Garlic Cod Stir-Fry",
+    "primary_protein": "fish",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "cod",
+      "rice_noodles",
+      "broccoli",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0176",
+    "name": "Rustic Tomato Egg Roast",
+    "primary_protein": "egg_based",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "egg",
+      "whole_wheat_pasta",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0177",
+    "name": "Rustic Tomato Chicken thigh Grain Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "whole_wheat_pasta",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0178",
+    "name": "Chipotle Canned tuna Rice Bowl",
+    "primary_protein": "fish",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "canned_tuna",
+      "brown_rice",
+      "bell_pepper",
+      "corn"
+    ]
+  },
+  {
+    "recipe_id": "MP0179",
+    "name": "Buffalo Chicken breast Stew",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "chicken_breast",
+      "sweet_potato",
+      "bell_pepper",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0180",
+    "name": "Tamari Sesame Tempeh Soup",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "japanese",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "tempeh",
+      "soba_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0181",
+    "name": "Rustic Tomato Chicken thigh Pasta",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "chicken_thigh",
+      "whole_wheat_pasta",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0182",
+    "name": "Balsamic Salmon Sheet-Pan Meal",
+    "primary_protein": "fish",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "salmon",
+      "whole_wheat_pasta",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0183",
+    "name": "Ginger Garlic Beef sirloin Rice Bowl",
+    "primary_protein": "beef",
+    "cuisine": "chinese_inspired",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "white_rice",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0184",
+    "name": "Spicy Garlic Chicken breast Stir-Fry",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "chicken_breast",
+      "rice_noodles",
+      "broccoli",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0185",
+    "name": "Tomato Olive Chicken thigh Wrap",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_thigh",
+      "tortilla",
+      "spinach",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0186",
+    "name": "Honey Mustard Cod Sheet-Pan Meal",
+    "primary_protein": "fish",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "cod",
+      "whole_wheat_pasta",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0187",
+    "name": "Miso Herb Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "soba_noodles",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0188",
+    "name": "Black Pepper Lean ground pork Noodle Bowl",
+    "primary_protein": "pork",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "ground_pork",
+      "rice_noodles",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0189",
+    "name": "Black Pepper Chicken breast Stir-Fry",
+    "primary_protein": "chicken",
+    "cuisine": "chinese_inspired",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "chicken_breast",
+      "rice_noodles",
+      "bok_choy",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0190",
+    "name": "Tamari Sesame Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "soba_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0191",
+    "name": "Tangy Ginger Pork tenderloin Noodle Bowl",
+    "primary_protein": "pork",
+    "cuisine": "japanese",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "udon_noodles",
+      "green_beans",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0192",
+    "name": "Sesame Tamari Kidney beans Stir-Fry",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "chinese_inspired",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "kidney_beans",
+      "rice_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0193",
+    "name": "Enchilada-Style Lean ground beef Stew",
+    "primary_protein": "beef",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "ground_beef",
+      "white_rice",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0194",
+    "name": "Smoky Paprika Firm tofu Grain Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "firm_tofu",
+      "bulgur",
+      "eggplant",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0195",
+    "name": "Tahini Beef sirloin Wrap",
+    "primary_protein": "beef",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "beef_sirloin",
+      "corn_tortilla",
+      "cucumber",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0196",
+    "name": "Peanut Lime Lean ground pork Noodle Bowl",
+    "primary_protein": "pork",
+    "cuisine": "southeast_asian",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "ground_pork",
+      "soba_noodles",
+      "green_beans",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0197",
+    "name": "Tahini White beans Meal-Prep Salad",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mediterranean",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "white_beans",
+      "pita",
+      "cucumber",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0198",
+    "name": "Sesame Soy Extra-firm tofu Sheet-Pan Meal",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "brown_rice",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0199",
+    "name": "Lemongrass-Style Chicken thigh Stir-Fry",
+    "primary_protein": "chicken",
+    "cuisine": "southeast_asian",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "chicken_thigh",
+      "white_rice",
+      "cabbage",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0200",
+    "name": "Spicy Garlic Black beans Sheet-Pan Meal",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "black_beans",
+      "rice_noodles",
+      "broccoli",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0201",
+    "name": "Teriyaki Tempeh Stir-Fry",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "japanese",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "tempeh",
+      "white_rice",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0202",
+    "name": "Peanut Lime Lean ground beef Curry",
+    "primary_protein": "beef",
+    "cuisine": "southeast_asian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "ground_beef",
+      "brown_rice",
+      "green_beans",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0203",
+    "name": "Tikka Beef sirloin Curry",
+    "primary_protein": "beef",
+    "cuisine": "indian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "beef_sirloin",
+      "white_rice",
+      "cauliflower",
+      "peas"
+    ]
+  },
+  {
+    "recipe_id": "MP0204",
+    "name": "Teriyaki Shrimp Soup",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "japanese",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "shrimp",
+      "white_rice",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0205",
+    "name": "Balsamic Garlic Pork tenderloin Sheet-Pan Meal",
+    "primary_protein": "pork",
+    "cuisine": "italian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "potato",
+      "cherry_tomato",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0206",
+    "name": "Miso Herb Egg Rice Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "egg",
+      "white_rice",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0207",
+    "name": "Miso Herb Lean ground pork Soup",
+    "primary_protein": "pork",
+    "cuisine": "japanese",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "ground_pork",
+      "white_rice",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0208",
+    "name": "Tomato Olive Chicken breast Wrap",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_breast",
+      "tortilla",
+      "spinach",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0209",
+    "name": "Roasted Tomato Scallops Stew",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "scallops",
+      "sweet_potato",
+      "spinach",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0210",
+    "name": "Miso Pesto Pork tenderloin Grain Bowl",
+    "primary_protein": "pork",
+    "cuisine": "other_fusion",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "quinoa",
+      "broccoli",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0211",
+    "name": "Smoky BBQ Chicken thigh Stew",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "chicken_thigh",
+      "potato",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0212",
+    "name": "Smoky BBQ Lean ground pork Wrap",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "ground_pork",
+      "tortilla",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0213",
+    "name": "Pineapple Soy Shrimp Sheet-Pan Meal",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "chinese_inspired",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "shrimp",
+      "rice_noodles",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0214",
+    "name": "Spiced Yogurt Shelled edamame Rice Bowl",
+    "primary_protein": "other",
+    "cuisine": "indian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "edamame",
+      "quinoa",
+      "bell_pepper",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0215",
+    "name": "Smoky BBQ Chickpeas Grain Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "chickpeas",
+      "potato",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0216",
+    "name": "Balsamic Egg Roast",
+    "primary_protein": "egg_based",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "egg",
+      "brown_rice",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0217",
+    "name": "Sesame Soy Egg Stir-Fry",
+    "primary_protein": "egg_based",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "egg",
+      "sweet_potato",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0218",
+    "name": "Turmeric Ginger Firm tofu Curry",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "indian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "firm_tofu",
+      "potato",
+      "tomato",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0219",
+    "name": "Rustic Tomato Brown lentils Grain Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "brown_lentils",
+      "potato",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0220",
+    "name": "Balsamic Halloumi Wrap",
+    "primary_protein": "other",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "halloumi",
+      "corn_tortilla",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0221",
+    "name": "Chili Garlic Turkey breast Rice Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "chinese_inspired",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "turkey_breast",
+      "brown_rice",
+      "mushroom",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0222",
+    "name": "Bulgogi Chicken breast Stir-Fry",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "chicken_breast",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0223",
+    "name": "Tamari Sesame Scallops Rice Bowl",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "scallops",
+      "white_rice",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0224",
+    "name": "Doenjang Lean ground turkey Sheet-Pan Meal",
+    "primary_protein": "turkey",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_turkey",
+      "white_rice",
+      "spinach",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0225",
+    "name": "Cilantro Lime Turkey breast Burrito Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "burrito_bowl",
+    "core_ingredients": [
+      "turkey_breast",
+      "white_rice",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0226",
+    "name": "Roasted Tomato Lean ground turkey Sheet-Pan Meal",
+    "primary_protein": "turkey",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_turkey",
+      "corn_tortilla",
+      "spinach",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0227",
+    "name": "Green Curry Chicken thigh Stir-Fry",
+    "primary_protein": "chicken",
+    "cuisine": "southeast_asian",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "chicken_thigh",
+      "rice_noodles",
+      "bok_choy",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0228",
+    "name": "Honey Mustard Kidney beans Sheet-Pan Meal",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "kidney_beans",
+      "potato",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0229",
+    "name": "Sweet Chili Beef sirloin Stir-Fry",
+    "primary_protein": "beef",
+    "cuisine": "chinese_inspired",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "beef_sirloin",
+      "rice_noodles",
+      "broccoli",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0230",
+    "name": "Sesame Soy Turkey breast Noodle Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "korean",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "turkey_breast",
+      "rice_noodles",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0231",
+    "name": "Chipotle Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "sweet_potato",
+      "spinach",
+      "corn"
+    ]
+  },
+  {
+    "recipe_id": "MP0232",
+    "name": "Lemon Basil Beef sirloin Roast",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "beef_sirloin",
+      "potato",
+      "broccoli",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0233",
+    "name": "Tahini Lemon Chicken thigh Meal-Prep Salad",
+    "primary_protein": "chicken",
+    "cuisine": "middle_eastern",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "chicken_thigh",
+      "bulgur",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0234",
+    "name": "Gochujang Lime Chicken breast Stir-Fry",
+    "primary_protein": "chicken",
+    "cuisine": "other_fusion",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "chicken_breast",
+      "quinoa",
+      "bell_pepper",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0235",
+    "name": "Herbed Yogurt Chicken thigh Wrap",
+    "primary_protein": "chicken",
+    "cuisine": "middle_eastern",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_thigh",
+      "corn_tortilla",
+      "bell_pepper",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0236",
+    "name": "Chili Garlic White beans Noodle Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "white_beans",
+      "udon_noodles",
+      "mushroom",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0237",
+    "name": "Peanut Lime Lean ground beef Meal-Prep Salad",
+    "primary_protein": "beef",
+    "cuisine": "southeast_asian",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "ground_beef",
+      "brown_rice",
+      "green_beans",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0238",
+    "name": "Dill Yogurt Chicken breast Grain Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "chicken_breast",
+      "pita",
+      "bell_pepper",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0239",
+    "name": "Teriyaki Beef sirloin Noodle Bowl",
+    "primary_protein": "beef",
+    "cuisine": "japanese",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "rice_noodles",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0240",
+    "name": "Balsamic Garlic Pork tenderloin Roast",
+    "primary_protein": "pork",
+    "cuisine": "italian",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "potato",
+      "cherry_tomato",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0241",
+    "name": "Sweet Chili Basil Chicken thigh Meal-Prep Salad",
+    "primary_protein": "chicken",
+    "cuisine": "southeast_asian",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "chicken_thigh",
+      "rice_noodles",
+      "mushroom",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0242",
+    "name": "Buffalo Chicken breast Roast",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "chicken_breast",
+      "quinoa",
+      "bell_pepper",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0243",
+    "name": "Balsamic Herb Lean ground beef Wrap",
+    "primary_protein": "beef",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "ground_beef",
+      "pita",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0244",
+    "name": "Honey Mustard Lean ground pork Roast",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "ground_pork",
+      "whole_wheat_pasta",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0245",
+    "name": "Gochujang Lime Extra-firm tofu Wrap",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "other_fusion",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "corn_tortilla",
+      "bell_pepper",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0246",
+    "name": "Masala Beef sirloin Curry",
+    "primary_protein": "beef",
+    "cuisine": "indian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "beef_sirloin",
+      "white_rice",
+      "peas",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0247",
+    "name": "Green Curry Lean ground turkey Meal-Prep Salad",
+    "primary_protein": "turkey",
+    "cuisine": "southeast_asian",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "ground_turkey",
+      "rice_noodles",
+      "bok_choy",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0248",
+    "name": "Honey Mustard Chicken thigh Wrap",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_thigh",
+      "tortilla",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0249",
+    "name": "Sweet Soy Seitan Soup",
+    "primary_protein": "other",
+    "cuisine": "japanese",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "seitan",
+      "brown_rice",
+      "mushroom",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0250",
+    "name": "Pineapple Soy Egg Noodle Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "egg",
+      "soba_noodles",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0251",
+    "name": "Bulgogi Shelled edamame Rice Bowl",
+    "primary_protein": "other",
+    "cuisine": "korean",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "edamame",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0252",
+    "name": "Dill Yogurt Tempeh Grain Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "tempeh",
+      "couscous",
+      "bell_pepper",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0253",
+    "name": "Teriyaki Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "soba_noodles",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0254",
+    "name": "Miso Herb Lean ground beef Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_beef",
+      "white_rice",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0255",
+    "name": "Roasted Tomato Canned tuna Pasta",
+    "primary_protein": "fish",
+    "cuisine": "italian",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "canned_tuna",
+      "whole_wheat_pasta",
+      "mushroom",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0256",
+    "name": "Ginger Garlic Firm tofu Stir-Fry",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "chinese_inspired",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "firm_tofu",
+      "rice_noodles",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0257",
+    "name": "Chipotle Shrimp Stew",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "shrimp",
+      "tortilla",
+      "bell_pepper",
+      "corn"
+    ]
+  },
+  {
+    "recipe_id": "MP0258",
+    "name": "Tahini Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "quinoa",
+      "cucumber",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0259",
+    "name": "Fajita Egg Wrap",
+    "primary_protein": "egg_based",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "egg",
+      "pita",
+      "corn",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0260",
+    "name": "Enchilada-Style Chicken breast Wrap",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_breast",
+      "corn_tortilla",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0261",
+    "name": "Sesame Tamari Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "chinese_inspired",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "rice_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0262",
+    "name": "Buffalo Beef sirloin Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "beef_sirloin",
+      "potato",
+      "bell_pepper",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0263",
+    "name": "Peanut Lime Chicken breast Stir-Fry",
+    "primary_protein": "chicken",
+    "cuisine": "southeast_asian",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "chicken_breast",
+      "brown_rice",
+      "green_beans",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0264",
+    "name": "Fajita Extra-firm tofu Sheet-Pan Meal",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "white_rice",
+      "corn",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0265",
+    "name": "Balsamic Garlic Egg Sheet-Pan Meal",
+    "primary_protein": "egg_based",
+    "cuisine": "italian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "egg",
+      "potato",
+      "cherry_tomato",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0266",
+    "name": "Curry BBQ Turkey breast Stir-Fry",
+    "primary_protein": "turkey",
+    "cuisine": "other_fusion",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "turkey_breast",
+      "brown_rice",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0267",
+    "name": "Lemongrass-Style Chicken thigh Meal-Prep Salad",
+    "primary_protein": "chicken",
+    "cuisine": "southeast_asian",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "chicken_thigh",
+      "white_rice",
+      "cabbage",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0268",
+    "name": "Gochujang Pork tenderloin Noodle Bowl",
+    "primary_protein": "pork",
+    "cuisine": "korean",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "rice_noodles",
+      "cabbage",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0269",
+    "name": "Basil Pesto Scallops Soup",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "scallops",
+      "quinoa",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0270",
+    "name": "Spicy Garlic Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "sweet_potato",
+      "mushroom",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0271",
+    "name": "Spicy Garlic Chicken thigh Sheet-Pan Meal with Broccoli",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "white_rice",
+      "broccoli",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0272",
+    "name": "Balsamic Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "brown_rice",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0273",
+    "name": "Smoky Paprika Chicken thigh Roast",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "chicken_thigh",
+      "couscous",
+      "eggplant",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0274",
+    "name": "Salsa Verde Chicken breast Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_breast",
+      "white_rice",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0275",
+    "name": "Roasted Tomato Chicken thigh Soup",
+    "primary_protein": "chicken",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "chicken_thigh",
+      "quinoa",
+      "mushroom",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0276",
+    "name": "Thai Basil Egg Noodle Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "southeast_asian",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "egg",
+      "rice_noodles",
+      "bell_pepper",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0277",
+    "name": "Sesame Tamari Lean ground turkey Sheet-Pan Meal",
+    "primary_protein": "turkey",
+    "cuisine": "chinese_inspired",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_turkey",
+      "rice_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0278",
+    "name": "Sesame Tamari Chicken breast Noodle Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "chicken_breast",
+      "udon_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0279",
+    "name": "Salsa Verde Black beans Rice Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "black_beans",
+      "white_rice",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0280",
+    "name": "Buffalo Chickpeas Sheet-Pan Meal",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chickpeas",
+      "whole_wheat_pasta",
+      "bell_pepper",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0281",
+    "name": "Smoky Paprika Lean ground beef Wrap",
+    "primary_protein": "beef",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "ground_beef",
+      "pita",
+      "eggplant",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0282",
+    "name": "Thai Basil Tempeh Curry",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "southeast_asian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "tempeh",
+      "white_rice",
+      "bell_pepper",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0283",
+    "name": "Ginger Scallion Salmon Stir-Fry",
+    "primary_protein": "fish",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "salmon",
+      "sweet_potato",
+      "zucchini",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0284",
+    "name": "Honey Mustard Halloumi Wrap",
+    "primary_protein": "other",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "halloumi",
+      "tortilla",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0285",
+    "name": "Harissa-Style Lean ground pork Grain Bowl",
+    "primary_protein": "pork",
+    "cuisine": "middle_eastern",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "ground_pork",
+      "bulgur",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0286",
+    "name": "Miso Ginger Cod Stir-Fry",
+    "primary_protein": "fish",
+    "cuisine": "japanese",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "cod",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0287",
+    "name": "Pineapple Soy Beef sirloin Rice Bowl",
+    "primary_protein": "beef",
+    "cuisine": "chinese_inspired",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "white_rice",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0288",
+    "name": "Rustic Tomato Lean ground beef Wrap",
+    "primary_protein": "beef",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "ground_beef",
+      "pita",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0289",
+    "name": "Spicy Garlic Pork tenderloin Rice Bowl",
+    "primary_protein": "pork",
+    "cuisine": "korean",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "white_rice",
+      "broccoli",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0290",
+    "name": "Chipotle Beef sirloin Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "beef_sirloin",
+      "sweet_potato",
+      "bell_pepper",
+      "corn"
+    ]
+  },
+  {
+    "recipe_id": "MP0291",
+    "name": "Turmeric Ginger Chicken thigh Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "indian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "white_rice",
+      "tomato",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0292",
+    "name": "Garlic Herb Turkey breast Wrap",
+    "primary_protein": "turkey",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "turkey_breast",
+      "corn_tortilla",
+      "green_beans",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0293",
+    "name": "Coconut Curry Firm tofu Stew",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "indian",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "firm_tofu",
+      "potato",
+      "spinach",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0294",
+    "name": "Sesame Tamari Canned tuna Noodle Bowl",
+    "primary_protein": "fish",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "canned_tuna",
+      "udon_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0295",
+    "name": "Tangy Ginger Salmon Sheet-Pan Meal",
+    "primary_protein": "fish",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "salmon",
+      "udon_noodles",
+      "green_beans",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0296",
+    "name": "Sesame Tamari Lean ground beef Stir-Fry",
+    "primary_protein": "beef",
+    "cuisine": "chinese_inspired",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "ground_beef",
+      "rice_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0297",
+    "name": "Pineapple Soy Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "chinese_inspired",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "white_rice",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0298",
+    "name": "Honey Mustard Extra-firm tofu Roast",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "quinoa",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0299",
+    "name": "Red Curry Brown lentils Stir-Fry",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "southeast_asian",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "brown_lentils",
+      "brown_rice",
+      "carrot",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0300",
+    "name": "Honey Mustard Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "whole_wheat_pasta",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0301",
+    "name": "Balsamic Herb Beef sirloin Grain Bowl",
+    "primary_protein": "beef",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "brown_rice",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0302",
+    "name": "Dill Yogurt Lean ground pork Meal-Prep Salad",
+    "primary_protein": "pork",
+    "cuisine": "mediterranean",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "ground_pork",
+      "pita",
+      "bell_pepper",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0303",
+    "name": "Honey Mustard Pork tenderloin Pasta",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "whole_wheat_pasta",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0304",
+    "name": "Doenjang Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "rice_noodles",
+      "spinach",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0305",
+    "name": "Tamari Sesame Lean ground beef Noodle Bowl",
+    "primary_protein": "beef",
+    "cuisine": "japanese",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "ground_beef",
+      "udon_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0306",
+    "name": "Teriyaki Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "white_rice",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0307",
+    "name": "Sesame Tamari Egg Rice Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "chinese_inspired",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "egg",
+      "white_rice",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0308",
+    "name": "Curry BBQ Kidney beans Stir-Fry",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "other_fusion",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "kidney_beans",
+      "rice_noodles",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0309",
+    "name": "Enchilada-Style Lean ground pork Wrap",
+    "primary_protein": "pork",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "ground_pork",
+      "corn_tortilla",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0310",
+    "name": "Thai Basil Cod Meal-Prep Salad",
+    "primary_protein": "fish",
+    "cuisine": "southeast_asian",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "cod",
+      "white_rice",
+      "bell_pepper",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0311",
+    "name": "Honey Mustard Chicken breast Grain Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "chicken_breast",
+      "potato",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0312",
+    "name": "Green Curry Lean ground turkey Noodle Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "southeast_asian",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "ground_turkey",
+      "udon_noodles",
+      "bok_choy",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0313",
+    "name": "Tomato Olive Beef sirloin Roast",
+    "primary_protein": "beef",
+    "cuisine": "mediterranean",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "beef_sirloin",
+      "couscous",
+      "spinach",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0314",
+    "name": "Garlic Herb White beans Sheet-Pan Meal",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "white_beans",
+      "whole_wheat_pasta",
+      "green_beans",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0315",
+    "name": "Fajita Lean ground beef Burrito Bowl",
+    "primary_protein": "beef",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "burrito_bowl",
+    "core_ingredients": [
+      "ground_beef",
+      "brown_rice",
+      "corn",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0316",
+    "name": "Teriyaki Turkey breast Rice Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "turkey_breast",
+      "white_rice",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0317",
+    "name": "Roasted Tomato Beef sirloin Stew",
+    "primary_protein": "beef",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "beef_sirloin",
+      "tortilla",
+      "spinach",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0318",
+    "name": "Pineapple Soy Black beans Noodle Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "black_beans",
+      "soba_noodles",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0319",
+    "name": "Roasted Tomato Chickpeas Soup",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "chickpeas",
+      "whole_wheat_pasta",
+      "mushroom",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0320",
+    "name": "Lemongrass-Style Tempeh Curry",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "southeast_asian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "tempeh",
+      "white_rice",
+      "cabbage",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0321",
+    "name": "Honey Mustard Firm tofu Pasta",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "american_western",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "firm_tofu",
+      "whole_wheat_pasta",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0322",
+    "name": "Sesame Tomato Lean ground beef Grain Bowl",
+    "primary_protein": "beef",
+    "cuisine": "other_fusion",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "ground_beef",
+      "rice_noodles",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0323",
+    "name": "Balsamic Herb Pork tenderloin Roast",
+    "primary_protein": "pork",
+    "cuisine": "mediterranean",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "couscous",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0324",
+    "name": "Black Pepper Extra-firm tofu Noodle Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "rice_noodles",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0325",
+    "name": "Masala Shrimp Stew",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "indian",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "shrimp",
+      "quinoa",
+      "peas",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0326",
+    "name": "Gochujang Lean ground pork Sheet-Pan Meal",
+    "primary_protein": "pork",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_pork",
+      "rice_noodles",
+      "cabbage",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0327",
+    "name": "Balsamic Pork tenderloin Stew",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "whole_wheat_pasta",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0328",
+    "name": "Roasted Tomato Chicken thigh Soup with Mushroom",
+    "primary_protein": "chicken",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "chicken_thigh",
+      "whole_wheat_pasta",
+      "mushroom",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0329",
+    "name": "Balsamic Garlic Brown lentils Pasta",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "italian",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "brown_lentils",
+      "pasta",
+      "cherry_tomato",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0330",
+    "name": "Coconut Curry Chicken breast Stew",
+    "primary_protein": "chicken",
+    "cuisine": "indian",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "chicken_breast",
+      "potato",
+      "spinach",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0331",
+    "name": "Coconut Curry Egg Rice Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "indian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "egg",
+      "brown_rice",
+      "spinach",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0332",
+    "name": "Ginger Scallion Egg Stew",
+    "primary_protein": "egg_based",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "egg",
+      "sweet_potato",
+      "zucchini",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0333",
+    "name": "Roasted Tomato Egg Rice Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "egg",
+      "white_rice",
+      "spinach",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0334",
+    "name": "Rustic Tomato Tempeh Sheet-Pan Meal",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "tempeh",
+      "potato",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0335",
+    "name": "Coconut Curry Lean ground pork Grain Bowl",
+    "primary_protein": "pork",
+    "cuisine": "indian",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "ground_pork",
+      "brown_rice",
+      "spinach",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0336",
+    "name": "Enchilada-Style Chicken thigh Wrap",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_thigh",
+      "corn_tortilla",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0337",
+    "name": "Bulgogi Extra-firm tofu Stew",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "rice_noodles",
+      "cabbage",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0338",
+    "name": "Lemongrass-Style Chicken breast Curry",
+    "primary_protein": "chicken",
+    "cuisine": "southeast_asian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "chicken_breast",
+      "white_rice",
+      "cabbage",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0339",
+    "name": "Tikka Beef sirloin Curry with Cauliflower",
+    "primary_protein": "beef",
+    "cuisine": "indian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "beef_sirloin",
+      "quinoa",
+      "cauliflower",
+      "peas"
+    ]
+  },
+  {
+    "recipe_id": "MP0340",
+    "name": "Tahini Kidney beans Meal-Prep Salad",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mediterranean",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "kidney_beans",
+      "brown_rice",
+      "cucumber",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0341",
+    "name": "Thai Basil Seitan Stir-Fry",
+    "primary_protein": "other",
+    "cuisine": "southeast_asian",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "seitan",
+      "white_rice",
+      "bell_pepper",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0342",
+    "name": "Sesame Soy White beans Stew",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "white_beans",
+      "brown_rice",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0343",
+    "name": "Basil Pesto Chicken thigh Pasta",
+    "primary_protein": "chicken",
+    "cuisine": "italian",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "chicken_thigh",
+      "whole_wheat_pasta",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0344",
+    "name": "Tomato Cumin Chicken breast Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "indian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_breast",
+      "quinoa",
+      "onion",
+      "cauliflower"
+    ]
+  },
+  {
+    "recipe_id": "MP0345",
+    "name": "Fajita Chicken thigh Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "brown_rice",
+      "corn",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0346",
+    "name": "Smoky BBQ Pork tenderloin Roast with Broccoli",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "whole_wheat_pasta",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0347",
+    "name": "Masala Extra-firm tofu Sheet-Pan Meal",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "indian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "quinoa",
+      "peas",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0348",
+    "name": "Lemon Herb Egg Wrap",
+    "primary_protein": "egg_based",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "egg",
+      "tortilla",
+      "cherry_tomato",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0349",
+    "name": "Garlic Herb Black beans Grain Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "black_beans",
+      "brown_rice",
+      "green_beans",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0350",
+    "name": "Spiced Yogurt Chicken breast Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "indian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_breast",
+      "quinoa",
+      "bell_pepper",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0351",
+    "name": "Rustic Tomato Tempeh Grain Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "tempeh",
+      "whole_wheat_pasta",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0352",
+    "name": "Honey Mustard Chicken thigh Roast",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "chicken_thigh",
+      "quinoa",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0353",
+    "name": "Turmeric Ginger Chicken breast Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "indian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_breast",
+      "white_rice",
+      "tomato",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0354",
+    "name": "Tahini Scallops Meal-Prep Salad",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "mediterranean",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "scallops",
+      "quinoa",
+      "cucumber",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0355",
+    "name": "Rustic Tomato Lean ground turkey Pasta",
+    "primary_protein": "turkey",
+    "cuisine": "american_western",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "ground_turkey",
+      "whole_wheat_pasta",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0356",
+    "name": "Honey Mustard Chickpeas Wrap",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chickpeas",
+      "tortilla",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0357",
+    "name": "Lemon Herb Chicken thigh Grain Bowl with Cherry tomato",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "couscous",
+      "cherry_tomato",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0358",
+    "name": "Creamy Herb Lean ground beef Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_beef",
+      "whole_wheat_pasta",
+      "eggplant",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0359",
+    "name": "Tikka Turkey breast Rice Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "indian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "turkey_breast",
+      "white_rice",
+      "cauliflower",
+      "peas"
+    ]
+  },
+  {
+    "recipe_id": "MP0360",
+    "name": "Green Curry Firm tofu Meal-Prep Salad",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "southeast_asian",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "firm_tofu",
+      "rice_noodles",
+      "bok_choy",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0361",
+    "name": "Sweet Chili Basil Chicken thigh Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "southeast_asian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "white_rice",
+      "green_beans",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0362",
+    "name": "Peanut Lime Beef sirloin Noodle Bowl",
+    "primary_protein": "beef",
+    "cuisine": "southeast_asian",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "soba_noodles",
+      "green_beans",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0363",
+    "name": "Bulgogi Egg Stir-Fry",
+    "primary_protein": "egg_based",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "egg",
+      "sweet_potato",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0364",
+    "name": "Chili Garlic Lean ground beef Noodle Bowl",
+    "primary_protein": "beef",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "ground_beef",
+      "udon_noodles",
+      "mushroom",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0365",
+    "name": "Turmeric Ginger Extra-firm tofu Sheet-Pan Meal",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "indian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "brown_rice",
+      "tomato",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0366",
+    "name": "Black Pepper Canned tuna Stir-Fry",
+    "primary_protein": "fish",
+    "cuisine": "chinese_inspired",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "canned_tuna",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0367",
+    "name": "Gochujang Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "rice_noodles",
+      "cabbage",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0368",
+    "name": "Lemon Herb Chicken breast Wrap",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_breast",
+      "tortilla",
+      "cherry_tomato",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0369",
+    "name": "Herbed Yogurt Lean ground pork Wrap",
+    "primary_protein": "pork",
+    "cuisine": "middle_eastern",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "ground_pork",
+      "corn_tortilla",
+      "bell_pepper",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0370",
+    "name": "Honey Mustard Egg Roast",
+    "primary_protein": "egg_based",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "egg",
+      "brown_rice",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0371",
+    "name": "Fajita Tempeh Rice Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "tempeh",
+      "brown_rice",
+      "corn",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0372",
+    "name": "Dill Yogurt Brown lentils Grain Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "brown_lentils",
+      "couscous",
+      "bell_pepper",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0373",
+    "name": "Cilantro Lime Lean ground turkey Rice Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "ground_turkey",
+      "white_rice",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0374",
+    "name": "Salsa Verde Kidney beans Stew",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "kidney_beans",
+      "sweet_potato",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0375",
+    "name": "Sumac-Style Pork tenderloin Stew",
+    "primary_protein": "pork",
+    "cuisine": "middle_eastern",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "brown_rice",
+      "carrot",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0376",
+    "name": "Herbed Yogurt Beef sirloin Wrap",
+    "primary_protein": "beef",
+    "cuisine": "middle_eastern",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "beef_sirloin",
+      "corn_tortilla",
+      "bell_pepper",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0377",
+    "name": "Tamari Sesame Turkey breast Sheet-Pan Meal",
+    "primary_protein": "turkey",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "turkey_breast",
+      "white_rice",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0378",
+    "name": "Roasted Tomato Lean ground pork Roast",
+    "primary_protein": "pork",
+    "cuisine": "italian",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "ground_pork",
+      "whole_wheat_pasta",
+      "mushroom",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0379",
+    "name": "Lemon Basil Shrimp Pasta",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "italian",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "shrimp",
+      "pasta",
+      "broccoli",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0380",
+    "name": "Tangy Ginger Egg Noodle Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "japanese",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "egg",
+      "udon_noodles",
+      "green_beans",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0381",
+    "name": "Lemon Basil Chicken thigh Pasta",
+    "primary_protein": "chicken",
+    "cuisine": "italian",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "chicken_thigh",
+      "pasta",
+      "broccoli",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0382",
+    "name": "Salsa Verde Egg Sheet-Pan Meal",
+    "primary_protein": "egg_based",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "egg",
+      "brown_rice",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0383",
+    "name": "Honey Mustard Salmon Grain Bowl",
+    "primary_protein": "fish",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "salmon",
+      "sweet_potato",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0384",
+    "name": "Tamari Sesame Scallops Sheet-Pan Meal",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "scallops",
+      "soba_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0385",
+    "name": "Gochujang Pork tenderloin Rice Bowl",
+    "primary_protein": "pork",
+    "cuisine": "korean",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "white_rice",
+      "cabbage",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0386",
+    "name": "Tahini Chicken breast Wrap",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_breast",
+      "corn_tortilla",
+      "cucumber",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0387",
+    "name": "Spiced Yogurt Lean ground turkey Rice Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "indian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "ground_turkey",
+      "quinoa",
+      "bell_pepper",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0388",
+    "name": "Tomato Olive White beans Wrap",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "white_beans",
+      "tortilla",
+      "spinach",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0389",
+    "name": "Green Curry Chicken thigh Curry",
+    "primary_protein": "chicken",
+    "cuisine": "southeast_asian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "chicken_thigh",
+      "rice_noodles",
+      "bok_choy",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0390",
+    "name": "Cilantro Lime Cod Wrap",
+    "primary_protein": "fish",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "cod",
+      "tortilla",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0391",
+    "name": "Cilantro Lime Shrimp Burrito Bowl",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "burrito_bowl",
+    "core_ingredients": [
+      "shrimp",
+      "white_rice",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0392",
+    "name": "Buffalo Chicken breast Roast with Bell pepper",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "chicken_breast",
+      "whole_wheat_pasta",
+      "bell_pepper",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0393",
+    "name": "Honey Mustard Lean ground beef Pasta",
+    "primary_protein": "beef",
+    "cuisine": "american_western",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "ground_beef",
+      "whole_wheat_pasta",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0394",
+    "name": "Sesame Soy Canned tuna Sheet-Pan Meal",
+    "primary_protein": "fish",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "canned_tuna",
+      "sweet_potato",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0395",
+    "name": "Cilantro Lime Firm tofu Sheet-Pan Meal",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "firm_tofu",
+      "sweet_potato",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0396",
+    "name": "Pineapple Soy Extra-firm tofu Stir-Fry",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "chinese_inspired",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "white_rice",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0397",
+    "name": "Smoky Paprika Turkey breast Grain Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "turkey_breast",
+      "couscous",
+      "eggplant",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0398",
+    "name": "Lemon Basil Chicken thigh Roast",
+    "primary_protein": "chicken",
+    "cuisine": "italian",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "chicken_thigh",
+      "potato",
+      "broccoli",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0399",
+    "name": "Teriyaki Scallops Rice Bowl",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "scallops",
+      "white_rice",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0400",
+    "name": "Sesame Soy Tempeh Rice Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "korean",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "tempeh",
+      "brown_rice",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0401",
+    "name": "Roasted Tomato Black beans Roast",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "italian",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "black_beans",
+      "whole_wheat_pasta",
+      "mushroom",
+      "eggplant"
+    ]
+  },
+  {
+    "recipe_id": "MP0402",
+    "name": "Roasted Tomato Firm tofu Rice Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "firm_tofu",
+      "white_rice",
+      "spinach",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0403",
+    "name": "Tangy Ginger Lean ground turkey Noodle Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "japanese",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "ground_turkey",
+      "udon_noodles",
+      "green_beans",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0404",
+    "name": "Enchilada-Style Chicken thigh Wrap with Tomato",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "chicken_thigh",
+      "tortilla",
+      "tomato",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0405",
+    "name": "Sesame Soy Extra-firm tofu Noodle Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "korean",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "rice_noodles",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0406",
+    "name": "Ginger Garlic Turkey breast Noodle Bowl",
+    "primary_protein": "turkey",
+    "cuisine": "chinese_inspired",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "turkey_breast",
+      "rice_noodles",
+      "broccoli",
+      "bok_choy"
+    ]
+  },
+  {
+    "recipe_id": "MP0407",
+    "name": "Chipotle Chicken thigh Sheet-Pan Meal with Bell pepper",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "brown_rice",
+      "bell_pepper",
+      "corn"
+    ]
+  },
+  {
+    "recipe_id": "MP0408",
+    "name": "Shawarma-Spiced Tempeh Meal-Prep Salad",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "middle_eastern",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "tempeh",
+      "bulgur",
+      "eggplant",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0409",
+    "name": "Balsamic Herb Egg Meal-Prep Salad",
+    "primary_protein": "egg_based",
+    "cuisine": "mediterranean",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "egg",
+      "quinoa",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0410",
+    "name": "Balsamic Herb Chickpeas Sheet-Pan Meal",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mediterranean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chickpeas",
+      "couscous",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0411",
+    "name": "Lemon Basil Firm tofu Soup",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "firm_tofu",
+      "pasta",
+      "broccoli",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0412",
+    "name": "Lemongrass-Style Kidney beans Noodle Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "southeast_asian",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "kidney_beans",
+      "udon_noodles",
+      "bok_choy",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0413",
+    "name": "Gochujang Extra-firm tofu Noodle Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "korean",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "rice_noodles",
+      "cabbage",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0414",
+    "name": "Smoky Paprika Tempeh Roast",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mediterranean",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "tempeh",
+      "pita",
+      "eggplant",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0415",
+    "name": "Black Pepper Egg Sheet-Pan Meal",
+    "primary_protein": "egg_based",
+    "cuisine": "chinese_inspired",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "egg",
+      "brown_rice",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0416",
+    "name": "Enchilada-Style Chicken breast Stew",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "chicken_breast",
+      "brown_rice",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0417",
+    "name": "Chipotle Chicken thigh Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "brown_rice",
+      "bell_pepper",
+      "corn"
+    ]
+  },
+  {
+    "recipe_id": "MP0418",
+    "name": "Roasted Tomato Beef sirloin Rice Bowl",
+    "primary_protein": "beef",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "white_rice",
+      "spinach",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0419",
+    "name": "Sumac-Style Kidney beans Stew",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "middle_eastern",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "kidney_beans",
+      "quinoa",
+      "carrot",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0420",
+    "name": "Sesame Tamari Chicken breast Stir-Fry",
+    "primary_protein": "chicken",
+    "cuisine": "chinese_inspired",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "chicken_breast",
+      "white_rice",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0421",
+    "name": "Turmeric Ginger Shelled edamame Curry",
+    "primary_protein": "other",
+    "cuisine": "indian",
+    "meal_type": "curry",
+    "core_ingredients": [
+      "edamame",
+      "potato",
+      "tomato",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0422",
+    "name": "Lemon Basil Lean ground beef Soup",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "ground_beef",
+      "potato",
+      "broccoli",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0423",
+    "name": "Lemon Basil Salmon Pasta",
+    "primary_protein": "fish",
+    "cuisine": "italian",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "salmon",
+      "pasta",
+      "broccoli",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0424",
+    "name": "Smoky Paprika White beans Wrap",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "white_beans",
+      "pita",
+      "eggplant",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0425",
+    "name": "Green Curry Firm tofu Noodle Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "southeast_asian",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "firm_tofu",
+      "udon_noodles",
+      "bok_choy",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0426",
+    "name": "Curry BBQ Beef sirloin Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "other_fusion",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "beef_sirloin",
+      "rice_noodles",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0427",
+    "name": "Tuscan Tomato Chicken breast Soup",
+    "primary_protein": "chicken",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "chicken_breast",
+      "whole_wheat_pasta",
+      "eggplant",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0428",
+    "name": "Sweet Chili Chicken thigh Rice Bowl with Broccoli",
+    "primary_protein": "chicken",
+    "cuisine": "chinese_inspired",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "white_rice",
+      "broccoli",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0429",
+    "name": "Balsamic Lean ground beef Stew",
+    "primary_protein": "beef",
+    "cuisine": "american_western",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "ground_beef",
+      "potato",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0430",
+    "name": "Doenjang Black beans Stew",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "black_beans",
+      "rice_noodles",
+      "spinach",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0431",
+    "name": "Cilantro Lime Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "corn_tortilla",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0432",
+    "name": "Spiced Yogurt Chicken breast Stew",
+    "primary_protein": "chicken",
+    "cuisine": "indian",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "chicken_breast",
+      "brown_rice",
+      "bell_pepper",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0433",
+    "name": "Tomato Cumin Lean ground pork Grain Bowl",
+    "primary_protein": "pork",
+    "cuisine": "indian",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "ground_pork",
+      "white_rice",
+      "onion",
+      "cauliflower"
+    ]
+  },
+  {
+    "recipe_id": "MP0434",
+    "name": "Creamy Herb Beef sirloin Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "beef_sirloin",
+      "quinoa",
+      "eggplant",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0435",
+    "name": "Miso Ginger Lean ground beef Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_beef",
+      "udon_noodles",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0436",
+    "name": "Tangy Ginger Chicken thigh Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "brown_rice",
+      "green_beans",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0437",
+    "name": "Tomato Cumin Extra-firm tofu Stew",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "indian",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "quinoa",
+      "onion",
+      "cauliflower"
+    ]
+  },
+  {
+    "recipe_id": "MP0438",
+    "name": "Sweet Chili Halloumi Stir-Fry",
+    "primary_protein": "other",
+    "cuisine": "chinese_inspired",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "halloumi",
+      "udon_noodles",
+      "bell_pepper",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0439",
+    "name": "Tahini Tempeh Meal-Prep Salad",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mediterranean",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "tempeh",
+      "quinoa",
+      "cucumber",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0440",
+    "name": "Curry BBQ Shrimp Stir-Fry",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "other_fusion",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "shrimp",
+      "quinoa",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0441",
+    "name": "Basil Pesto Beef sirloin Grain Bowl with Spinach",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "beef_sirloin",
+      "quinoa",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0442",
+    "name": "Tomato Cumin Firm tofu Grain Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "indian",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "firm_tofu",
+      "white_rice",
+      "onion",
+      "cauliflower"
+    ]
+  },
+  {
+    "recipe_id": "MP0443",
+    "name": "Spicy Garlic Chickpeas Stew",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "chickpeas",
+      "white_rice",
+      "broccoli",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0444",
+    "name": "Balsamic Herb Chicken thigh Meal-Prep Salad",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "chicken_thigh",
+      "bulgur",
+      "cucumber",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0445",
+    "name": "Buffalo Chicken thigh Pasta",
+    "primary_protein": "chicken",
+    "cuisine": "american_western",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "chicken_thigh",
+      "pasta",
+      "bell_pepper",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0446",
+    "name": "Enchilada-Style Lean ground beef Rice Bowl",
+    "primary_protein": "beef",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "ground_beef",
+      "brown_rice",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0447",
+    "name": "Garlic Herb Lean ground beef Wrap with Broccoli",
+    "primary_protein": "beef",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "ground_beef",
+      "tortilla",
+      "broccoli",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0448",
+    "name": "Tahini Lemon Pork tenderloin Stew",
+    "primary_protein": "pork",
+    "cuisine": "middle_eastern",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "couscous",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0449",
+    "name": "Smoky Paprika Cod Roast",
+    "primary_protein": "fish",
+    "cuisine": "mediterranean",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "cod",
+      "pita",
+      "eggplant",
+      "cucumber"
+    ]
+  },
+  {
+    "recipe_id": "MP0450",
+    "name": "Garlic Herb Scallops Roast",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "american_western",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "scallops",
+      "potato",
+      "green_beans",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0451",
+    "name": "Masala Egg Sheet-Pan Meal",
+    "primary_protein": "egg_based",
+    "cuisine": "indian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "egg",
+      "white_rice",
+      "peas",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0452",
+    "name": "Roasted Tomato Lean ground beef Burrito Bowl",
+    "primary_protein": "beef",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "burrito_bowl",
+    "core_ingredients": [
+      "ground_beef",
+      "white_rice",
+      "spinach",
+      "onion"
+    ]
+  },
+  {
+    "recipe_id": "MP0453",
+    "name": "Smoky BBQ Extra-firm tofu Pasta",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "american_western",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "pasta",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0454",
+    "name": "Fajita Canned tuna Rice Bowl",
+    "primary_protein": "fish",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "canned_tuna",
+      "brown_rice",
+      "corn",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0455",
+    "name": "Miso Ginger Chicken breast Noodle Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "japanese",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "chicken_breast",
+      "soba_noodles",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0456",
+    "name": "Turmeric Ginger Seitan Stew",
+    "primary_protein": "other",
+    "cuisine": "indian",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "seitan",
+      "potato",
+      "tomato",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0457",
+    "name": "Gochujang Lime Shelled edamame Rice Bowl",
+    "primary_protein": "other",
+    "cuisine": "other_fusion",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "edamame",
+      "brown_rice",
+      "bell_pepper",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0458",
+    "name": "Sweet Chili Basil Salmon Meal-Prep Salad",
+    "primary_protein": "fish",
+    "cuisine": "southeast_asian",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "salmon",
+      "rice_noodles",
+      "mushroom",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0459",
+    "name": "Smoky BBQ Lean ground pork Pasta",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "ground_pork",
+      "pasta",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0460",
+    "name": "Sweet Soy Cod Rice Bowl",
+    "primary_protein": "fish",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "cod",
+      "brown_rice",
+      "mushroom",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0461",
+    "name": "Basil Pesto Canned tuna Pasta",
+    "primary_protein": "fish",
+    "cuisine": "italian",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "canned_tuna",
+      "whole_wheat_pasta",
+      "spinach",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0462",
+    "name": "Doenjang Tempeh Stew",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "tempeh",
+      "rice_noodles",
+      "spinach",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0463",
+    "name": "Dill Yogurt Beef sirloin Meal-Prep Salad",
+    "primary_protein": "beef",
+    "cuisine": "mediterranean",
+    "meal_type": "salad",
+    "core_ingredients": [
+      "beef_sirloin",
+      "bulgur",
+      "bell_pepper",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0464",
+    "name": "Doenjang Salmon Stir-Fry",
+    "primary_protein": "fish",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "salmon",
+      "rice_noodles",
+      "spinach",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0465",
+    "name": "Buffalo Cod Grain Bowl",
+    "primary_protein": "fish",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "cod",
+      "brown_rice",
+      "bell_pepper",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0466",
+    "name": "Balsamic Garlic Shrimp Roast",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "italian",
+    "meal_type": "roasted_meal",
+    "core_ingredients": [
+      "shrimp",
+      "potato",
+      "cherry_tomato",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0467",
+    "name": "Tamari Sesame Chicken thigh Rice Bowl",
+    "primary_protein": "chicken",
+    "cuisine": "japanese",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "chicken_thigh",
+      "white_rice",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0468",
+    "name": "Chipotle Firm tofu Burrito Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "burrito_bowl",
+    "core_ingredients": [
+      "firm_tofu",
+      "brown_rice",
+      "bell_pepper",
+      "corn"
+    ]
+  },
+  {
+    "recipe_id": "MP0469",
+    "name": "Bulgogi Pork tenderloin Stir-Fry",
+    "primary_protein": "pork",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "sweet_potato",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0470",
+    "name": "Garlic Herb Lean ground turkey Sheet-Pan Meal",
+    "primary_protein": "turkey",
+    "cuisine": "american_western",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "ground_turkey",
+      "brown_rice",
+      "green_beans",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0471",
+    "name": "Balsamic Garlic Lean ground beef Soup",
+    "primary_protein": "beef",
+    "cuisine": "italian",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "ground_beef",
+      "potato",
+      "cherry_tomato",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0472",
+    "name": "Balsamic Canned tuna Wrap",
+    "primary_protein": "fish",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "canned_tuna",
+      "corn_tortilla",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0473",
+    "name": "Honey Mustard Lean ground pork Grain Bowl",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "ground_pork",
+      "quinoa",
+      "spinach",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0474",
+    "name": "Miso Herb Chicken breast Soup",
+    "primary_protein": "chicken",
+    "cuisine": "japanese",
+    "meal_type": "soup",
+    "core_ingredients": [
+      "chicken_breast",
+      "white_rice",
+      "cabbage",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0475",
+    "name": "Spicy Garlic Halloumi Stir-Fry",
+    "primary_protein": "other",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "halloumi",
+      "rice_noodles",
+      "broccoli",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0476",
+    "name": "Smoky BBQ Extra-firm tofu Wrap",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "american_western",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "tortilla",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0477",
+    "name": "Spiced Yogurt Egg Rice Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "indian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "egg",
+      "quinoa",
+      "bell_pepper",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0478",
+    "name": "Bulgogi Tempeh Stir-Fry",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "korean",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "tempeh",
+      "sweet_potato",
+      "carrot",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0479",
+    "name": "Sesame Soy Firm tofu Sheet-Pan Meal",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "korean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "firm_tofu",
+      "brown_rice",
+      "mushroom",
+      "zucchini"
+    ]
+  },
+  {
+    "recipe_id": "MP0480",
+    "name": "Sesame Tamari Pork tenderloin Stir-Fry",
+    "primary_protein": "pork",
+    "cuisine": "chinese_inspired",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "rice_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0481",
+    "name": "Balsamic Herb Chicken thigh Sheet-Pan Meal",
+    "primary_protein": "chicken",
+    "cuisine": "mediterranean",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "chicken_thigh",
+      "pita",
+      "zucchini",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0482",
+    "name": "Salsa Verde Salmon Rice Bowl",
+    "primary_protein": "fish",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "salmon",
+      "white_rice",
+      "onion",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0483",
+    "name": "Balsamic Cod Stew",
+    "primary_protein": "fish",
+    "cuisine": "american_western",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "cod",
+      "brown_rice",
+      "mushroom",
+      "broccoli"
+    ]
+  },
+  {
+    "recipe_id": "MP0484",
+    "name": "Ginger Scallion Lean ground pork Stew",
+    "primary_protein": "pork",
+    "cuisine": "korean",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "ground_pork",
+      "sweet_potato",
+      "zucchini",
+      "carrot"
+    ]
+  },
+  {
+    "recipe_id": "MP0485",
+    "name": "Tuscan Tomato Seitan Sheet-Pan Meal",
+    "primary_protein": "other",
+    "cuisine": "italian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "seitan",
+      "potato",
+      "zucchini",
+      "cherry_tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0486",
+    "name": "Tahini Extra-firm tofu Grain Bowl",
+    "primary_protein": "tofu_vegetarian",
+    "cuisine": "mediterranean",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "extra_firm_tofu",
+      "brown_rice",
+      "cucumber",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0487",
+    "name": "Turmeric Ginger Scallops Rice Bowl",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "indian",
+    "meal_type": "rice_bowl",
+    "core_ingredients": [
+      "scallops",
+      "white_rice",
+      "tomato",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0488",
+    "name": "Tahini Turkey breast Wrap",
+    "primary_protein": "turkey",
+    "cuisine": "mediterranean",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "turkey_breast",
+      "corn_tortilla",
+      "cucumber",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0489",
+    "name": "Rustic Tomato Shelled edamame Grain Bowl",
+    "primary_protein": "other",
+    "cuisine": "american_western",
+    "meal_type": "grain_bowl",
+    "core_ingredients": [
+      "edamame",
+      "potato",
+      "carrot",
+      "green_beans"
+    ]
+  },
+  {
+    "recipe_id": "MP0490",
+    "name": "Tamari Sesame Egg Sheet-Pan Meal",
+    "primary_protein": "egg_based",
+    "cuisine": "japanese",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "egg",
+      "soba_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0491",
+    "name": "Sumac-Style Shrimp Wrap",
+    "primary_protein": "shrimp_seafood",
+    "cuisine": "middle_eastern",
+    "meal_type": "wrap",
+    "core_ingredients": [
+      "shrimp",
+      "pita",
+      "carrot",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0492",
+    "name": "Gochujang Lime Brown lentils Stir-Fry",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "other_fusion",
+    "meal_type": "stir_fry",
+    "core_ingredients": [
+      "brown_lentils",
+      "rice_noodles",
+      "bell_pepper",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0493",
+    "name": "Smoky BBQ Pork tenderloin Stew",
+    "primary_protein": "pork",
+    "cuisine": "american_western",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "pork_tenderloin",
+      "whole_wheat_pasta",
+      "broccoli",
+      "bell_pepper"
+    ]
+  },
+  {
+    "recipe_id": "MP0494",
+    "name": "Lemongrass-Style Egg Noodle Bowl",
+    "primary_protein": "egg_based",
+    "cuisine": "southeast_asian",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "egg",
+      "rice_noodles",
+      "cabbage",
+      "mushroom"
+    ]
+  },
+  {
+    "recipe_id": "MP0495",
+    "name": "Coconut Curry Beef sirloin Sheet-Pan Meal",
+    "primary_protein": "beef",
+    "cuisine": "indian",
+    "meal_type": "sheet_pan",
+    "core_ingredients": [
+      "beef_sirloin",
+      "potato",
+      "spinach",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0496",
+    "name": "Coconut Curry Egg Stew",
+    "primary_protein": "egg_based",
+    "cuisine": "indian",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "egg",
+      "potato",
+      "spinach",
+      "tomato"
+    ]
+  },
+  {
+    "recipe_id": "MP0497",
+    "name": "Garlic Herb Canned tuna Pasta",
+    "primary_protein": "fish",
+    "cuisine": "american_western",
+    "meal_type": "pasta",
+    "core_ingredients": [
+      "canned_tuna",
+      "whole_wheat_pasta",
+      "green_beans",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0498",
+    "name": "Cilantro Lime Lean ground turkey Stew",
+    "primary_protein": "turkey",
+    "cuisine": "mexican_tex_mex",
+    "meal_type": "stew",
+    "core_ingredients": [
+      "ground_turkey",
+      "white_rice",
+      "tomato",
+      "spinach"
+    ]
+  },
+  {
+    "recipe_id": "MP0499",
+    "name": "Tamari Sesame Kidney beans Noodle Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "japanese",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "kidney_beans",
+      "udon_noodles",
+      "bok_choy",
+      "cabbage"
+    ]
+  },
+  {
+    "recipe_id": "MP0500",
+    "name": "Doenjang White beans Noodle Bowl",
+    "primary_protein": "beans_lentils_chickpeas",
+    "cuisine": "korean",
+    "meal_type": "noodle_bowl",
+    "core_ingredients": [
+      "white_beans",
+      "udon_noodles",
+      "spinach",
+      "broccoli"
+    ]
+  }
+]

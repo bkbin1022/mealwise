@@ -1,16 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { type FormEvent, useEffect, useMemo, useState } from "react";
+import { type FormEvent, useCallback, useEffect, useMemo, useState } from "react";
 import { useAuth } from "@/components/auth/auth-provider";
 import MealpushLogo from "@/components/shared/mealpush-logo";
 import { createClient } from "@/lib/supabase/client";
 import {
   ingredientCategories,
-  ingredients,
   type Ingredient,
   type IngredientCategory,
 } from "@/lib/mealpush/ingredients";
+import type { MealRecommendation } from "@/lib/mealpush/recommendation-types";
 
 const questions: Record<
   IngredientCategory,
@@ -44,6 +44,16 @@ const questions: Record<
 };
 
 type Flow = "ingredients" | "optimizing" | "results";
+
+function currentWeekKey() {
+  const today = new Date();
+  const sunday = new Date(today);
+  sunday.setDate(today.getDate() - today.getDay());
+  const year = sunday.getFullYear();
+  const month = String(sunday.getMonth() + 1).padStart(2, "0");
+  const day = String(sunday.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
 
 function IngredientArt({ ingredient }: Readonly<{ ingredient: Ingredient }>) {
   const [base, dark, light] = ingredient.colors;
@@ -115,14 +125,30 @@ function IngredientCard({
       </span>
       <IngredientArt ingredient={ingredient} />
       <span className="text-lg font-extrabold leading-tight">{ingredient.name}</span>
+      {ingredient.recipeCount !== undefined && (
+        <span className="text-[10px] font-bold text-[#819086]">
+          {ingredient.recipeCount} database recipes
+        </span>
+      )}
     </button>
   );
 }
 
-function OptimizationStep({ onDone }: Readonly<{ onDone: () => void }>) {
+function OptimizationStep({
+  selectedIds,
+  onDone,
+  onCancel,
+}: Readonly<{
+  selectedIds: string[];
+  onDone: (recommendations: MealRecommendation[]) => void;
+  onCancel: () => void;
+}>) {
   const [phase, setPhase] = useState("Matching ingredients into practical meals");
+  const [error, setError] = useState<string | null>(null);
+  const [retryNonce, setRetryNonce] = useState(0);
 
   useEffect(() => {
+    const controller = new AbortController();
     const nutritionTimer = window.setTimeout(
       () => setPhase("Balancing nutrition, variety, and prep time"),
       900,
@@ -131,14 +157,47 @@ function OptimizationStep({ onDone }: Readonly<{ onDone: () => void }>) {
       () => setPhase("Putting the finishing touches on your week"),
       1900,
     );
-    const doneTimer = window.setTimeout(onDone, 3200);
+    const minimumWait = new Promise<void>((resolve) => {
+      window.setTimeout(resolve, 2600);
+    });
+
+    async function loadRecommendations() {
+      try {
+        const request = fetch("/api/recommendations", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ selectedIngredientIds: selectedIds }),
+          signal: controller.signal,
+        });
+        const [response] = await Promise.all([request, minimumWait]);
+        const body = (await response.json()) as {
+          recommendations?: MealRecommendation[];
+          error?: string;
+        };
+
+        if (!response.ok || !body.recommendations?.length) {
+          throw new Error(body.error ?? "We could not build a meal plan right now.");
+        }
+
+        onDone(body.recommendations);
+      } catch (requestError) {
+        if (controller.signal.aborted) return;
+        setError(
+          requestError instanceof Error
+            ? requestError.message
+            : "We could not build a meal plan right now.",
+        );
+      }
+    }
+
+    void loadRecommendations();
 
     return () => {
+      controller.abort();
       window.clearTimeout(nutritionTimer);
       window.clearTimeout(finishTimer);
-      window.clearTimeout(doneTimer);
     };
-  }, [onDone]);
+  }, [onDone, retryNonce, selectedIds]);
 
   return (
     <main className="plan-step-enter flex min-h-screen items-center justify-center bg-[#f7faf5] px-5">
@@ -174,26 +233,39 @@ function OptimizationStep({ onDone }: Readonly<{ onDone: () => void }>) {
         >
           Preparing your meal...
         </h1>
-        <p className="mt-5 text-base leading-7 text-[#68816d]">{phase}</p>
+        {error ? (
+          <div className="mt-7 rounded-2xl border border-[#b86754]/15 bg-[#fce8e4] p-5">
+            <p className="text-sm font-bold text-[#934838]">{error}</p>
+            <div className="mt-4 flex justify-center gap-3">
+              <button
+                type="button"
+                onClick={onCancel}
+                className="rounded-xl border border-[#315d42]/15 bg-white px-4 py-2.5 text-sm font-extrabold text-[#315d42]"
+              >
+                Back
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setError(null);
+                  setPhase("Matching ingredients into practical meals");
+                  setRetryNonce((current) => current + 1);
+                }}
+                className="rounded-xl bg-[#315d42] px-4 py-2.5 text-sm font-extrabold text-white"
+              >
+                Try again
+              </button>
+            </div>
+          </div>
+        ) : (
+          <p className="mt-5 text-base leading-7 text-[#68816d]">{phase}</p>
+        )}
       </div>
     </main>
   );
 }
 
-type MealResult = {
-  name: string;
-  detail: string;
-  calories: number;
-  price: string;
-  macros: {
-    protein: string;
-    carbs: string;
-    fat: string;
-  };
-  ingredients: string[];
-  steps: string[];
-  videoUrl: string;
-};
+type MealResult = MealRecommendation;
 
 function MealPhotoPlaceholder({ className = "" }: Readonly<{ className?: string }>) {
   return (
@@ -267,14 +339,21 @@ function MealDetailModal({
                 <p className="text-[10px] font-extrabold uppercase tracking-[0.12em] text-[#78907c]">
                   Est. cost
                 </p>
-                <p className="mt-1 text-lg font-extrabold text-[#193426]">{meal.price}</p>
+                <p className="mt-1 text-lg font-extrabold text-[#193426]">
+                  ${meal.costPerServing.toFixed(2)}
+                </p>
               </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between rounded-xl bg-white px-4 py-3 text-xs font-bold text-[#68816d]">
+              <span>{meal.servings} servings</span>
+              <span>{meal.totalMinutes} min total</span>
+              <span>{meal.mealPrepScore}/10 prep score</span>
             </div>
             <div className="mt-3 grid grid-cols-3 gap-2 text-center">
               {[
-                ["Protein", meal.macros.protein],
-                ["Carbs", meal.macros.carbs],
-                ["Fat", meal.macros.fat],
+                ["Protein", `${meal.macros.protein}g`],
+                ["Carbs", `${meal.macros.carbs}g`],
+                ["Fat", `${meal.macros.fat}g`],
               ].map(([label, value]) => (
                 <div key={label} className="rounded-xl bg-[#315d42] px-2 py-3 text-white">
                   <p className="text-[9px] font-bold uppercase tracking-[0.08em] text-[#cbe6a7]">
@@ -444,7 +523,7 @@ function SignupModal({ onClose }: Readonly<{ onClose: () => void }>) {
           <div className="absolute inset-x-0 top-0 h-72 bg-[radial-gradient(circle_at_50%_0%,#c9e1ae,transparent_70%)]" />
           <div className="relative z-10 text-3xl font-bold leading-none" style={{ fontFamily: "var(--font-baloo)" }}>
             <span className="text-[#174c32]">meal</span>
-            <span className="text-[#94bf4a]">wise</span>
+            <span className="text-[#94bf4a]">push</span>
           </div>
           <div className="relative z-10 mt-auto flex flex-1 flex-col items-center justify-center text-center">
             <HealthyMealIllustration />
@@ -566,85 +645,12 @@ function SignupModal({ onClose }: Readonly<{ onClose: () => void }>) {
 }
 
 function ResultsStep({
-  selected,
+  meals,
   onRestart,
-}: Readonly<{ selected: Ingredient[]; onRestart: () => void }>) {
+}: Readonly<{ meals: MealResult[]; onRestart: () => void }>) {
   const { user } = useAuth();
   const [activeMeal, setActiveMeal] = useState<MealResult | null>(null);
   const [showSignup, setShowSignup] = useState(false);
-  const categoryChoices = (category: IngredientCategory) =>
-    selected.filter((item) => item.category === category).map((item) => item.name);
-  const protein = categoryChoices("Protein")[0] ?? "Your favorite protein";
-  const carb = categoryChoices("Carbs")[0] ?? "a grain base";
-  const vegetable = categoryChoices("Vegetables")[0] ?? "seasonal vegetables";
-  const healthyFat = categoryChoices("Fats")[0] ?? "olive oil";
-  const finishingTouch =
-    categoryChoices("Extras")[0] ?? categoryChoices("Fats")[0] ?? "fresh herbs";
-  const meals: MealResult[] = [
-    {
-      name: `${protein} and ${carb} bowl`,
-      detail: `With ${vegetable} and ${finishingTouch}`,
-      calories: 520,
-      price: "$4.80",
-      macros: { protein: "42g", carbs: "58g", fat: "14g" },
-      ingredients: [
-        `5 oz ${protein}`,
-        `3/4 cup cooked ${carb}`,
-        `1 cup ${vegetable}`,
-        `1 tbsp ${healthyFat}`,
-        `${finishingTouch}, to finish`,
-        "Sea salt and black pepper",
-      ],
-      steps: [
-        `Season and cook the ${protein} until golden and cooked through.`,
-        `Warm the ${carb} and roast or saute the ${vegetable}.`,
-        `Layer everything in a bowl, add ${healthyFat}, and finish with ${finishingTouch}.`,
-      ],
-      videoUrl: `https://www.youtube.com/results?search_query=${encodeURIComponent(`${protein} ${carb} meal prep bowl recipe`)}`,
-    },
-    {
-      name: `Roasted ${protein} tray prep`,
-      detail: `${vegetable} on the side, ready for fast lunches`,
-      calories: 485,
-      price: "$5.10",
-      macros: { protein: "46g", carbs: "39g", fat: "16g" },
-      ingredients: [
-        `6 oz ${protein}`,
-        `1 1/2 cups ${vegetable}`,
-        `1/2 cup cooked ${carb}`,
-        `1 tbsp ${healthyFat}`,
-        `${finishingTouch}, to taste`,
-        "Garlic, salt, and black pepper",
-      ],
-      steps: [
-        "Heat the oven to 425°F and line a sheet pan.",
-        `Toss the ${protein} and ${vegetable} with ${healthyFat} and seasonings.`,
-        `Roast until caramelized, then portion with ${carb} and ${finishingTouch}.`,
-      ],
-      videoUrl: `https://www.youtube.com/results?search_query=${encodeURIComponent(`${protein} sheet pan meal prep recipe`)}`,
-    },
-    {
-      name: `${carb} meal-prep salad`,
-      detail: "A flexible base for the rest of your selected ingredients",
-      calories: 440,
-      price: "$3.90",
-      macros: { protein: "31g", carbs: "54g", fat: "12g" },
-      ingredients: [
-        `1 cup cooked ${carb}`,
-        `4 oz ${protein}`,
-        `1 cup chopped ${vegetable}`,
-        `1 tbsp ${healthyFat}`,
-        `${finishingTouch}, to finish`,
-        "Lemon juice, salt, and pepper",
-      ],
-      steps: [
-        `Cook the ${carb}, spread it on a tray, and let it cool.`,
-        `Chop the ${vegetable} and slice the cooked ${protein}.`,
-        `Toss everything with ${healthyFat}, lemon, and ${finishingTouch}; chill before packing.`,
-      ],
-      videoUrl: `https://www.youtube.com/results?search_query=${encodeURIComponent(`${carb} high protein meal prep salad recipe`)}`,
-    },
-  ];
 
   useEffect(() => {
     if (!activeMeal && !showSignup) return;
@@ -690,7 +696,7 @@ function ResultsStep({
             Your prep plan is ready.
           </h1>
           <p className="mt-4 text-lg leading-7 text-[#68816d]">
-            A flexible, low-waste week built around the ingredients you chose.
+            Three database recipes selected for ingredient reuse, variety, and easy meal prep.
           </p>
         </section>
 
@@ -698,7 +704,7 @@ function ResultsStep({
           {meals.map((meal, index) => (
             <button
               type="button"
-              key={meal.name}
+              key={meal.recipeId}
               onClick={() => setActiveMeal(meal)}
               className="group rounded-[1.75rem] border border-[#315d42]/10 bg-white p-4 text-left shadow-[0_18px_50px_rgba(49,93,66,0.08)] transition duration-200 hover:-translate-y-1 hover:border-[#94bf4a]/70 hover:shadow-[0_24px_60px_rgba(49,93,66,0.14)] sm:p-5"
             >
@@ -714,20 +720,32 @@ function ResultsStep({
               <div className="px-1 pb-1 pt-5">
                 <div className="flex items-center justify-between gap-3">
                   <p className="text-xs font-extrabold uppercase tracking-[0.14em] text-[#5f8e4f]">
-                    Meal {index + 1}
+                    Meal {index + 1} · {meal.cuisine.replaceAll("_", " ")}
                   </p>
-                  <p className="text-xs font-extrabold text-[#315d42]">{meal.price} / serving</p>
+                  <p className="text-xs font-extrabold text-[#315d42]">
+                    ${meal.costPerServing.toFixed(2)} / serving
+                  </p>
                 </div>
                 <h2 className="mt-2 text-xl font-extrabold leading-tight text-[#193426] sm:text-2xl">
                   {meal.name}
                 </h2>
                 <p className="mt-2 text-sm leading-6 text-[#68816d]">{meal.detail}</p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="rounded-full bg-[#e7f0dc] px-3 py-1 text-[10px] font-extrabold text-[#315d42]">
+                    {meal.matchedIngredientNames.length
+                      ? `${meal.matchedIngredientNames.length} selected ingredients matched`
+                      : "Top meal-prep match"}
+                  </span>
+                  <span className="rounded-full bg-[#f4f5ef] px-3 py-1 text-[10px] font-extrabold text-[#687c6e]">
+                    {meal.totalMinutes} min
+                  </span>
+                </div>
                 <div className="mt-5 grid grid-cols-4 gap-2 border-t border-[#315d42]/10 pt-4 text-center">
                   {[
                     ["Calories", `${meal.calories}`],
-                    ["Protein", meal.macros.protein],
-                    ["Carbs", meal.macros.carbs],
-                    ["Fat", meal.macros.fat],
+                    ["Protein", `${meal.macros.protein}g`],
+                    ["Carbs", `${meal.macros.carbs}g`],
+                    ["Fat", `${meal.macros.fat}g`],
                   ].map(([label, value]) => (
                     <div key={label}>
                       <p className="text-[9px] font-bold uppercase tracking-[0.06em] text-[#8b9b8e]">
@@ -778,20 +796,27 @@ function ResultsStep({
   );
 }
 
-export default function IngredientPlanner({ planWeek }: Readonly<{ planWeek?: string }>) {
+export default function IngredientPlanner({
+  planWeek,
+  availableIngredients,
+}: Readonly<{
+  planWeek?: string;
+  availableIngredients: Ingredient[];
+}>) {
   const { user } = useAuth();
   const [flow, setFlow] = useState<Flow>("ingredients");
   const [categoryIndex, setCategoryIndex] = useState(0);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
+  const [recommendations, setRecommendations] = useState<MealRecommendation[]>([]);
 
   const category = ingredientCategories[categoryIndex];
   const question = questions[category];
   const visibleIngredients = useMemo(
-    () => ingredients.filter((ingredient) => ingredient.category === category),
-    [category],
+    () => availableIngredients.filter((ingredient) => ingredient.category === category),
+    [availableIngredients, category],
   );
   const selected = selectedIds
-    .map((id) => ingredients.find((ingredient) => ingredient.id === id))
+    .map((id) => availableIngredients.find((ingredient) => ingredient.id === id))
     .filter((ingredient): ingredient is Ingredient => Boolean(ingredient));
   const currentSelectedCount = selected.filter(
     (ingredient) => ingredient.category === category,
@@ -820,21 +845,32 @@ export default function IngredientPlanner({ planWeek }: Readonly<{ planWeek?: st
 
   function restart() {
     setSelectedIds([]);
+    setRecommendations([]);
     setCategoryIndex(0);
     setFlow("ingredients");
   }
 
-  function finishOptimization() {
-    if (planWeek && user) {
+  const finishOptimization = useCallback((meals: MealRecommendation[]) => {
+    setRecommendations(meals);
+
+    if (user) {
       try {
+        const targetWeek = planWeek ?? currentWeekKey();
         const storageKey = `mealpush-week-plans:${user.id}`;
         const existingValue = window.localStorage.getItem(storageKey);
-        const existingPlans = existingValue
-          ? (JSON.parse(existingValue) as Record<string, { selectedIds: string[]; savedAt: string }>)
+        const existingPlans: Record<string, {
+          selectedIds: string[];
+          recipeIds?: string[];
+          recipes?: MealRecommendation[];
+          savedAt: string;
+        }> = existingValue
+          ? JSON.parse(existingValue)
           : {};
 
-        existingPlans[planWeek] = {
+        existingPlans[targetWeek] = {
           selectedIds,
+          recipeIds: meals.map((meal) => meal.recipeId),
+          recipes: meals,
           savedAt: new Date().toISOString(),
         };
         window.localStorage.setItem(storageKey, JSON.stringify(existingPlans));
@@ -844,14 +880,20 @@ export default function IngredientPlanner({ planWeek }: Readonly<{ planWeek?: st
     }
 
     setFlow("results");
-  }
+  }, [planWeek, selectedIds, user]);
 
   if (flow === "optimizing") {
-    return <OptimizationStep onDone={finishOptimization} />;
+    return (
+      <OptimizationStep
+        selectedIds={selectedIds}
+        onDone={finishOptimization}
+        onCancel={() => setFlow("ingredients")}
+      />
+    );
   }
 
   if (flow === "results") {
-    return <ResultsStep selected={selected} onRestart={restart} />;
+    return <ResultsStep meals={recommendations} onRestart={restart} />;
   }
 
   return (

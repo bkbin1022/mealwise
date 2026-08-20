@@ -6,6 +6,7 @@ import MealpushLogo from "@/components/shared/mealpush-logo";
 import {
   currentRecipes,
   previousRecipes,
+  recipesFromRecommendations,
   recipesFromSelection,
   type Recipe,
   type StoredWeekPlans,
@@ -135,7 +136,9 @@ export default function PrepSessionScreen({
           : {};
         const storedPlan = storedPlans[weekKey];
 
-        if (storedPlan) {
+        if (storedPlan?.recipes?.length) {
+          nextRecipes = recipesFromRecommendations(storedPlan.recipes);
+        } else if (storedPlan) {
           nextRecipes = recipesFromSelection(storedPlan.selectedIds, weekKey);
         }
       } catch {

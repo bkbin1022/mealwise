@@ -1,4 +1,5 @@
 import IngredientPlanner from "@/components/plan/ingredient-planner";
+import { getSelectableIngredients } from "@/lib/mealpush/recipe-database";
 
 export default async function PlanPage({
   searchParams,
@@ -10,6 +11,12 @@ export default async function PlanPage({
   const planWeek = requestedWeek && /^\d{4}-\d{2}-\d{2}$/.test(requestedWeek)
     ? requestedWeek
     : undefined;
+  const availableIngredients = getSelectableIngredients();
 
-  return <IngredientPlanner planWeek={planWeek} />;
+  return (
+    <IngredientPlanner
+      planWeek={planWeek}
+      availableIngredients={availableIngredients}
+    />
+  );
 }

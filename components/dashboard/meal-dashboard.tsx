@@ -8,6 +8,7 @@ import MealpushLogo from "@/components/shared/mealpush-logo";
 import {
   currentRecipes,
   previousRecipes,
+  recipesFromRecommendations,
   recipesFromSelection,
   type Recipe,
   type StoredWeekPlans,
@@ -216,8 +217,10 @@ export default function MealDashboard({
   }, [userId]);
 
   const storedPlan = savedPlans[selectedWeekKey];
-  const weekRecipes = storedPlan
-    ? recipesFromSelection(storedPlan.selectedIds, selectedWeekKey)
+  const weekRecipes = storedPlan?.recipes?.length
+    ? recipesFromRecommendations(storedPlan.recipes)
+    : storedPlan
+      ? recipesFromSelection(storedPlan.selectedIds, selectedWeekKey)
     : selectedWeekKey === currentWeekKey
       ? currentRecipes
       : selectedWeekKey === previousWeekKey

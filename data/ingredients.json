@@ -1,0 +1,1958 @@
+{
+  "almonds": {
+    "display_name": "Almonds",
+    "category": "fat",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 21,
+      "carbs_g": 22,
+      "fat_g": 50,
+      "fiber_g": 12
+    },
+    "estimated_cost_per_basis_usd": 1.25,
+    "allergens": [
+      "tree_nuts"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "avocado": {
+    "display_name": "Avocado",
+    "category": "fat",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 2,
+      "carbs_g": 9,
+      "fat_g": 15,
+      "fiber_g": 7
+    },
+    "estimated_cost_per_basis_usd": 0.95,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "avocado_oil": {
+    "display_name": "Avocado oil",
+    "category": "fat",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 100,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.1,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "balsamic_vinegar": {
+    "display_name": "Balsamic vinegar",
+    "category": "pantry",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0.5,
+      "carbs_g": 17,
+      "fat_g": 0,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.62,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "barley": {
+    "display_name": "Pearled barley",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 10,
+      "carbs_g": 74,
+      "fat_g": 1.2,
+      "fiber_g": 15
+    },
+    "estimated_cost_per_basis_usd": 0.3,
+    "allergens": [
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "basil": {
+    "display_name": "Basil",
+    "category": "herb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 3.2,
+      "carbs_g": 2.7,
+      "fat_g": 0.6,
+      "fiber_g": 1.6
+    },
+    "estimated_cost_per_basis_usd": 0.95,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "bbq_sauce": {
+    "display_name": "BBQ sauce",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1,
+      "carbs_g": 40,
+      "fat_g": 0.5,
+      "fiber_g": 1
+    },
+    "estimated_cost_per_basis_usd": 0.55,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "beef_sirloin": {
+    "display_name": "Beef sirloin",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 27,
+      "carbs_g": 0,
+      "fat_g": 10,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.75,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "bell_pepper": {
+    "display_name": "Bell pepper",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1,
+      "carbs_g": 6,
+      "fat_g": 0.3,
+      "fiber_g": 2.1
+    },
+    "estimated_cost_per_basis_usd": 0.55,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "black_beans": {
+    "display_name": "Black beans",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 9,
+      "carbs_g": 24,
+      "fat_g": 0.5,
+      "fiber_g": 9
+    },
+    "estimated_cost_per_basis_usd": 0.35,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "bok_choy": {
+    "display_name": "Bok choy",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.5,
+      "carbs_g": 2.2,
+      "fat_g": 0.2,
+      "fiber_g": 1
+    },
+    "estimated_cost_per_basis_usd": 0.62,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "broccoli": {
+    "display_name": "Broccoli",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 2.8,
+      "carbs_g": 7,
+      "fat_g": 0.4,
+      "fiber_g": 2.6
+    },
+    "estimated_cost_per_basis_usd": 0.38,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "brown_lentils": {
+    "display_name": "Brown lentils",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 9,
+      "carbs_g": 20,
+      "fat_g": 0.4,
+      "fiber_g": 8
+    },
+    "estimated_cost_per_basis_usd": 0.28,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "brown_rice": {
+    "display_name": "Brown rice",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 8,
+      "carbs_g": 77,
+      "fat_g": 2.8,
+      "fiber_g": 4
+    },
+    "estimated_cost_per_basis_usd": 0.28,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "brown_sugar": {
+    "display_name": "Brown sugar",
+    "category": "pantry",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0,
+      "carbs_g": 98,
+      "fat_g": 0,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.2,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "buffalo_sauce": {
+    "display_name": "Buffalo sauce",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1,
+      "carbs_g": 2,
+      "fat_g": 1,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.65,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "bulgur": {
+    "display_name": "Bulgur",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 12,
+      "carbs_g": 76,
+      "fat_g": 1.3,
+      "fiber_g": 18
+    },
+    "estimated_cost_per_basis_usd": 0.32,
+    "allergens": [
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "butternut_squash": {
+    "display_name": "Butternut squash",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1,
+      "carbs_g": 12,
+      "fat_g": 0.1,
+      "fiber_g": 2
+    },
+    "estimated_cost_per_basis_usd": 0.45,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "cabbage": {
+    "display_name": "Cabbage",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.3,
+      "carbs_g": 6,
+      "fat_g": 0.1,
+      "fiber_g": 2.5
+    },
+    "estimated_cost_per_basis_usd": 0.25,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "canned_tuna": {
+    "display_name": "Canned tuna",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 25,
+      "carbs_g": 0,
+      "fat_g": 1,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.25,
+    "allergens": [
+      "fish"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "carrot": {
+    "display_name": "Carrot",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0.9,
+      "carbs_g": 10,
+      "fat_g": 0.2,
+      "fiber_g": 2.8
+    },
+    "estimated_cost_per_basis_usd": 0.22,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "cauliflower": {
+    "display_name": "Cauliflower",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.9,
+      "carbs_g": 5,
+      "fat_g": 0.3,
+      "fiber_g": 2
+    },
+    "estimated_cost_per_basis_usd": 0.4,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "celery": {
+    "display_name": "Celery",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0.7,
+      "carbs_g": 3,
+      "fat_g": 0.2,
+      "fiber_g": 1.6
+    },
+    "estimated_cost_per_basis_usd": 0.4,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "cheddar": {
+    "display_name": "Cheddar",
+    "category": "dairy",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 25,
+      "carbs_g": 1.3,
+      "fat_g": 33,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.2,
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "cherry_tomato": {
+    "display_name": "Cherry tomato",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0.9,
+      "carbs_g": 3.9,
+      "fat_g": 0.2,
+      "fiber_g": 1.2
+    },
+    "estimated_cost_per_basis_usd": 0.68,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "chicken_breast": {
+    "display_name": "Chicken breast",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 31,
+      "carbs_g": 0,
+      "fat_g": 3.6,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.2,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "chicken_thigh": {
+    "display_name": "Chicken thigh",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 26,
+      "carbs_g": 0,
+      "fat_g": 10.9,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.95,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "chickpeas": {
+    "display_name": "Chickpeas",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 9,
+      "carbs_g": 27,
+      "fat_g": 2.6,
+      "fiber_g": 8
+    },
+    "estimated_cost_per_basis_usd": 0.38,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "chili_powder": {
+    "display_name": "Chili powder",
+    "category": "seasoning",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 14,
+      "carbs_g": 50,
+      "fat_g": 14,
+      "fiber_g": 35
+    },
+    "estimated_cost_per_basis_usd": 0.95,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "cilantro": {
+    "display_name": "Cilantro",
+    "category": "herb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 2.1,
+      "carbs_g": 3.7,
+      "fat_g": 0.5,
+      "fiber_g": 2.8
+    },
+    "estimated_cost_per_basis_usd": 0.78,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "cinnamon": {
+    "display_name": "Ground cinnamon",
+    "category": "seasoning",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 4,
+      "carbs_g": 81,
+      "fat_g": 1.2,
+      "fiber_g": 53
+    },
+    "estimated_cost_per_basis_usd": 0.68,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "coconut_milk": {
+    "display_name": "Light coconut milk",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.5,
+      "carbs_g": 3,
+      "fat_g": 7,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.58,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "cod": {
+    "display_name": "Cod",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 23,
+      "carbs_g": 0,
+      "fat_g": 1,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.6,
+    "allergens": [
+      "fish"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "corn": {
+    "display_name": "Corn",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 3.4,
+      "carbs_g": 19,
+      "fat_g": 1.5,
+      "fiber_g": 2.7
+    },
+    "estimated_cost_per_basis_usd": 0.42,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "corn_tortilla": {
+    "display_name": "Corn tortilla",
+    "category": "carb",
+    "basis_quantity": 1,
+    "basis_unit": "piece",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 2,
+      "carbs_g": 12,
+      "fat_g": 1,
+      "fiber_g": 2
+    },
+    "estimated_cost_per_basis_usd": 0.24,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "cornstarch": {
+    "display_name": "Cornstarch",
+    "category": "pantry",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0.3,
+      "carbs_g": 91,
+      "fat_g": 0.1,
+      "fiber_g": 0.9
+    },
+    "estimated_cost_per_basis_usd": 0.25,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "couscous": {
+    "display_name": "Couscous",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 13,
+      "carbs_g": 77,
+      "fat_g": 0.6,
+      "fiber_g": 5
+    },
+    "estimated_cost_per_basis_usd": 0.35,
+    "allergens": [
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "cucumber": {
+    "display_name": "Cucumber",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0.7,
+      "carbs_g": 3.6,
+      "fat_g": 0.1,
+      "fiber_g": 0.5
+    },
+    "estimated_cost_per_basis_usd": 0.38,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "cumin": {
+    "display_name": "Ground cumin",
+    "category": "seasoning",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 18,
+      "carbs_g": 44,
+      "fat_g": 22,
+      "fiber_g": 11
+    },
+    "estimated_cost_per_basis_usd": 0.72,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "curry_powder": {
+    "display_name": "Curry powder",
+    "category": "seasoning",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 13,
+      "carbs_g": 58,
+      "fat_g": 14,
+      "fiber_g": 33
+    },
+    "estimated_cost_per_basis_usd": 0.75,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "dijon_mustard": {
+    "display_name": "Dijon mustard",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 4,
+      "carbs_g": 6,
+      "fat_g": 3,
+      "fiber_g": 3
+    },
+    "estimated_cost_per_basis_usd": 0.58,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "dill": {
+    "display_name": "Dill",
+    "category": "herb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 3.5,
+      "carbs_g": 7,
+      "fat_g": 1.1,
+      "fiber_g": 2.1
+    },
+    "estimated_cost_per_basis_usd": 1.1,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "doenjang": {
+    "display_name": "Doenjang",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 12,
+      "carbs_g": 22,
+      "fat_g": 6,
+      "fiber_g": 5
+    },
+    "estimated_cost_per_basis_usd": 0.85,
+    "allergens": [
+      "soy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "edamame": {
+    "display_name": "Shelled edamame",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 12,
+      "carbs_g": 9,
+      "fat_g": 5,
+      "fiber_g": 5
+    },
+    "estimated_cost_per_basis_usd": 0.85,
+    "allergens": [
+      "soy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "egg": {
+    "display_name": "Egg",
+    "category": "protein",
+    "basis_quantity": 1,
+    "basis_unit": "piece",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 6.3,
+      "carbs_g": 0.4,
+      "fat_g": 4.8,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.3,
+    "allergens": [
+      "egg"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "eggplant": {
+    "display_name": "Eggplant",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1,
+      "carbs_g": 6,
+      "fat_g": 0.2,
+      "fiber_g": 3
+    },
+    "estimated_cost_per_basis_usd": 0.48,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "extra_firm_tofu": {
+    "display_name": "Extra-firm tofu",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 17,
+      "carbs_g": 3,
+      "fat_g": 9,
+      "fiber_g": 2
+    },
+    "estimated_cost_per_basis_usd": 0.72,
+    "allergens": [
+      "soy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "feta": {
+    "display_name": "Feta",
+    "category": "dairy",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 14,
+      "carbs_g": 4,
+      "fat_g": 21,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.35,
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "firm_tofu": {
+    "display_name": "Firm tofu",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 15,
+      "carbs_g": 3,
+      "fat_g": 9,
+      "fiber_g": 2
+    },
+    "estimated_cost_per_basis_usd": 0.65,
+    "allergens": [
+      "soy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "fish_sauce": {
+    "display_name": "Fish sauce",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 5,
+      "carbs_g": 4,
+      "fat_g": 0,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.78,
+    "allergens": [
+      "fish"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "garam_masala": {
+    "display_name": "Garam masala",
+    "category": "seasoning",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 14,
+      "carbs_g": 46,
+      "fat_g": 15,
+      "fiber_g": 12
+    },
+    "estimated_cost_per_basis_usd": 1.05,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "garlic": {
+    "display_name": "Garlic",
+    "category": "seasoning",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 6,
+      "carbs_g": 33,
+      "fat_g": 0.5,
+      "fiber_g": 2.1
+    },
+    "estimated_cost_per_basis_usd": 0.55,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "ginger": {
+    "display_name": "Ginger",
+    "category": "seasoning",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.8,
+      "carbs_g": 18,
+      "fat_g": 0.8,
+      "fiber_g": 2
+    },
+    "estimated_cost_per_basis_usd": 0.65,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "gochujang": {
+    "display_name": "Gochujang",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 5,
+      "carbs_g": 45,
+      "fat_g": 2,
+      "fiber_g": 3
+    },
+    "estimated_cost_per_basis_usd": 0.95,
+    "allergens": [
+      "soy",
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "greek_yogurt": {
+    "display_name": "Greek yogurt",
+    "category": "dairy",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 10,
+      "carbs_g": 4,
+      "fat_g": 2,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.75,
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "green_beans": {
+    "display_name": "Green beans",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.8,
+      "carbs_g": 7,
+      "fat_g": 0.2,
+      "fiber_g": 3.4
+    },
+    "estimated_cost_per_basis_usd": 0.48,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "green_curry_paste": {
+    "display_name": "Green curry paste",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 4,
+      "carbs_g": 16,
+      "fat_g": 5,
+      "fiber_g": 4
+    },
+    "estimated_cost_per_basis_usd": 1.1,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "green_onion": {
+    "display_name": "Green onion",
+    "category": "herb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.8,
+      "carbs_g": 7,
+      "fat_g": 0.2,
+      "fiber_g": 2.6
+    },
+    "estimated_cost_per_basis_usd": 0.62,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "ground_beef": {
+    "display_name": "Lean ground beef",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 26,
+      "carbs_g": 0,
+      "fat_g": 12,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.35,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "ground_pork": {
+    "display_name": "Lean ground pork",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 25,
+      "carbs_g": 0,
+      "fat_g": 12,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.95,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "ground_turkey": {
+    "display_name": "Lean ground turkey",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 27,
+      "carbs_g": 0,
+      "fat_g": 8,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.15,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "halloumi": {
+    "display_name": "Halloumi",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 22,
+      "carbs_g": 2,
+      "fat_g": 26,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.55,
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "honey": {
+    "display_name": "Honey",
+    "category": "pantry",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0.3,
+      "carbs_g": 82,
+      "fat_g": 0,
+      "fiber_g": 0.2
+    },
+    "estimated_cost_per_basis_usd": 0.75,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "italian_seasoning": {
+    "display_name": "Italian seasoning",
+    "category": "seasoning",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 11,
+      "carbs_g": 61,
+      "fat_g": 7,
+      "fiber_g": 37
+    },
+    "estimated_cost_per_basis_usd": 0.72,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "kale": {
+    "display_name": "Kale",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 2.9,
+      "carbs_g": 4.4,
+      "fat_g": 1.5,
+      "fiber_g": 4.1
+    },
+    "estimated_cost_per_basis_usd": 0.72,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "kidney_beans": {
+    "display_name": "Kidney beans",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 9,
+      "carbs_g": 23,
+      "fat_g": 0.5,
+      "fiber_g": 7
+    },
+    "estimated_cost_per_basis_usd": 0.35,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "lemon": {
+    "display_name": "Lemon",
+    "category": "fruit",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.1,
+      "carbs_g": 9,
+      "fat_g": 0.3,
+      "fiber_g": 2.8
+    },
+    "estimated_cost_per_basis_usd": 0.55,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "lime": {
+    "display_name": "Lime",
+    "category": "fruit",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0.7,
+      "carbs_g": 11,
+      "fat_g": 0.2,
+      "fiber_g": 2.8
+    },
+    "estimated_cost_per_basis_usd": 0.58,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "mango": {
+    "display_name": "Mango",
+    "category": "fruit",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0.8,
+      "carbs_g": 15,
+      "fat_g": 0.4,
+      "fiber_g": 1.6
+    },
+    "estimated_cost_per_basis_usd": 0.85,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "mint": {
+    "display_name": "Mint",
+    "category": "herb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 3.8,
+      "carbs_g": 15,
+      "fat_g": 0.9,
+      "fiber_g": 8
+    },
+    "estimated_cost_per_basis_usd": 1.2,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "miso": {
+    "display_name": "Miso",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 12,
+      "carbs_g": 26,
+      "fat_g": 6,
+      "fiber_g": 5
+    },
+    "estimated_cost_per_basis_usd": 0.9,
+    "allergens": [
+      "soy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "mozzarella": {
+    "display_name": "Mozzarella",
+    "category": "dairy",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 24,
+      "carbs_g": 3,
+      "fat_g": 17,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.1,
+    "allergens": [
+      "dairy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "mushroom": {
+    "display_name": "Mushroom",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 3.1,
+      "carbs_g": 3.3,
+      "fat_g": 0.3,
+      "fiber_g": 1
+    },
+    "estimated_cost_per_basis_usd": 0.65,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "oats": {
+    "display_name": "Rolled oats",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 17,
+      "carbs_g": 66,
+      "fat_g": 7,
+      "fiber_g": 11
+    },
+    "estimated_cost_per_basis_usd": 0.25,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "olive_oil": {
+    "display_name": "Olive oil",
+    "category": "fat",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 100,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.95,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "onion": {
+    "display_name": "Onion",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.1,
+      "carbs_g": 9,
+      "fat_g": 0.1,
+      "fiber_g": 1.7
+    },
+    "estimated_cost_per_basis_usd": 0.2,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "oyster_sauce": {
+    "display_name": "Oyster sauce",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 3,
+      "carbs_g": 22,
+      "fat_g": 0,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.72,
+    "allergens": [
+      "shellfish"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "parsley": {
+    "display_name": "Parsley",
+    "category": "herb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 3,
+      "carbs_g": 6,
+      "fat_g": 0.8,
+      "fiber_g": 3.3
+    },
+    "estimated_cost_per_basis_usd": 0.72,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "pasta": {
+    "display_name": "Pasta",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 13,
+      "carbs_g": 75,
+      "fat_g": 1.5,
+      "fiber_g": 3
+    },
+    "estimated_cost_per_basis_usd": 0.3,
+    "allergens": [
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "peanut_butter": {
+    "display_name": "Peanut butter",
+    "category": "fat",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 25,
+      "carbs_g": 20,
+      "fat_g": 50,
+      "fiber_g": 6
+    },
+    "estimated_cost_per_basis_usd": 0.8,
+    "allergens": [
+      "peanuts"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "peas": {
+    "display_name": "Green peas",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 5.4,
+      "carbs_g": 14,
+      "fat_g": 0.4,
+      "fiber_g": 5.7
+    },
+    "estimated_cost_per_basis_usd": 0.36,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "pesto": {
+    "display_name": "Basil pesto",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 5,
+      "carbs_g": 6,
+      "fat_g": 46,
+      "fiber_g": 1
+    },
+    "estimated_cost_per_basis_usd": 1.25,
+    "allergens": [
+      "dairy",
+      "tree_nuts"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "pineapple": {
+    "display_name": "Pineapple",
+    "category": "fruit",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0.5,
+      "carbs_g": 13,
+      "fat_g": 0.1,
+      "fiber_g": 1.4
+    },
+    "estimated_cost_per_basis_usd": 0.62,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "pita": {
+    "display_name": "Whole-wheat pita",
+    "category": "carb",
+    "basis_quantity": 1,
+    "basis_unit": "piece",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 6,
+      "carbs_g": 35,
+      "fat_g": 1.5,
+      "fiber_g": 5
+    },
+    "estimated_cost_per_basis_usd": 0.55,
+    "allergens": [
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "pork_tenderloin": {
+    "display_name": "Pork tenderloin",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 26,
+      "carbs_g": 0,
+      "fat_g": 4,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.1,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "potato": {
+    "display_name": "Potato",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 2,
+      "carbs_g": 17,
+      "fat_g": 0.1,
+      "fiber_g": 2.2
+    },
+    "estimated_cost_per_basis_usd": 0.18,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "quinoa": {
+    "display_name": "Quinoa",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 14,
+      "carbs_g": 64,
+      "fat_g": 6,
+      "fiber_g": 7
+    },
+    "estimated_cost_per_basis_usd": 0.75,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "red_curry_paste": {
+    "display_name": "Red curry paste",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 4,
+      "carbs_g": 18,
+      "fat_g": 6,
+      "fiber_g": 4
+    },
+    "estimated_cost_per_basis_usd": 1.1,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "rice_noodles": {
+    "display_name": "Rice noodles",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 6,
+      "carbs_g": 80,
+      "fat_g": 0.6,
+      "fiber_g": 1
+    },
+    "estimated_cost_per_basis_usd": 0.4,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "rice_vinegar": {
+    "display_name": "Rice vinegar",
+    "category": "pantry",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0,
+      "carbs_g": 0.1,
+      "fat_g": 0,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.42,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "salmon": {
+    "display_name": "Salmon",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 22,
+      "carbs_g": 0,
+      "fat_g": 12,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 2.1,
+    "allergens": [
+      "fish"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "salsa": {
+    "display_name": "Tomato salsa",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.5,
+      "carbs_g": 8,
+      "fat_g": 0.2,
+      "fiber_g": 2
+    },
+    "estimated_cost_per_basis_usd": 0.42,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "scallops": {
+    "display_name": "Scallops",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 20,
+      "carbs_g": 5,
+      "fat_g": 1,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 2.25,
+    "allergens": [
+      "shellfish"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "seitan": {
+    "display_name": "Seitan",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 25,
+      "carbs_g": 12,
+      "fat_g": 2,
+      "fiber_g": 1
+    },
+    "estimated_cost_per_basis_usd": 1.1,
+    "allergens": [
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "sesame_oil": {
+    "display_name": "Sesame oil",
+    "category": "fat",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 100,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.25,
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "shrimp": {
+    "display_name": "Shrimp",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 24,
+      "carbs_g": 0,
+      "fat_g": 1,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.85,
+    "allergens": [
+      "shellfish"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "smoked_paprika": {
+    "display_name": "Smoked paprika",
+    "category": "seasoning",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 14,
+      "carbs_g": 54,
+      "fat_g": 13,
+      "fiber_g": 35
+    },
+    "estimated_cost_per_basis_usd": 0.85,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "soba_noodles": {
+    "display_name": "Soba noodles",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 14,
+      "carbs_g": 71,
+      "fat_g": 1,
+      "fiber_g": 5
+    },
+    "estimated_cost_per_basis_usd": 0.55,
+    "allergens": [
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "soy_sauce": {
+    "display_name": "Soy sauce",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 8,
+      "carbs_g": 5,
+      "fat_g": 0.6,
+      "fiber_g": 0.8
+    },
+    "estimated_cost_per_basis_usd": 0.48,
+    "allergens": [
+      "soy",
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "spinach": {
+    "display_name": "Spinach",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 2.9,
+      "carbs_g": 3.6,
+      "fat_g": 0.4,
+      "fiber_g": 2.2
+    },
+    "estimated_cost_per_basis_usd": 0.65,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "sweet_potato": {
+    "display_name": "Sweet potato",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.6,
+      "carbs_g": 20,
+      "fat_g": 0.1,
+      "fiber_g": 3
+    },
+    "estimated_cost_per_basis_usd": 0.25,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "tahini": {
+    "display_name": "Tahini",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 17,
+      "carbs_g": 21,
+      "fat_g": 54,
+      "fiber_g": 9
+    },
+    "estimated_cost_per_basis_usd": 1.1,
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "tamari": {
+    "display_name": "Tamari",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 10,
+      "carbs_g": 6,
+      "fat_g": 0,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.72,
+    "allergens": [
+      "soy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "tempeh": {
+    "display_name": "Tempeh",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 20,
+      "carbs_g": 8,
+      "fat_g": 11,
+      "fiber_g": 5
+    },
+    "estimated_cost_per_basis_usd": 0.95,
+    "allergens": [
+      "soy"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "teriyaki_sauce": {
+    "display_name": "Teriyaki sauce",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 5,
+      "carbs_g": 40,
+      "fat_g": 0,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 0.68,
+    "allergens": [
+      "soy",
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "tomato": {
+    "display_name": "Tomato",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 0.9,
+      "carbs_g": 3.9,
+      "fat_g": 0.2,
+      "fiber_g": 1.2
+    },
+    "estimated_cost_per_basis_usd": 0.42,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "tomato_sauce": {
+    "display_name": "Tomato sauce",
+    "category": "sauce",
+    "basis_quantity": 100,
+    "basis_unit": "ml",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.5,
+      "carbs_g": 7,
+      "fat_g": 0.4,
+      "fiber_g": 2
+    },
+    "estimated_cost_per_basis_usd": 0.28,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "tortilla": {
+    "display_name": "Whole-wheat tortilla",
+    "category": "carb",
+    "basis_quantity": 1,
+    "basis_unit": "piece",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 5,
+      "carbs_g": 24,
+      "fat_g": 4,
+      "fiber_g": 4
+    },
+    "estimated_cost_per_basis_usd": 0.42,
+    "allergens": [
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "turkey_breast": {
+    "display_name": "Turkey breast",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 29,
+      "carbs_g": 0,
+      "fat_g": 2,
+      "fiber_g": 0
+    },
+    "estimated_cost_per_basis_usd": 1.3,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "turmeric": {
+    "display_name": "Ground turmeric",
+    "category": "seasoning",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 10,
+      "carbs_g": 67,
+      "fat_g": 3,
+      "fiber_g": 23
+    },
+    "estimated_cost_per_basis_usd": 0.82,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "udon_noodles": {
+    "display_name": "Udon noodles",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 9,
+      "carbs_g": 71,
+      "fat_g": 1,
+      "fiber_g": 3
+    },
+    "estimated_cost_per_basis_usd": 0.42,
+    "allergens": [
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "white_beans": {
+    "display_name": "White beans",
+    "category": "protein",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 8,
+      "carbs_g": 22,
+      "fat_g": 0.6,
+      "fiber_g": 6
+    },
+    "estimated_cost_per_basis_usd": 0.38,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "white_rice": {
+    "display_name": "White rice",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 7,
+      "carbs_g": 80,
+      "fat_g": 0.7,
+      "fiber_g": 1
+    },
+    "estimated_cost_per_basis_usd": 0.22,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "whole_grain_bread": {
+    "display_name": "Whole-grain bread",
+    "category": "carb",
+    "basis_quantity": 1,
+    "basis_unit": "piece",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 4,
+      "carbs_g": 20,
+      "fat_g": 2,
+      "fiber_g": 3
+    },
+    "estimated_cost_per_basis_usd": 0.32,
+    "allergens": [
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "whole_wheat_pasta": {
+    "display_name": "Whole-wheat pasta",
+    "category": "carb",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 14,
+      "carbs_g": 70,
+      "fat_g": 2.5,
+      "fiber_g": 9
+    },
+    "estimated_cost_per_basis_usd": 0.38,
+    "allergens": [
+      "wheat"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "zaatar": {
+    "display_name": "Za'atar",
+    "category": "seasoning",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 10,
+      "carbs_g": 45,
+      "fat_g": 15,
+      "fiber_g": 20
+    },
+    "estimated_cost_per_basis_usd": 1.2,
+    "allergens": [
+      "sesame"
+    ],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  },
+  "zucchini": {
+    "display_name": "Zucchini",
+    "category": "vegetable",
+    "basis_quantity": 100,
+    "basis_unit": "g",
+    "nutrition_per_basis_estimate": {
+      "protein_g": 1.2,
+      "carbs_g": 3.1,
+      "fat_g": 0.3,
+      "fiber_g": 1
+    },
+    "estimated_cost_per_basis_usd": 0.42,
+    "allergens": [],
+    "nutrition_note": "Approximate values for dataset calculations; verify for production nutrition guidance.",
+    "cost_note": "Approximate US grocery estimate; not a live price."
+  }
+}

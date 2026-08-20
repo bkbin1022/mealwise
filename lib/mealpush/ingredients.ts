@@ -13,6 +13,7 @@ export type Ingredient = {
   name: string;
   category: IngredientCategory;
   colors: [string, string, string];
+  recipeCount?: number;
 };
 
 export const ingredients: Ingredient[] = [

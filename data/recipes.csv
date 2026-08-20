@@ -1,0 +1,501 @@
+﻿recipe_id,name,primary_protein,cuisine,meal_type,servings,calories_kcal,protein_g,carbs_g,fat_g,fiber_g,prep_minutes,cook_minutes,total_minutes,cost_per_serving_usd,meal_prep_score,reheat_score,batch_cooking_score,fridge_storage_days,freezer_friendly,difficulty,ingredient_count
+MP0001,Basil Pesto Lean ground beef Grain Bowl,beef,italian,grain_bowl,4,847,57.8,68.6,37.9,11.1,12,23,35,3.94,9,9,9,4,true,easy,8
+MP0002,Doenjang Seitan Noodle Bowl,other,korean,noodle_bowl,5,676,52.0,91.6,11.3,9.1,15,10,25,3.2,9,8,9,4,true,easy,8
+MP0003,Roasted Tomato Shrimp Soup,shrimp_seafood,italian,soup,4,573,52.0,62.1,13.0,10.7,18,47,65,4.69,9,10,10,3,true,easy,8
+MP0004,Balsamic Pork tenderloin Wrap,pork,american_western,wrap,6,414,46.9,25.6,13.8,5.8,9,46,55,3.04,7,7,8,4,true,easy,8
+MP0005,Tuscan Tomato Beef sirloin Sheet-Pan Meal,beef,italian,sheet_pan,4,588,48.1,49.3,22.1,8.8,12,33,45,4.24,10,9,10,4,true,medium,8
+MP0006,Smoky BBQ Chicken breast Sheet-Pan Meal,chicken,american_western,sheet_pan,4,556,55.1,55.6,12.6,9.8,15,20,35,3.16,10,9,10,4,true,easy,8
+MP0007,Tahini Lemon Salmon Meal-Prep Salad,fish,middle_eastern,salad,5,833,46.7,72.2,39.7,8.6,18,27,45,4.73,7,5,9,3,false,easy,9
+MP0008,Balsamic Herb Chicken thigh Wrap,chicken,mediterranean,wrap,4,596,47.4,46.6,24.4,7.8,9,21,30,3.03,7,7,8,4,true,easy,8
+MP0009,Lemon Basil Scallops Grain Bowl,shrimp_seafood,italian,grain_bowl,6,451,38.5,55.4,8.4,8.6,12,28,40,4.65,9,9,9,3,true,easy,8
+MP0010,Herbed Yogurt Firm tofu Grain Bowl,tofu_vegetarian,middle_eastern,grain_bowl,4,673,39.7,75.2,23.7,20.3,15,30,45,2.61,9,9,9,4,true,medium,9
+MP0011,Chili Garlic Cod Sheet-Pan Meal,fish,chinese_inspired,sheet_pan,4,560,47.8,71.3,9.3,6.1,18,10,28,4.09,10,9,10,3,true,easy,9
+MP0012,Za'atar Egg Meal-Prep Salad,egg_based,middle_eastern,salad,5,528,20.7,70.1,18.3,6.6,9,26,35,1.74,7,5,9,3,false,easy,8
+MP0013,Garlic Herb Lean ground turkey Grain Bowl,turkey,american_western,grain_bowl,4,675,55.9,60.3,23.4,11.0,12,38,50,3.46,9,9,9,4,true,easy,8
+MP0014,Balsamic Garlic Extra-firm tofu Roast,tofu_vegetarian,italian,roasted_meal,6,574,37.5,55.2,22.6,12.2,15,25,40,2.82,9,9,9,4,true,easy,8
+MP0015,Cilantro Lime Chicken breast Burrito Bowl,chicken,mexican_tex_mex,burrito_bowl,4,612,55.3,69.6,12.5,4.2,18,17,35,3.08,9,9,9,4,true,medium,8
+MP0016,Miso Herb Tempeh Noodle Bowl,tofu_vegetarian,japanese,noodle_bowl,4,816,52.1,90.6,27.3,18.4,9,19,28,2.91,9,8,9,4,true,easy,8
+MP0017,Spiced Yogurt Firm tofu Stew,tofu_vegetarian,indian,stew,5,682,38.4,75.4,25.2,11.1,12,28,40,2.69,10,10,10,4,true,easy,8
+MP0018,Tahini Lemon Extra-firm tofu Grain Bowl,tofu_vegetarian,middle_eastern,grain_bowl,4,821,47.9,67.7,39.8,14.4,15,20,35,3.19,9,9,9,4,true,easy,9
+MP0019,Fajita Chicken thigh Wrap,chicken,mexican_tex_mex,wrap,6,680,50.2,60.5,26.4,9.8,18,10,28,2.9,7,7,8,4,true,easy,8
+MP0020,Masala Canned tuna Curry,fish,indian,curry,4,636,50.6,88.0,9.1,9.7,9,51,60,2.87,10,10,10,3,true,medium,8
+MP0021,Lemongrass-Style Shrimp Noodle Bowl,shrimp_seafood,southeast_asian,noodle_bowl,4,582,45.9,80.7,8.4,4.7,12,33,45,4.17,9,8,9,3,true,easy,9
+MP0022,Dill Yogurt Turkey breast Sheet-Pan Meal,turkey,mediterranean,sheet_pan,5,607,57.1,69.9,11.0,17.1,15,30,45,3.65,10,9,10,4,true,easy,9
+MP0023,Smoky BBQ Lean ground pork Grain Bowl,pork,american_western,grain_bowl,4,776,53.8,79.3,27.1,12.9,18,10,28,2.73,9,9,9,4,true,easy,8
+MP0024,Gochujang Lean ground beef Sheet-Pan Meal,beef,korean,sheet_pan,6,735,49.8,77.1,25.3,5.7,9,16,25,3.24,10,9,10,4,true,easy,9
+MP0025,Bulgogi Egg Rice Bowl,egg_based,korean,rice_bowl,4,602,23.3,86.0,18.3,7.0,12,33,45,1.74,9,9,9,4,false,medium,9
+MP0026,Curry BBQ Salmon Stir-Fry,fish,other_fusion,stir_fry,4,712,45.0,72.1,27.1,6.9,15,50,65,4.7,9,9,9,3,true,easy,8
+MP0027,Honey Mustard Beef sirloin Pasta,beef,american_western,pasta,5,782,56.9,84.3,24.1,12.5,18,27,45,4.05,9,8,9,4,true,easy,8
+MP0028,Balsamic Egg Wrap,egg_based,american_western,wrap,4,344,20.5,26.4,17.4,5.8,9,19,28,1.99,7,7,8,4,false,easy,8
+MP0029,Sweet Chili Basil Cod Meal-Prep Salad,fish,southeast_asian,salad,6,626,44.7,92.1,8.8,4.8,12,33,45,3.93,7,5,9,3,false,easy,9
+MP0030,Thai Basil Lean ground turkey Rice Bowl,turkey,southeast_asian,rice_bowl,4,654,49.1,71.3,19.1,4.2,15,10,25,3.25,9,9,9,4,true,medium,9
+MP0031,Salsa Verde Black beans Wrap,beans_lentils_chickpeas,mexican_tex_mex,wrap,4,466,21.5,76.0,8.4,22.8,18,12,30,1.88,7,7,8,4,true,easy,9
+MP0032,Green Curry Chickpeas Curry,beans_lentils_chickpeas,southeast_asian,curry,5,746,25.4,128.0,14.7,19.5,9,41,50,2.51,10,10,10,4,true,easy,9
+MP0033,Roasted Tomato Chicken breast Soup,chicken,italian,soup,4,681,63.9,73.6,14.6,13.1,12,43,55,3.47,9,10,10,4,true,easy,8
+MP0034,Pineapple Soy Scallops Noodle Bowl,shrimp_seafood,chinese_inspired,noodle_bowl,6,596,46.8,82.1,8.9,9.1,15,20,35,4.58,9,8,9,3,true,easy,8
+MP0035,Creamy Herb Brown lentils Pasta,beans_lentils_chickpeas,italian,pasta,4,659,34.2,108.0,10.0,27.7,18,22,40,2.09,9,8,9,4,true,medium,8
+MP0036,Smoky BBQ Tempeh Sheet-Pan Meal,tofu_vegetarian,american_western,sheet_pan,4,691,43.6,69.5,26.5,18.6,9,26,35,3.02,10,9,10,4,true,easy,8
+MP0037,Miso Ginger Kidney beans Stir-Fry,beans_lentils_chickpeas,japanese,stir_fry,5,670,27.2,117.3,10.2,20.1,12,13,25,1.85,9,9,9,4,true,easy,9
+MP0038,Balsamic Herb Firm tofu Wrap,tofu_vegetarian,mediterranean,wrap,4,560,34.7,51.8,23.8,11.3,15,25,40,2.74,7,7,8,4,true,easy,8
+MP0039,Sesame Soy Chicken thigh Sheet-Pan Meal,chicken,korean,sheet_pan,6,601,47.9,50.1,23.2,8.4,18,27,45,3.14,10,9,10,4,true,easy,8
+MP0040,Rustic Tomato Turkey breast Sheet-Pan Meal,turkey,american_western,sheet_pan,4,532,51.6,58.8,10.1,12.3,9,26,35,3.21,10,9,10,4,true,medium,8
+MP0041,Chili Garlic Lean ground beef Rice Bowl,beef,chinese_inspired,rice_bowl,4,720,50.6,68.7,27.0,6.5,12,28,40,3.57,9,9,9,4,true,easy,9
+MP0042,Smoky BBQ White beans Sheet-Pan Meal,beans_lentils_chickpeas,american_western,sheet_pan,5,569,22.1,101.5,8.3,22.3,15,30,45,2.19,10,9,10,4,true,easy,8
+MP0043,Gochujang Lime Extra-firm tofu Rice Bowl,tofu_vegetarian,other_fusion,rice_bowl,4,702,38.7,81.8,24.5,11.4,18,27,45,2.5,9,9,9,4,true,easy,8
+MP0044,Doenjang Canned tuna Sheet-Pan Meal,fish,korean,sheet_pan,6,577,49.6,73.3,9.5,5.8,9,41,50,3.23,10,9,10,3,true,easy,8
+MP0045,Sweet Soy Salmon Rice Bowl,fish,japanese,rice_bowl,4,737,44.8,79.4,26.7,6.8,12,13,25,4.68,9,9,9,3,true,medium,8
+MP0046,Tangy Ginger Tempeh Sheet-Pan Meal,tofu_vegetarian,japanese,sheet_pan,4,788,46.7,90.8,26.5,17.0,15,25,40,2.95,10,9,10,4,true,easy,8
+MP0047,Basil Pesto Beef sirloin Grain Bowl,beef,italian,grain_bowl,5,826,59.3,68.6,34.9,11.1,18,27,45,4.54,9,9,9,4,true,easy,8
+MP0048,Garlic Herb Egg Roast,egg_based,american_western,roasted_meal,4,575,29.4,72.6,18.6,13.4,9,21,30,2.09,9,9,9,4,false,easy,8
+MP0049,Doenjang Chicken breast Stir-Fry,chicken,korean,stir_fry,6,680,58.5,81.3,13.4,5.9,12,23,35,3.33,9,9,9,4,true,easy,8
+MP0050,Masala Pork tenderloin Curry,pork,indian,curry,4,692,57.4,76.0,17.6,14.2,15,25,40,3.04,10,10,10,4,true,medium,8
+MP0051,Tomato Olive Lean ground pork Meal-Prep Salad,pork,mediterranean,salad,4,729,52.5,72.5,25.4,9.9,18,22,40,3.03,7,5,9,3,false,easy,8
+MP0052,Miso Herb Egg Stir-Fry,egg_based,japanese,stir_fry,5,556,23.1,77.1,17.3,6.1,9,36,45,1.54,9,9,9,4,false,easy,8
+MP0053,Lemon Herb Chicken thigh Grain Bowl,chicken,mediterranean,grain_bowl,4,585,47.3,44.1,24.4,7.6,12,23,35,3.18,9,9,9,4,true,easy,8
+MP0054,Fajita Chicken breast Sheet-Pan Meal,chicken,mexican_tex_mex,sheet_pan,6,700,56.9,85.5,14.5,5.6,15,15,30,2.89,10,9,10,4,true,easy,8
+MP0055,Garlic Herb Cod Grain Bowl,fish,american_western,grain_bowl,4,556,45.4,70.1,10.5,8.8,18,27,45,3.78,9,9,9,3,true,medium,8
+MP0056,Fajita Pork tenderloin Wrap,pork,mexican_tex_mex,wrap,4,587,50.2,60.5,16.0,9.8,9,31,40,3.12,7,7,8,4,true,easy,8
+MP0057,Tuscan Tomato Lean ground beef Soup,beef,italian,soup,5,759,53.5,77.4,26.2,6.7,12,43,55,3.52,9,10,10,4,true,easy,8
+MP0058,Balsamic Garlic Beef sirloin Grain Bowl,beef,italian,grain_bowl,4,590,48.3,50.0,21.9,8.7,15,10,25,4.18,9,9,9,4,true,easy,8
+MP0059,Spiced Yogurt Black beans Grain Bowl,beans_lentils_chickpeas,indian,grain_bowl,6,548,26.5,91.3,8.5,25.4,18,47,65,2.35,9,9,9,4,true,easy,8
+MP0060,Lemon Herb Lean ground beef Grain Bowl,beef,mediterranean,grain_bowl,4,697,51.8,57.1,29.0,7.8,9,51,60,3.79,9,9,9,4,true,medium,8
+MP0061,Tomato Olive Chicken thigh Grain Bowl,chicken,mediterranean,grain_bowl,4,719,50.2,72.5,25.4,9.2,12,16,28,2.98,9,9,9,4,true,easy,8
+MP0062,Roasted Tomato Chicken breast Sheet-Pan Meal,chicken,mexican_tex_mex,sheet_pan,5,666,57.9,76.3,14.4,8.8,15,40,55,3.24,10,9,10,4,true,easy,8
+MP0063,Dill Yogurt Lean ground turkey Grain Bowl,turkey,mediterranean,grain_bowl,4,580,51.1,47.9,20.5,8.6,18,12,30,3.73,9,9,9,4,true,easy,9
+MP0064,Spicy Garlic Lean ground pork Sheet-Pan Meal,pork,korean,sheet_pan,6,740,47.8,79.6,25.6,6.5,9,16,25,2.47,10,9,10,4,true,easy,9
+MP0065,Tuscan Tomato Chicken thigh Sheet-Pan Meal,chicken,italian,sheet_pan,4,595,46.6,49.3,23.5,8.8,12,53,65,3.04,10,9,10,4,true,medium,8
+MP0066,Chipotle Canned tuna Wrap,fish,mexican_tex_mex,wrap,4,523,47.8,52.0,13.8,10.6,15,20,35,3.58,7,7,8,3,true,easy,8
+MP0067,Red Curry Shelled edamame Curry,other,southeast_asian,curry,5,680,30.2,93.8,20.4,17.2,18,7,25,2.57,10,10,10,4,true,easy,9
+MP0068,Shawarma-Spiced Chicken breast Sheet-Pan Meal,chicken,middle_eastern,sheet_pan,4,554,57.3,48.7,14.5,10.6,9,31,40,3.53,10,9,10,4,true,easy,8
+MP0069,Tahini Soy Beef sirloin Wrap,beef,other_fusion,wrap,6,715,53.3,39.2,38.3,9.6,12,53,65,4.07,7,7,8,4,true,easy,8
+MP0070,Sumac-Style Chicken thigh Meal-Prep Salad,chicken,middle_eastern,salad,4,710,50.9,73.6,23.5,8.8,15,50,65,2.4,7,5,9,3,false,medium,8
+MP0071,Tikka Salmon Sheet-Pan Meal,fish,indian,sheet_pan,4,751,47.7,81.4,26.1,8.1,18,10,28,4.38,10,9,10,3,true,easy,9
+MP0072,Buffalo Egg Wrap,egg_based,american_western,wrap,5,442,22.6,47.3,18.1,8.7,9,16,25,2.4,7,7,8,4,false,easy,8
+MP0073,Balsamic Garlic Chickpeas Pasta,beans_lentils_chickpeas,italian,pasta,4,743,30.8,126.6,12.6,21.0,12,13,25,2.12,9,8,9,4,true,easy,8
+MP0074,Sesame Tamari Firm tofu Noodle Bowl,tofu_vegetarian,chinese_inspired,noodle_bowl,6,655,38.0,74.2,22.9,9.2,15,35,50,2.56,9,8,9,4,true,easy,8
+MP0075,Balsamic Chili Extra-firm tofu Noodle Bowl,tofu_vegetarian,other_fusion,noodle_bowl,4,718,47.6,79.0,23.5,11.5,18,10,28,2.88,9,8,9,4,true,medium,8
+MP0076,Smoky Paprika Pork tenderloin Wrap,pork,mediterranean,wrap,4,506,47.2,47.5,14.1,9.6,9,19,28,3.15,7,7,8,4,true,easy,8
+MP0077,Balsamic Herb Chicken breast Wrap,chicken,mediterranean,wrap,5,528,54.9,46.6,13.5,7.8,12,28,40,3.41,7,7,8,4,true,easy,8
+MP0078,Garlic Herb Chicken thigh Roast,chicken,american_western,roasted_meal,4,739,55.8,71.8,25.4,13.4,15,25,40,2.92,9,9,9,4,true,easy,8
+MP0079,Green Curry Shrimp Noodle Bowl,shrimp_seafood,southeast_asian,noodle_bowl,6,584,47.8,71.7,11.8,6.8,18,37,55,4.62,9,8,9,3,true,easy,9
+MP0080,Masala Turkey breast Curry,turkey,indian,curry,4,674,56.6,88.0,10.6,9.7,9,31,40,2.94,10,10,10,4,true,medium,8
+MP0081,Dill Yogurt Lean ground beef Wrap,beef,mediterranean,wrap,4,516,45.6,24.9,26.0,5.6,12,38,50,3.72,7,7,8,4,true,easy,9
+MP0082,Lemon Herb Beef sirloin Meal-Prep Salad,beef,mediterranean,salad,5,579,48.8,44.1,23.0,7.6,15,20,35,4.38,7,5,9,3,false,easy,8
+MP0083,Smoky BBQ Tempeh Grain Bowl,tofu_vegetarian,american_western,grain_bowl,4,834,51.2,93.3,28.4,21.6,18,22,40,2.97,9,9,9,4,true,easy,8
+MP0084,Salsa Verde Brown lentils Wrap,beans_lentils_chickpeas,mexican_tex_mex,wrap,6,435,21.5,68.8,8.2,21.0,9,46,55,1.75,7,7,8,4,true,easy,9
+MP0085,Tomato Olive Lean ground turkey Roast,turkey,mediterranean,roasted_meal,4,685,54.7,71.7,19.9,19.7,12,13,25,3.31,9,9,9,4,true,medium,8
+MP0086,Sesame Soy Lean ground pork Stew,pork,korean,stew,4,610,46.4,50.1,24.9,8.4,15,25,40,3.14,10,10,10,4,true,easy,8
+MP0087,Black Pepper Chicken breast Sheet-Pan Meal,chicken,chinese_inspired,sheet_pan,5,661,58.2,78.4,12.7,6.4,18,47,65,3.1,10,9,10,4,true,easy,8
+MP0088,Roasted Tomato Lean ground beef Soup,beef,italian,soup,4,765,56.4,73.6,27.2,13.1,9,36,45,3.7,9,10,10,4,true,easy,8
+MP0089,Sumac-Style Turkey breast Stew,turkey,middle_eastern,stew,6,608,56.2,63.8,14.2,10.3,12,13,25,3.23,10,10,10,4,true,easy,8
+MP0090,Teriyaki Lean ground turkey Rice Bowl,turkey,japanese,rice_bowl,4,682,50.8,76.6,19.1,4.4,15,20,35,2.97,9,9,9,4,true,medium,8
+MP0091,Salsa Verde Egg Wrap,egg_based,mexican_tex_mex,wrap,4,360,17.9,33.6,17.1,6.6,18,37,55,1.85,7,7,8,4,false,easy,9
+MP0092,Honey Mustard Cod Wrap,fish,american_western,wrap,5,483,44.0,48.8,12.4,8.9,9,19,28,3.92,7,7,8,3,true,easy,8
+MP0093,Sesame Soy Firm tofu Stew,tofu_vegetarian,korean,stew,4,656,37.8,71.1,24.5,8.6,12,13,25,2.53,10,10,10,4,true,easy,8
+MP0094,Gochujang Chicken thigh Stew,chicken,korean,stew,6,721,49.8,77.1,23.7,5.7,15,10,25,2.64,10,10,10,4,true,easy,9
+MP0095,Creamy Herb Egg Pasta,egg_based,italian,pasta,4,584,30.6,72.8,18.9,13.3,18,22,40,2.19,9,8,9,4,false,medium,8
+MP0096,Tahini Lemon Canned tuna Sheet-Pan Meal,fish,middle_eastern,sheet_pan,4,702,51.2,72.2,23.2,8.6,9,26,35,3.45,10,9,10,3,true,easy,9
+MP0097,Honey Mustard Turkey breast Stew,turkey,american_western,stew,5,686,59.9,84.3,12.1,12.5,12,13,25,3.37,10,10,10,4,true,easy,8
+MP0098,Sesame Tamari Halloumi Noodle Bowl,other,chinese_inspired,noodle_bowl,4,734,34.8,71.1,34.5,5.7,15,20,35,3.05,9,8,9,4,true,easy,8
+MP0099,Lemongrass-Style Chicken breast Meal-Prep Salad,chicken,southeast_asian,salad,6,628,56.5,72.7,12.3,4.6,18,27,45,3.02,7,5,9,3,false,easy,9
+MP0100,Ginger Scallion Beef sirloin Noodle Bowl,beef,korean,noodle_bowl,4,700,51.6,72.9,22.4,5.9,9,56,65,3.81,9,8,9,4,true,medium,8
+MP0101,Roasted Tomato Lean ground beef Wrap,beef,mexican_tex_mex,wrap,4,653,50.4,53.5,26.4,10.8,12,33,45,3.81,7,7,8,4,true,easy,8
+MP0102,Salsa Verde Salmon Stew,fish,mexican_tex_mex,stew,5,601,41.3,44.8,28.5,8.6,15,25,40,4.58,10,10,10,3,true,easy,9
+MP0103,Basil Pesto Pork tenderloin Soup,pork,italian,soup,4,708,56.4,57.1,28.2,8.7,18,17,35,3.8,9,10,10,4,true,easy,8
+MP0104,Masala Seitan Grain Bowl,other,indian,grain_bowl,6,722,50.6,106.0,10.6,11.2,9,41,50,2.64,9,9,9,4,true,easy,8
+MP0105,Salsa Verde Chicken thigh Sheet-Pan Meal,chicken,mexican_tex_mex,sheet_pan,4,641,45.6,62.8,23.0,10.9,12,23,35,2.96,10,9,10,4,true,medium,9
+MP0106,Dill Yogurt Scallops Meal-Prep Salad,shrimp_seafood,mediterranean,salad,4,571,44.4,78.1,9.0,7.4,15,10,25,5.09,7,5,9,3,false,easy,9
+MP0107,Lemon Herb Extra-firm tofu Roast,tofu_vegetarian,mediterranean,roasted_meal,5,660,38.1,72.1,24.4,9.1,18,12,30,2.67,9,9,9,4,true,easy,8
+MP0108,Bulgogi Tempeh Rice Bowl,tofu_vegetarian,korean,rice_bowl,4,831,45.7,99.2,27.9,15.7,9,19,28,2.81,9,9,9,4,true,easy,9
+MP0109,Coconut Curry Shrimp Grain Bowl,shrimp_seafood,indian,grain_bowl,6,604,47.2,69.1,15.4,7.3,12,18,30,4.48,9,9,9,3,true,easy,8
+MP0110,Sesame Soy Egg Noodle Bowl,egg_based,korean,noodle_bowl,4,552,23.3,76.9,16.8,3.0,15,13,28,2.13,9,8,9,4,false,medium,8
+MP0111,Rustic Tomato Firm tofu Grain Bowl,tofu_vegetarian,american_western,grain_bowl,4,712,40.6,76.3,27.2,16.4,18,17,35,2.58,9,9,9,4,true,easy,8
+MP0112,Miso Herb Beef sirloin Stir-Fry,beef,japanese,stir_fry,5,714,51.0,76.3,22.7,6.1,9,36,45,3.57,9,9,9,4,true,easy,8
+MP0113,Balsamic Herb Lean ground turkey Roast,turkey,mediterranean,roasted_meal,4,659,52.7,69.3,19.0,6.5,12,38,50,3.04,9,9,9,4,true,easy,8
+MP0114,Sweet Chili Extra-firm tofu Stir-Fry,tofu_vegetarian,chinese_inspired,stir_fry,6,749,40.8,93.9,23.4,11.3,15,35,50,2.65,9,9,9,4,true,easy,9
+MP0115,Miso Ginger Chicken breast Rice Bowl,chicken,japanese,rice_bowl,4,666,57.5,75.9,14.7,7.5,18,22,40,3.02,9,9,9,4,true,medium,9
+MP0116,Curry BBQ Chicken thigh Stir-Fry,chicken,other_fusion,stir_fry,4,722,51.0,72.1,25.5,6.9,9,31,40,2.98,9,9,9,4,true,easy,8
+MP0117,Cilantro Lime Tempeh Rice Bowl,tofu_vegetarian,mexican_tex_mex,rice_bowl,5,746,43.8,83.6,26.3,12.9,12,38,50,2.94,9,9,9,4,true,easy,8
+MP0118,Bulgogi Chicken breast Sheet-Pan Meal,chicken,korean,sheet_pan,4,696,57.2,85.2,14.1,7.0,15,10,25,2.94,10,9,10,4,true,easy,9
+MP0119,Teriyaki Egg Noodle Bowl,egg_based,japanese,noodle_bowl,6,583,22.8,85.4,16.7,4.5,18,12,30,2.02,9,8,9,4,false,easy,8
+MP0120,Salsa Verde Lean ground beef Rice Bowl,beef,mexican_tex_mex,rice_bowl,4,738,47.5,80.8,25.0,5.4,9,31,40,3.2,9,9,9,4,true,medium,9
+MP0121,Cilantro Lime Kidney beans Burrito Bowl,beans_lentils_chickpeas,mexican_tex_mex,burrito_bowl,4,616,25.0,111.0,8.0,16.8,12,13,25,1.91,9,9,9,4,true,easy,8
+MP0122,Honey Mustard Beef sirloin Wrap,beef,american_western,wrap,5,628,50.0,48.8,25.9,8.9,15,25,40,4.15,7,7,8,4,true,easy,8
+MP0123,Miso Herb Chicken thigh Rice Bowl,chicken,japanese,rice_bowl,4,719,49.5,76.3,24.0,6.1,18,22,40,2.37,9,9,9,4,true,easy,8
+MP0124,Gochujang Lean ground beef Stew,beef,korean,stew,6,767,49.7,85.1,25.3,5.8,9,26,35,3.42,10,10,10,4,true,easy,9
+MP0125,Enchilada-Style Chicken breast Burrito Bowl,chicken,mexican_tex_mex,burrito_bowl,4,649,56.2,72.3,15.0,7.9,12,28,40,3.16,9,9,9,4,true,medium,8
+MP0126,Fajita Beef sirloin Burrito Bowl,beef,mexican_tex_mex,burrito_bowl,4,770,51.7,83.2,25.6,7.8,15,40,55,3.76,9,9,9,4,true,easy,8
+MP0127,Sesame Tamari Cod Rice Bowl,fish,chinese_inspired,rice_bowl,5,525,43.8,68.7,8.3,3.9,18,7,25,3.63,9,9,9,3,true,easy,8
+MP0128,Sweet Soy Canned tuna Rice Bowl,fish,japanese,rice_bowl,4,607,49.3,79.4,10.2,6.8,9,21,30,3.4,9,9,9,3,true,easy,8
+MP0129,Tangy Ginger Chicken thigh Sheet-Pan Meal,chicken,japanese,sheet_pan,6,722,50.7,76.8,23.6,8.3,12,38,50,2.71,10,9,10,4,true,easy,8
+MP0130,Bulgogi Lean ground beef Stir-Fry,beef,korean,stir_fry,4,780,49.7,85.2,26.7,7.0,15,20,35,3.17,9,9,9,4,true,medium,9
+MP0131,Tikka Lean ground pork Sheet-Pan Meal,pork,indian,sheet_pan,4,769,52.2,81.4,26.1,8.1,18,12,30,2.66,10,9,10,4,true,easy,9
+MP0132,Bulgogi Salmon Sheet-Pan Meal,fish,korean,sheet_pan,5,756,43.7,85.2,26.7,7.0,9,46,55,4.29,10,9,10,3,true,easy,9
+MP0133,Bulgogi White beans Stew,beans_lentils_chickpeas,korean,stew,4,688,25.1,124.8,9.8,17.8,12,38,50,1.83,10,10,10,4,true,easy,9
+MP0134,Balsamic Herb Black beans Roast,beans_lentils_chickpeas,mediterranean,roasted_meal,6,539,24.6,89.8,9.0,24.0,15,15,30,2.24,9,9,9,4,true,easy,8
+MP0135,Smoky Paprika Firm tofu Roast,tofu_vegetarian,mediterranean,roasted_meal,4,658,37.5,74.7,23.3,21.6,18,10,28,2.33,9,9,9,4,true,medium,8
+MP0136,Smoky BBQ Pork tenderloin Roast,pork,american_western,roasted_meal,4,644,53.9,67.8,17.5,10.5,9,31,40,3.2,9,9,9,4,true,easy,8
+MP0137,Ginger Garlic Chicken breast Sheet-Pan Meal,chicken,chinese_inspired,sheet_pan,5,661,57.1,79.7,12.6,4.6,12,48,60,3.19,10,9,10,4,true,easy,8
+MP0138,Ginger Garlic Chickpeas Noodle Bowl,beans_lentils_chickpeas,chinese_inspired,noodle_bowl,4,728,26.8,128.3,11.9,19.0,15,15,30,2.08,9,8,9,4,true,easy,8
+MP0139,Sesame Tamari Beef sirloin Rice Bowl,beef,chinese_inspired,rice_bowl,6,671,49.8,68.7,21.9,3.9,18,17,35,3.86,9,9,9,4,true,easy,8
+MP0140,Black Pepper Brown lentils Noodle Bowl,beans_lentils_chickpeas,chinese_inspired,noodle_bowl,4,659,25.3,122.1,7.7,19.1,9,16,25,1.79,9,8,9,4,true,medium,8
+MP0141,Lemon Herb Lean ground beef Sheet-Pan Meal,beef,mediterranean,sheet_pan,4,600,47.3,44.1,26.0,7.6,12,28,40,3.78,10,9,10,4,true,easy,8
+MP0142,Enchilada-Style Chicken thigh Stew,chicken,mexican_tex_mex,stew,5,596,47.7,38.5,27.9,8.9,15,10,25,2.99,10,10,10,4,true,easy,8
+MP0143,Buffalo Extra-firm tofu Stew,tofu_vegetarian,american_western,stew,4,568,38.0,52.4,22.9,11.9,18,17,35,2.89,10,10,10,4,true,easy,8
+MP0144,Balsamic Tempeh Roast,tofu_vegetarian,american_western,roasted_meal,6,782,51.4,75.6,30.5,17.8,9,19,28,3.37,9,9,9,4,true,easy,8
+MP0145,Roasted Tomato Chicken breast Roast,chicken,italian,roasted_meal,4,650,62.5,62.1,16.9,10.7,12,33,45,3.71,9,9,9,4,true,medium,8
+MP0146,Lemongrass-Style Kidney beans Stir-Fry,beans_lentils_chickpeas,southeast_asian,stir_fry,4,631,26.2,114.1,7.8,17.2,15,30,45,1.85,9,9,9,4,true,easy,9
+MP0147,Honey Mustard Scallops Pasta,shrimp_seafood,american_western,pasta,5,648,46.4,91.8,10.6,12.5,18,37,55,4.8,9,8,9,3,true,easy,8
+MP0148,Sweet Chili Basil Cod Rice Bowl,fish,southeast_asian,rice_bowl,4,604,45.6,81.9,10.4,6.9,9,19,28,3.8,9,9,9,3,true,easy,9
+MP0149,Creamy Herb Shelled edamame Roast,other,italian,roasted_meal,6,669,39.0,87.8,18.0,22.0,12,28,40,3.08,9,9,9,4,true,easy,8
+MP0150,Chipotle Halloumi Burrito Bowl,other,mexican_tex_mex,burrito_bowl,4,828,34.4,87.9,37.7,9.6,15,13,28,3.12,9,9,9,4,true,medium,8
+MP0151,Sweet Chili Lean ground pork Sheet-Pan Meal,pork,chinese_inspired,sheet_pan,4,780,48.6,88.7,25.7,7.8,18,42,60,2.81,10,9,10,4,true,easy,9
+MP0152,Sesame Soy Seitan Sheet-Pan Meal,other,korean,sheet_pan,5,638,49.1,83.8,11.8,6.6,9,21,30,3.05,10,9,10,4,true,easy,8
+MP0153,Rustic Tomato Beef sirloin Grain Bowl,beef,american_western,grain_bowl,4,741,50.4,80.8,24.0,10.7,12,16,28,3.72,9,9,9,4,true,easy,8
+MP0154,Salsa Verde White beans Burrito Bowl,beans_lentils_chickpeas,mexican_tex_mex,burrito_bowl,6,646,22.9,120.4,8.1,16.2,15,15,30,1.86,9,9,9,4,true,easy,9
+MP0155,Sesame Soy Chicken thigh Stew,chicken,korean,stew,4,601,47.9,50.1,23.2,8.4,18,12,30,3.14,10,10,10,4,true,medium,8
+MP0156,Coconut Curry Black beans Sheet-Pan Meal,beans_lentils_chickpeas,indian,sheet_pan,4,692,27.4,112.3,14.8,23.5,9,26,35,2.33,10,9,10,4,true,easy,8
+MP0157,Balsamic Pork tenderloin Grain Bowl,pork,american_western,grain_bowl,5,623,50.9,71.4,14.9,6.8,12,16,28,3.01,9,9,9,4,true,easy,8
+MP0158,Bulgogi Chicken breast Stew,chicken,korean,stew,4,606,54.6,69.5,12.2,10.3,15,30,45,3.26,10,10,10,4,true,easy,9
+MP0159,Herbed Yogurt Egg Wrap,egg_based,middle_eastern,wrap,6,338,19.1,25.8,17.6,5.3,18,42,60,2.08,7,7,8,4,false,easy,9
+MP0160,Garlic Herb Lean ground beef Wrap,beef,american_western,wrap,4,514,45.9,24.3,25.9,7.8,9,31,40,3.43,7,7,8,4,true,medium,8
+MP0161,Sweet Chili Chicken thigh Rice Bowl,chicken,chinese_inspired,rice_bowl,4,765,48.4,86.0,25.3,8.2,12,23,35,2.67,9,9,9,4,true,easy,9
+MP0162,Tamari Sesame Canned tuna Noodle Bowl,fish,japanese,noodle_bowl,5,551,49.2,69.0,8.7,5.7,15,20,35,3.3,9,8,9,3,true,easy,8
+MP0163,Balsamic Herb Chickpeas Grain Bowl,beans_lentils_chickpeas,mediterranean,grain_bowl,4,594,24.6,95.2,12.8,22.2,18,47,65,2.29,9,9,9,4,true,easy,8
+MP0164,Chili Garlic Chicken breast Noodle Bowl,chicken,chinese_inspired,noodle_bowl,6,643,59.8,71.3,13.2,6.1,9,16,25,3.49,9,8,9,4,true,easy,9
+MP0165,Herbed Yogurt Turkey breast Meal-Prep Salad,turkey,middle_eastern,salad,4,607,57.7,70.7,10.4,7.1,12,33,45,3.45,7,5,9,3,false,medium,9
+MP0166,Tangy Ginger Lean ground turkey Sheet-Pan Meal,turkey,japanese,sheet_pan,4,689,52.2,76.8,19.2,8.3,15,10,25,3.01,10,9,10,4,true,easy,8
+MP0167,Thai Basil Chicken thigh Meal-Prep Salad,chicken,southeast_asian,salad,5,686,47.6,71.3,23.4,4.2,18,7,25,2.95,7,5,9,3,false,easy,9
+MP0168,Bulgogi Brown lentils Rice Bowl,beans_lentils_chickpeas,korean,rice_bowl,4,677,26.9,121.2,9.4,21.4,9,41,50,1.65,9,9,9,4,true,easy,9
+MP0169,Lemon Basil Chicken breast Pasta,chicken,italian,pasta,6,672,61.9,75.9,13.4,6.5,12,16,28,2.95,9,8,9,4,true,easy,8
+MP0170,Spicy Garlic Salmon Sheet-Pan Meal,fish,korean,sheet_pan,4,722,43.3,79.6,25.6,6.5,15,30,45,4.19,10,9,10,3,true,medium,9
+MP0171,Ginger Scallion Firm tofu Rice Bowl,tofu_vegetarian,korean,rice_bowl,4,665,35.7,75.6,24.4,9.8,18,42,60,2.18,9,9,9,4,true,easy,8
+MP0172,Roasted Tomato Extra-firm tofu Stew,tofu_vegetarian,mexican_tex_mex,stew,5,592,40.2,47.8,26.7,13.3,9,36,45,2.91,10,10,10,4,true,easy,8
+MP0173,Spiced Yogurt Beef sirloin Sheet-Pan Meal,beef,indian,sheet_pan,4,712,52.6,70.2,24.5,7.6,12,23,35,4.17,10,9,10,4,true,easy,8
+MP0174,Sesame Tamari Lean ground beef Noodle Bowl,beef,chinese_inspired,noodle_bowl,6,706,50.7,69.0,25.2,5.7,15,45,60,3.45,9,8,9,4,true,easy,8
+MP0175,Spicy Garlic Cod Stir-Fry,fish,korean,stir_fry,4,610,44.6,87.6,9.0,6.6,18,22,40,3.62,9,9,9,3,true,medium,9
+MP0176,Rustic Tomato Egg Roast,egg_based,american_western,roasted_meal,4,614,28.4,83.3,18.6,15.3,9,41,50,1.81,9,9,9,4,false,easy,8
+MP0177,Rustic Tomato Chicken thigh Grain Bowl,chicken,american_western,grain_bowl,5,778,54.8,82.5,25.4,15.3,12,18,30,2.63,9,9,9,4,true,easy,8
+MP0178,Chipotle Canned tuna Rice Bowl,fish,mexican_tex_mex,rice_bowl,4,646,48.8,85.8,11.9,9.6,15,30,45,3.37,9,9,9,3,true,easy,8
+MP0179,Buffalo Chicken breast Stew,chicken,american_western,stew,6,543,53.9,53.5,12.6,10.0,18,12,30,3.58,10,10,10,4,true,easy,8
+MP0180,Tamari Sesame Tempeh Soup,tofu_vegetarian,japanese,soup,4,774,51.0,83.0,26.4,16.1,9,56,65,3.2,9,10,10,4,true,medium,8
+MP0181,Rustic Tomato Chicken thigh Pasta,chicken,american_western,pasta,4,778,54.8,82.5,25.4,15.3,12,53,65,2.63,9,8,9,4,true,easy,8
+MP0182,Balsamic Salmon Sheet-Pan Meal,fish,american_western,sheet_pan,5,738,50.8,73.1,26.9,11.5,15,20,35,4.62,10,9,10,3,true,easy,8
+MP0183,Ginger Garlic Beef sirloin Rice Bowl,beef,chinese_inspired,rice_bowl,4,691,51.2,71.7,22.2,4.5,18,7,25,3.84,9,9,9,4,true,easy,8
+MP0184,Spicy Garlic Chicken breast Stir-Fry,chicken,korean,stir_fry,6,693,56.6,87.6,12.9,6.6,9,16,25,3.02,9,9,9,4,true,easy,9
+MP0185,Tomato Olive Chicken thigh Wrap,chicken,mediterranean,wrap,4,597,49.2,38.7,27.3,10.2,12,13,25,3.19,7,7,8,4,true,medium,8
+MP0186,Honey Mustard Cod Sheet-Pan Meal,fish,american_western,sheet_pan,4,636,50.9,84.3,10.6,12.5,15,20,35,3.82,10,9,10,3,true,easy,8
+MP0187,Miso Herb Chicken breast Sheet-Pan Meal,chicken,japanese,sheet_pan,5,681,63.6,76.6,13.4,9.6,18,22,40,3.04,10,9,10,4,true,easy,8
+MP0188,Black Pepper Lean ground pork Noodle Bowl,pork,chinese_inspired,noodle_bowl,4,756,46.6,86.1,25.0,4.7,9,41,50,2.71,9,8,9,4,true,easy,8
+MP0189,Black Pepper Chicken breast Stir-Fry,chicken,chinese_inspired,stir_fry,6,648,56.2,77.9,12.4,2.8,12,53,65,3.5,9,9,9,4,true,easy,8
+MP0190,Tamari Sesame Chicken breast Sheet-Pan Meal,chicken,japanese,sheet_pan,4,639,62.5,69.0,12.6,7.4,15,13,28,3.33,10,9,10,4,true,medium,8
+MP0191,Tangy Ginger Pork tenderloin Noodle Bowl,pork,japanese,noodle_bowl,4,629,50.7,76.8,13.2,8.3,18,17,35,2.94,9,8,9,4,true,easy,8
+MP0192,Sesame Tamari Kidney beans Stir-Fry,beans_lentils_chickpeas,chinese_inspired,stir_fry,5,643,25.4,118.0,7.7,16.6,9,51,60,2.04,9,9,9,4,true,easy,8
+MP0193,Enchilada-Style Lean ground beef Stew,beef,mexican_tex_mex,stew,4,724,47.9,74.5,26.1,5.7,12,43,55,3.34,10,10,10,4,true,easy,8
+MP0194,Smoky Paprika Firm tofu Grain Bowl,tofu_vegetarian,mediterranean,grain_bowl,6,658,37.5,74.7,23.3,21.6,15,13,28,2.33,9,9,9,4,true,easy,8
+MP0195,Tahini Beef sirloin Wrap,beef,mediterranean,wrap,4,624,50.0,26.2,35.5,6.9,18,12,30,4.19,7,7,8,4,true,medium,9
+MP0196,Peanut Lime Lean ground pork Noodle Bowl,pork,southeast_asian,noodle_bowl,4,892,58.5,80.0,37.6,12.0,9,31,40,3.19,9,8,9,4,true,easy,9
+MP0197,Tahini White beans Meal-Prep Salad,beans_lentils_chickpeas,mediterranean,salad,5,665,27.9,88.8,22.0,20.7,12,28,40,2.56,7,5,9,4,false,easy,9
+MP0198,Sesame Soy Extra-firm tofu Sheet-Pan Meal,tofu_vegetarian,korean,sheet_pan,4,670,41.3,71.1,24.5,8.6,15,30,45,2.66,10,9,10,4,true,easy,8
+MP0199,Lemongrass-Style Chicken thigh Stir-Fry,chicken,southeast_asian,stir_fry,6,696,49.0,72.7,23.3,4.6,18,12,30,2.64,9,9,9,4,true,easy,9
+MP0200,Spicy Garlic Black beans Sheet-Pan Meal,beans_lentils_chickpeas,korean,sheet_pan,4,704,26.3,130.8,8.4,22.8,9,26,35,1.85,10,9,10,4,true,medium,9
+MP0201,Teriyaki Tempeh Stir-Fry,tofu_vegetarian,japanese,stir_fry,4,781,45.3,90.6,26.4,13.1,12,16,28,2.91,9,9,9,4,true,easy,8
+MP0202,Peanut Lime Lean ground beef Curry,beef,southeast_asian,curry,5,876,54.1,77.4,38.9,10.7,15,35,50,3.53,10,10,10,4,true,easy,9
+MP0203,Tikka Beef sirloin Curry,beef,indian,curry,4,754,55.2,81.4,23.1,8.1,18,42,60,3.86,10,10,10,4,true,easy,9
+MP0204,Teriyaki Shrimp Soup,shrimp_seafood,japanese,soup,6,569,46.3,76.6,8.6,4.4,9,19,28,4.02,9,10,10,3,true,easy,8
+MP0205,Balsamic Garlic Pork tenderloin Sheet-Pan Meal,pork,italian,sheet_pan,4,503,46.8,50.0,12.9,8.7,12,28,40,3.21,10,9,10,4,true,medium,8
+MP0206,Miso Herb Egg Rice Bowl,egg_based,japanese,rice_bowl,4,556,23.1,77.1,17.3,6.1,15,10,25,1.54,9,9,9,4,false,easy,8
+MP0207,Miso Herb Lean ground pork Soup,pork,japanese,soup,5,728,48.0,76.3,25.7,6.1,18,12,30,2.37,9,10,10,4,true,easy,8
+MP0208,Tomato Olive Chicken breast Wrap,chicken,mediterranean,wrap,4,528,56.7,38.7,16.3,10.2,9,19,28,3.57,7,7,8,4,true,easy,8
+MP0209,Roasted Tomato Scallops Stew,shrimp_seafood,mexican_tex_mex,stew,6,505,38.8,68.0,8.6,12.1,12,23,35,5.13,10,10,10,3,true,easy,8
+MP0210,Miso Pesto Pork tenderloin Grain Bowl,pork,other_fusion,grain_bowl,4,747,57.5,63.9,29.0,10.6,15,50,65,3.59,9,9,9,4,true,medium,8
+MP0211,Smoky BBQ Chicken thigh Stew,chicken,american_western,stew,4,625,47.6,55.6,23.6,9.8,18,22,40,2.79,10,10,10,4,true,easy,8
+MP0212,Smoky BBQ Lean ground pork Wrap,pork,american_western,wrap,5,624,46.8,43.9,29.0,9.2,9,31,40,2.83,7,7,8,4,true,easy,8
+MP0213,Pineapple Soy Shrimp Sheet-Pan Meal,shrimp_seafood,chinese_inspired,sheet_pan,4,591,46.0,82.3,8.6,5.7,12,18,30,3.85,10,9,10,3,true,easy,8
+MP0214,Spiced Yogurt Shelled edamame Rice Bowl,other,indian,rice_bowl,6,641,37.6,76.2,20.6,18.6,15,25,40,3.39,9,9,9,4,true,easy,8
+MP0215,Smoky BBQ Chickpeas Grain Bowl,beans_lentils_chickpeas,american_western,grain_bowl,4,623,24.8,104.1,11.9,24.2,18,10,28,2.05,9,9,9,4,true,medium,8
+MP0216,Balsamic Egg Roast,egg_based,american_western,roasted_meal,4,553,24.5,72.2,18.5,6.8,9,19,28,1.96,9,9,9,4,false,easy,8
+MP0217,Sesame Soy Egg Stir-Fry,egg_based,korean,stir_fry,5,438,21.5,50.9,16.5,8.4,12,33,45,2.31,9,9,9,4,false,easy,8
+MP0218,Turmeric Ginger Firm tofu Curry,tofu_vegetarian,indian,curry,4,595,33.5,53.7,27.4,11.5,15,15,30,2.87,10,10,10,4,true,easy,8
+MP0219,Rustic Tomato Brown lentils Grain Bowl,beans_lentils_chickpeas,american_western,grain_bowl,6,548,24.3,94.8,7.9,26.7,18,22,40,1.77,9,9,9,4,true,easy,8
+MP0220,Balsamic Halloumi Wrap,other,american_western,wrap,4,551,31.0,27.7,35.1,5.8,9,16,25,3.02,7,7,8,4,true,medium,8
+MP0221,Chili Garlic Turkey breast Rice Bowl,turkey,chinese_inspired,rice_bowl,4,603,55.1,68.7,12.0,6.5,12,53,65,3.5,9,9,9,4,true,easy,9
+MP0222,Bulgogi Chicken breast Stir-Fry,chicken,korean,stir_fry,5,696,57.2,85.2,14.1,7.0,15,40,55,2.94,9,9,9,4,true,easy,9
+MP0223,Tamari Sesame Scallops Rice Bowl,shrimp_seafood,japanese,rice_bowl,4,537,39.3,76.2,8.3,3.9,18,12,30,4.61,9,9,9,3,true,easy,8
+MP0224,Doenjang Lean ground turkey Sheet-Pan Meal,turkey,korean,sheet_pan,6,684,52.6,73.3,20.0,5.8,9,36,45,3.08,10,9,10,4,true,easy,8
+MP0225,Cilantro Lime Turkey breast Burrito Bowl,turkey,mexican_tex_mex,burrito_bowl,4,578,52.3,69.6,10.1,4.2,12,33,45,3.23,9,9,9,4,true,medium,8
+MP0226,Roasted Tomato Lean ground turkey Sheet-Pan Meal,turkey,mexican_tex_mex,sheet_pan,4,493,47.9,30.5,19.9,7.8,15,30,45,3.2,10,9,10,4,true,easy,8
+MP0227,Green Curry Chicken thigh Stir-Fry,chicken,southeast_asian,stir_fry,5,747,48.2,79.4,26.3,5.1,18,12,30,3.25,9,9,9,4,true,easy,9
+MP0228,Honey Mustard Kidney beans Sheet-Pan Meal,beans_lentils_chickpeas,american_western,sheet_pan,4,580,24.9,101.9,8.1,22.1,9,46,55,2.11,10,9,10,4,true,easy,8
+MP0229,Sweet Chili Beef sirloin Stir-Fry,beef,chinese_inspired,stir_fry,6,796,50.9,97.4,22.5,6.6,12,53,65,3.82,9,9,9,4,true,easy,9
+MP0230,Sesame Soy Turkey breast Noodle Bowl,turkey,korean,noodle_bowl,4,613,54.2,76.1,10.2,3.0,15,30,45,3.48,9,8,9,4,true,medium,8
+MP0231,Chipotle Chicken thigh Sheet-Pan Meal,chicken,mexican_tex_mex,sheet_pan,4,693,49.6,67.5,25.0,13.0,18,17,35,3.34,10,9,10,4,true,easy,8
+MP0232,Lemon Basil Beef sirloin Roast,beef,italian,roasted_meal,5,585,49.0,47.9,21.9,8.6,9,46,55,3.9,9,9,9,4,true,easy,8
+MP0233,Tahini Lemon Chicken thigh Meal-Prep Salad,chicken,middle_eastern,salad,4,841,55.7,71.5,36.9,19.1,12,53,65,3.03,7,5,9,3,false,easy,9
+MP0234,Gochujang Lime Chicken breast Stir-Fry,chicken,other_fusion,stir_fry,6,656,59.9,66.8,16.6,10.1,15,25,40,3.39,9,9,9,4,true,easy,8
+MP0235,Herbed Yogurt Chicken thigh Wrap,chicken,middle_eastern,wrap,4,501,45.5,25.0,24.3,5.3,18,12,30,2.9,7,7,8,4,true,medium,9
+MP0236,Chili Garlic White beans Noodle Bowl,beans_lentils_chickpeas,chinese_inspired,noodle_bowl,4,634,27.7,110.9,8.9,16.9,9,26,35,2.38,9,8,9,4,true,easy,9
+MP0237,Peanut Lime Lean ground beef Meal-Prep Salad,beef,southeast_asian,salad,5,876,54.1,77.4,38.9,10.7,12,28,40,3.53,7,5,9,3,false,easy,9
+MP0238,Dill Yogurt Chicken breast Grain Bowl,chicken,mediterranean,grain_bowl,4,545,57.1,47.9,13.9,8.6,15,30,45,3.81,9,9,9,4,true,easy,9
+MP0239,Teriyaki Beef sirloin Noodle Bowl,beef,japanese,noodle_bowl,6,740,50.7,84.6,22.1,4.5,18,7,25,4.05,9,8,9,4,true,easy,8
+MP0240,Balsamic Garlic Pork tenderloin Roast,pork,italian,roasted_meal,4,503,46.8,50.0,12.9,8.7,9,46,55,3.21,9,9,9,4,true,medium,8
+MP0241,Sweet Chili Basil Chicken thigh Meal-Prep Salad,chicken,southeast_asian,salad,4,778,49.2,92.1,23.6,4.8,12,53,65,2.96,7,5,9,3,false,easy,9
+MP0242,Buffalo Chicken breast Roast,chicken,american_western,roasted_meal,5,634,61.0,59.5,16.9,9.0,15,25,40,3.61,9,9,9,4,true,easy,8
+MP0243,Balsamic Herb Lean ground beef Wrap,beef,mediterranean,wrap,4,611,47.4,46.6,26.1,7.8,18,27,45,3.63,7,7,8,4,true,easy,8
+MP0244,Honey Mustard Lean ground pork Roast,pork,american_western,roasted_meal,6,797,53.9,84.3,27.1,12.5,9,16,25,2.85,9,9,9,4,true,easy,8
+MP0245,Gochujang Lime Extra-firm tofu Wrap,tofu_vegetarian,other_fusion,wrap,4,494,34.7,36.1,23.4,10.4,12,16,28,2.53,7,7,8,4,true,medium,8
+MP0246,Masala Beef sirloin Curry,beef,indian,curry,4,770,53.6,88.0,22.6,9.7,15,30,45,3.62,10,10,10,4,true,easy,8
+MP0247,Green Curry Lean ground turkey Meal-Prep Salad,turkey,southeast_asian,salad,5,714,49.7,79.4,22.0,5.1,18,27,45,3.55,7,5,9,3,false,easy,9
+MP0248,Honey Mustard Chicken thigh Wrap,chicken,american_western,wrap,4,635,48.5,48.8,27.3,8.9,9,36,45,2.95,7,7,8,4,true,easy,8
+MP0249,Sweet Soy Seitan Soup,other,japanese,soup,6,692,49.3,97.4,11.7,8.3,12,28,40,3.18,9,10,10,4,true,easy,8
+MP0250,Pineapple Soy Egg Noodle Bowl,egg_based,chinese_inspired,noodle_bowl,4,572,29.4,75.4,17.0,9.1,15,15,30,1.81,9,8,9,4,false,medium,8
+MP0251,Bulgogi Shelled edamame Rice Bowl,other,korean,rice_bowl,4,687,31.7,101.0,17.4,15.7,18,32,50,2.63,9,9,9,4,true,easy,9
+MP0252,Dill Yogurt Tempeh Grain Bowl,tofu_vegetarian,mediterranean,grain_bowl,5,776,49.4,84.6,26.7,16.1,9,36,45,3.38,9,9,9,4,true,easy,9
+MP0253,Teriyaki Chicken breast Sheet-Pan Meal,chicken,japanese,sheet_pan,4,678,63.5,77.0,12.9,7.9,12,33,45,3.35,10,9,10,4,true,easy,8
+MP0254,Miso Herb Lean ground beef Sheet-Pan Meal,beef,japanese,sheet_pan,6,734,49.5,76.3,25.7,6.1,15,15,30,2.97,10,9,10,4,true,easy,8
+MP0255,Roasted Tomato Canned tuna Pasta,fish,italian,pasta,4,610,54.9,73.6,10.7,13.1,18,42,60,3.55,9,8,9,3,true,medium,8
+MP0256,Ginger Garlic Firm tofu Stir-Fry,tofu_vegetarian,chinese_inspired,stir_fry,4,694,36.8,85.0,23.0,8.1,9,41,50,2.53,9,9,9,4,true,easy,8
+MP0257,Chipotle Shrimp Stew,shrimp_seafood,mexican_tex_mex,stew,5,517,46.3,52.0,13.8,10.6,12,18,30,4.48,10,10,10,3,true,easy,8
+MP0258,Tahini Chicken thigh Sheet-Pan Meal,chicken,mediterranean,sheet_pan,4,840,57.0,62.2,40.3,10.1,15,15,30,3.31,10,9,10,4,true,easy,9
+MP0259,Fajita Egg Wrap,egg_based,mexican_tex_mex,wrap,6,517,23.8,61.3,19.6,9.8,18,27,45,2.08,7,7,8,4,false,easy,8
+MP0260,Enchilada-Style Chicken breast Wrap,chicken,mexican_tex_mex,wrap,4,440,52.2,26.5,13.9,6.9,9,26,35,3.19,7,7,8,4,true,medium,8
+MP0261,Sesame Tamari Chicken thigh Sheet-Pan Meal,chicken,chinese_inspired,sheet_pan,4,708,48.2,76.7,23.2,4.0,12,16,28,2.83,10,9,10,4,true,easy,8
+MP0262,Buffalo Beef sirloin Sheet-Pan Meal,beef,american_western,sheet_pan,5,583,48.7,47.2,22.2,8.4,15,10,25,4.25,10,9,10,4,true,easy,8
+MP0263,Peanut Lime Chicken breast Stir-Fry,chicken,southeast_asian,stir_fry,4,793,61.6,77.4,26.3,10.7,18,10,28,3.31,9,9,9,4,true,easy,9
+MP0264,Fajita Extra-firm tofu Sheet-Pan Meal,tofu_vegetarian,mexican_tex_mex,sheet_pan,6,747,40.2,90.7,24.8,9.1,9,26,35,2.35,10,9,10,4,true,easy,8
+MP0265,Balsamic Garlic Egg Sheet-Pan Meal,egg_based,italian,sheet_pan,4,433,20.4,50.8,16.5,8.7,12,38,50,2.16,10,9,10,4,false,medium,8
+MP0266,Curry BBQ Turkey breast Stir-Fry,turkey,other_fusion,stir_fry,4,619,55.5,72.1,12.1,6.9,15,50,65,3.5,9,9,9,4,true,easy,8
+MP0267,Lemongrass-Style Chicken thigh Meal-Prep Salad,chicken,southeast_asian,salad,5,696,49.0,72.7,23.3,4.6,18,42,60,2.64,7,5,9,3,false,easy,9
+MP0268,Gochujang Pork tenderloin Noodle Bowl,pork,korean,noodle_bowl,4,659,49.7,85.1,13.3,5.8,9,26,35,3.04,9,8,9,4,true,easy,9
+MP0269,Basil Pesto Scallops Soup,shrimp_seafood,italian,soup,6,661,47.4,64.6,23.7,8.7,12,53,65,5.52,9,10,10,3,true,easy,8
+MP0270,Spicy Garlic Chicken thigh Sheet-Pan Meal,chicken,korean,sheet_pan,4,633,47.7,57.7,23.5,10.4,15,20,35,3.11,10,9,10,4,true,medium,9
+MP0271,Spicy Garlic Chicken thigh Sheet-Pan Meal with Broccoli,chicken,korean,sheet_pan,4,731,49.3,79.6,23.9,6.5,18,47,65,2.47,10,9,10,4,true,easy,9
+MP0272,Balsamic Chicken breast Sheet-Pan Meal,chicken,american_western,sheet_pan,5,648,58.4,71.4,14.3,6.8,9,21,30,3.16,10,9,10,4,true,easy,8
+MP0273,Smoky Paprika Chicken thigh Roast,chicken,mediterranean,roasted_meal,4,695,51.0,70.2,23.4,8.4,12,33,45,2.64,9,9,9,4,true,easy,8
+MP0274,Salsa Verde Chicken breast Rice Bowl,chicken,mexican_tex_mex,rice_bowl,6,655,55.0,80.8,12.4,5.4,15,35,50,2.97,9,9,9,4,true,easy,9
+MP0275,Roasted Tomato Chicken thigh Soup,chicken,italian,soup,4,720,55.0,62.1,27.9,10.7,18,10,28,3.34,9,10,10,4,true,medium,8
+MP0276,Thai Basil Egg Noodle Bowl,egg_based,southeast_asian,noodle_bowl,4,554,21.0,80.1,16.6,4.3,9,51,60,2.3,9,8,9,4,false,easy,9
+MP0277,Sesame Tamari Lean ground turkey Sheet-Pan Meal,turkey,chinese_inspired,sheet_pan,5,675,49.7,76.7,18.8,4.0,12,13,25,3.13,10,9,10,4,true,easy,8
+MP0278,Sesame Tamari Chicken breast Noodle Bowl,chicken,chinese_inspired,noodle_bowl,4,622,58.2,69.0,12.6,5.7,15,35,50,3.22,9,8,9,4,true,easy,8
+MP0279,Salsa Verde Black beans Rice Bowl,beans_lentils_chickpeas,mexican_tex_mex,rice_bowl,6,666,24.7,124.0,7.9,21.6,18,7,25,1.8,9,9,9,4,true,easy,9
+MP0280,Buffalo Chickpeas Sheet-Pan Meal,beans_lentils_chickpeas,american_western,sheet_pan,4,731,32.1,119.6,13.8,25.8,9,26,35,2.26,10,9,10,4,true,medium,8
+MP0281,Smoky Paprika Lean ground beef Wrap,beef,mediterranean,wrap,4,614,47.2,47.5,26.1,9.6,12,43,55,3.53,7,7,8,4,true,easy,8
+MP0282,Thai Basil Tempeh Curry,tofu_vegetarian,southeast_asian,curry,5,752,43.6,85.3,26.3,12.9,15,35,50,3.18,10,10,10,4,true,easy,9
+MP0283,Ginger Scallion Salmon Stir-Fry,fish,korean,stir_fry,4,600,39.8,54.6,24.7,9.6,18,17,35,4.51,9,9,9,3,true,easy,8
+MP0284,Honey Mustard Halloumi Wrap,other,american_western,wrap,6,678,32.6,50.9,38.2,8.9,9,31,40,3.15,7,7,8,4,true,easy,8
+MP0285,Harissa-Style Lean ground pork Grain Bowl,pork,middle_eastern,grain_bowl,4,746,51.9,75.1,26.5,20.2,12,16,28,2.8,9,9,9,4,true,medium,8
+MP0286,Miso Ginger Cod Stir-Fry,fish,japanese,stir_fry,4,583,45.5,75.9,10.8,7.5,15,25,40,3.62,9,9,9,3,true,easy,9
+MP0287,Pineapple Soy Beef sirloin Rice Bowl,beef,chinese_inspired,rice_bowl,5,698,50.6,74.3,22.1,5.6,18,12,30,3.53,9,9,9,4,true,easy,8
+MP0288,Rustic Tomato Lean ground beef Wrap,beef,american_western,wrap,4,665,48.9,58.0,26.4,12.7,9,41,50,3.46,7,7,8,4,true,easy,8
+MP0289,Spicy Garlic Pork tenderloin Rice Bowl,pork,korean,rice_bowl,6,638,49.3,79.6,13.6,6.5,12,38,50,2.69,9,9,9,4,true,easy,9
+MP0290,Chipotle Beef sirloin Sheet-Pan Meal,beef,mexican_tex_mex,sheet_pan,4,688,49.1,70.0,23.5,12.9,15,13,28,4.44,10,9,10,4,true,medium,8
+MP0291,Turmeric Ginger Chicken thigh Rice Bowl,chicken,indian,rice_bowl,4,735,47.3,72.8,28.3,4.1,18,42,60,2.95,9,9,9,4,true,easy,8
+MP0292,Garlic Herb Turkey breast Wrap,turkey,american_western,wrap,5,397,50.4,24.3,10.9,7.8,9,21,30,3.36,7,7,8,4,true,easy,8
+MP0293,Coconut Curry Firm tofu Stew,tofu_vegetarian,indian,stew,4,602,35.7,52.3,27.8,12.5,12,18,30,3.01,10,10,10,4,true,easy,8
+MP0294,Sesame Tamari Canned tuna Noodle Bowl,fish,chinese_inspired,noodle_bowl,6,551,49.2,69.0,8.7,5.7,15,13,28,3.3,9,8,9,3,true,easy,8
+MP0295,Tangy Ginger Salmon Sheet-Pan Meal,fish,japanese,sheet_pan,4,713,44.7,76.8,25.2,8.3,18,22,40,4.44,10,9,10,3,true,medium,8
+MP0296,Sesame Tamari Lean ground beef Stir-Fry,beef,chinese_inspired,stir_fry,4,723,48.2,76.7,24.8,4.0,9,36,45,3.43,9,9,9,4,true,easy,8
+MP0297,Pineapple Soy Chicken breast Sheet-Pan Meal,chicken,chinese_inspired,sheet_pan,5,636,56.6,74.3,12.5,5.6,12,13,25,2.7,10,9,10,4,true,easy,8
+MP0298,Honey Mustard Extra-firm tofu Roast,tofu_vegetarian,american_western,roasted_meal,4,736,44.7,78.0,27.2,13.6,15,35,50,2.92,9,9,9,4,true,easy,8
+MP0299,Red Curry Brown lentils Stir-Fry,beans_lentils_chickpeas,southeast_asian,stir_fry,6,668,25.4,114.0,12.3,22.9,18,27,45,1.59,9,9,9,4,true,easy,9
+MP0300,Honey Mustard Chicken thigh Sheet-Pan Meal,chicken,american_western,sheet_pan,4,787,55.4,84.3,25.4,12.5,9,31,40,2.85,10,9,10,4,true,medium,8
+MP0301,Balsamic Herb Beef sirloin Grain Bowl,beef,mediterranean,grain_bowl,4,686,48.9,69.3,23.7,5.8,12,23,35,3.89,9,9,9,4,true,easy,8
+MP0302,Dill Yogurt Lean ground pork Meal-Prep Salad,pork,mediterranean,salad,5,622,48.1,47.9,26.5,8.6,15,15,30,3.43,7,5,9,3,false,easy,9
+MP0303,Honey Mustard Pork tenderloin Pasta,pork,american_western,pasta,4,695,55.4,84.3,15.1,12.5,18,17,35,3.07,9,8,9,4,true,easy,8
+MP0304,Doenjang Chicken breast Sheet-Pan Meal,chicken,korean,sheet_pan,6,680,58.5,81.3,13.4,5.9,9,26,35,3.33,10,9,10,4,true,easy,8
+MP0305,Tamari Sesame Lean ground beef Noodle Bowl,beef,japanese,noodle_bowl,4,706,50.7,69.0,25.2,5.7,12,18,30,3.45,9,8,9,4,true,medium,8
+MP0306,Teriyaki Chicken thigh Sheet-Pan Meal,chicken,japanese,sheet_pan,4,715,49.3,76.6,23.5,4.4,15,15,30,2.67,10,9,10,4,true,easy,8
+MP0307,Sesame Tamari Egg Rice Bowl,egg_based,chinese_inspired,rice_bowl,5,513,21.9,69.5,16.4,3.9,18,22,40,1.83,9,9,9,4,false,easy,8
+MP0308,Curry BBQ Kidney beans Stir-Fry,beans_lentils_chickpeas,other_fusion,stir_fry,4,680,27.3,123.7,8.4,17.4,9,26,35,2.31,9,9,9,4,true,easy,8
+MP0309,Enchilada-Style Lean ground pork Wrap,pork,mexican_tex_mex,wrap,6,517,43.2,26.5,26.5,6.9,12,23,35,2.81,7,7,8,4,true,easy,8
+MP0310,Thai Basil Cod Meal-Prep Salad,fish,southeast_asian,salad,4,535,43.1,71.3,8.6,4.2,15,13,28,3.92,7,5,9,3,false,medium,9
+MP0311,Honey Mustard Chicken breast Grain Bowl,chicken,american_western,grain_bowl,4,576,55.2,60.5,12.6,9.5,18,27,45,3.28,9,9,9,4,true,easy,8
+MP0312,Green Curry Lean ground turkey Noodle Bowl,turkey,southeast_asian,noodle_bowl,5,697,52.3,71.7,22.3,6.8,9,26,35,3.57,9,8,9,4,true,easy,9
+MP0313,Tomato Olive Beef sirloin Roast,beef,mediterranean,roasted_meal,4,714,55.5,72.5,22.4,9.9,12,43,55,4.23,9,9,9,4,true,easy,8
+MP0314,Garlic Herb White beans Sheet-Pan Meal,beans_lentils_chickpeas,american_western,sheet_pan,6,661,31.2,111.4,10.1,24.2,15,25,40,2.18,10,9,10,4,true,easy,8
+MP0315,Fajita Lean ground beef Burrito Bowl,beef,mexican_tex_mex,burrito_bowl,4,791,50.2,83.2,28.6,7.8,18,10,28,3.16,9,9,9,4,true,medium,8
+MP0316,Teriyaki Turkey breast Rice Bowl,turkey,japanese,rice_bowl,4,612,53.8,76.6,10.1,4.4,9,41,50,3.2,9,9,9,4,true,easy,8
+MP0317,Roasted Tomato Beef sirloin Stew,beef,mexican_tex_mex,stew,5,607,50.9,42.5,25.9,9.8,12,38,50,4.28,10,10,10,4,true,easy,8
+MP0318,Pineapple Soy Black beans Noodle Bowl,beans_lentils_chickpeas,chinese_inspired,noodle_bowl,4,678,33.0,117.8,8.3,25.3,15,35,50,1.84,9,8,9,4,true,easy,8
+MP0319,Roasted Tomato Chickpeas Soup,beans_lentils_chickpeas,italian,soup,6,747,33.6,122.2,13.8,27.5,18,27,45,2.36,9,10,10,4,true,easy,8
+MP0320,Lemongrass-Style Tempeh Curry,tofu_vegetarian,southeast_asian,curry,4,763,45.0,86.7,26.2,13.4,9,41,50,2.88,10,10,10,4,true,medium,9
+MP0321,Honey Mustard Firm tofu Pasta,tofu_vegetarian,american_western,pasta,4,752,42.6,89.5,24.8,16.0,12,28,40,2.56,9,8,9,4,true,easy,8
+MP0322,Sesame Tomato Lean ground beef Grain Bowl,beef,other_fusion,grain_bowl,5,758,48.9,83.5,25.4,5.0,15,40,55,3.62,9,9,9,4,true,easy,9
+MP0323,Balsamic Herb Pork tenderloin Roast,pork,mediterranean,roasted_meal,4,599,51.2,69.3,13.0,6.5,18,7,25,2.97,9,9,9,4,true,easy,8
+MP0324,Black Pepper Extra-firm tofu Noodle Bowl,tofu_vegetarian,chinese_inspired,noodle_bowl,6,725,38.9,91.3,22.7,8.2,9,26,35,2.54,9,8,9,4,true,easy,8
+MP0325,Masala Shrimp Stew,shrimp_seafood,indian,stew,4,640,54.4,76.0,13.1,14.2,12,18,30,4.17,10,10,10,3,true,medium,8
+MP0326,Gochujang Lean ground pork Sheet-Pan Meal,pork,korean,sheet_pan,4,761,48.2,85.1,25.3,5.8,15,30,45,2.82,10,9,10,4,true,easy,9
+MP0327,Balsamic Pork tenderloin Stew,pork,american_western,stew,5,654,56.8,73.1,14.9,11.5,18,27,45,3.12,10,10,10,4,true,easy,8
+MP0328,Roasted Tomato Chicken thigh Soup with Mushroom,chicken,italian,soup,4,750,56.4,73.6,25.5,13.1,9,26,35,3.1,9,10,10,4,true,easy,8
+MP0329,Balsamic Garlic Brown lentils Pasta,beans_lentils_chickpeas,italian,pasta,6,658,30.8,114.0,8.7,21.0,12,28,40,1.94,9,8,9,4,true,easy,8
+MP0330,Coconut Curry Chicken breast Stew,chicken,indian,stew,4,568,55.9,47.0,17.4,9.0,15,35,50,3.67,10,10,10,4,true,medium,8
+MP0331,Coconut Curry Egg Rice Bowl,egg_based,indian,rice_bowl,4,586,23.8,69.9,23.5,7.3,18,17,35,2.3,9,9,9,4,false,easy,8
+MP0332,Ginger Scallion Egg Stew,egg_based,korean,stew,5,446,19.4,55.4,16.3,9.6,9,36,45,1.96,10,10,10,4,false,easy,8
+MP0333,Roasted Tomato Egg Rice Bowl,egg_based,mexican_tex_mex,rice_bowl,4,563,23.3,79.3,17.0,6.5,12,18,30,2.0,9,9,9,4,false,easy,8
+MP0334,Rustic Tomato Tempeh Sheet-Pan Meal,tofu_vegetarian,american_western,sheet_pan,6,701,43.1,72.8,26.4,21.0,15,35,50,2.92,10,9,10,4,true,easy,8
+MP0335,Coconut Curry Lean ground pork Grain Bowl,pork,indian,grain_bowl,4,758,48.7,69.1,31.9,7.3,18,42,60,3.13,9,9,9,4,true,medium,8
+MP0336,Enchilada-Style Chicken thigh Wrap,chicken,mexican_tex_mex,wrap,4,509,44.7,26.5,24.9,6.9,9,41,50,2.81,7,7,8,4,true,easy,8
+MP0337,Bulgogi Extra-firm tofu Stew,tofu_vegetarian,korean,stew,5,750,40.0,96.5,22.7,8.0,12,23,35,2.56,10,10,10,4,true,easy,9
+MP0338,Lemongrass-Style Chicken breast Curry,chicken,southeast_asian,curry,4,628,56.5,72.7,12.3,4.6,15,10,25,3.02,10,10,10,4,true,easy,9
+MP0339,Tikka Beef sirloin Curry with Cauliflower,beef,indian,curry,6,764,60.5,69.4,27.1,12.6,18,10,28,4.26,10,10,10,4,true,easy,9
+MP0340,Tahini Kidney beans Meal-Prep Salad,beans_lentils_chickpeas,mediterranean,salad,4,774,29.7,113.3,22.5,20.5,9,31,40,2.16,7,5,9,4,false,medium,9
+MP0341,Thai Basil Seitan Stir-Fry,other,southeast_asian,stir_fry,4,632,46.1,89.3,10.1,5.7,12,18,30,3.17,9,9,9,4,true,easy,9
+MP0342,Sesame Soy White beans Stew,beans_lentils_chickpeas,korean,stew,5,614,26.0,105.4,9.8,15.9,15,20,35,2.08,10,10,10,4,true,easy,8
+MP0343,Basil Pesto Chicken thigh Pasta,chicken,italian,pasta,4,831,57.8,68.6,36.2,11.1,18,17,35,3.33,9,8,9,4,true,easy,8
+MP0344,Tomato Cumin Chicken breast Sheet-Pan Meal,chicken,indian,sheet_pan,6,672,61.3,67.9,17.2,10.4,9,36,45,3.16,10,9,10,4,true,easy,8
+MP0345,Fajita Chicken thigh Rice Bowl,chicken,mexican_tex_mex,rice_bowl,4,777,50.2,83.2,27.0,7.8,12,33,45,2.56,9,9,9,4,true,medium,8
+MP0346,Smoky BBQ Pork tenderloin Roast with Broccoli,pork,american_western,roasted_meal,4,674,55.2,79.3,15.1,12.9,15,15,30,2.96,9,9,9,4,true,easy,8
+MP0347,Masala Extra-firm tofu Sheet-Pan Meal,tofu_vegetarian,indian,sheet_pan,5,764,48.1,81.2,27.4,17.7,18,32,50,2.65,10,9,10,4,true,easy,8
+MP0348,Lemon Herb Egg Wrap,egg_based,mediterranean,wrap,4,396,19.9,33.9,20.1,6.6,9,36,45,2.22,7,7,8,4,false,easy,8
+MP0349,Garlic Herb Black beans Grain Bowl,beans_lentils_chickpeas,american_western,grain_bowl,6,651,27.1,113.3,9.9,25.0,12,53,65,2.01,9,9,9,4,true,easy,8
+MP0350,Spiced Yogurt Chicken breast Rice Bowl,chicken,indian,rice_bowl,4,650,63.1,60.4,17.3,9.8,15,30,45,3.7,9,9,9,4,true,medium,8
+MP0351,Rustic Tomato Tempeh Grain Bowl,tofu_vegetarian,american_western,grain_bowl,4,844,50.8,96.5,28.3,24.1,18,27,45,2.87,9,9,9,4,true,easy,8
+MP0352,Honey Mustard Chicken thigh Roast,chicken,american_western,roasted_meal,5,757,54.0,72.8,27.8,10.1,9,36,45,3.09,9,9,9,4,true,easy,8
+MP0353,Turmeric Ginger Chicken breast Rice Bowl,chicken,indian,rice_bowl,4,667,54.8,72.8,17.4,4.1,12,38,50,3.32,9,9,9,4,true,easy,8
+MP0354,Tahini Scallops Meal-Prep Salad,shrimp_seafood,mediterranean,salad,6,700,48.0,69.7,25.5,10.1,15,45,60,5.26,7,5,9,3,false,easy,9
+MP0355,Rustic Tomato Lean ground turkey Pasta,turkey,american_western,pasta,4,744,56.3,82.5,21.0,15.3,18,7,25,2.93,9,8,9,4,true,medium,8
+MP0356,Honey Mustard Chickpeas Wrap,beans_lentils_chickpeas,american_western,wrap,4,633,25.7,97.4,15.6,23.3,9,31,40,2.21,7,7,8,4,true,easy,8
+MP0357,Lemon Herb Chicken thigh Grain Bowl with Cherry tomato,chicken,mediterranean,grain_bowl,5,681,51.1,66.8,23.3,6.3,12,23,35,2.89,9,9,9,4,true,easy,8
+MP0358,Creamy Herb Lean ground beef Sheet-Pan Meal,beef,italian,sheet_pan,4,762,57.0,72.0,27.3,13.3,15,25,40,3.61,10,9,10,4,true,easy,8
+MP0359,Tikka Turkey breast Rice Bowl,turkey,indian,rice_bowl,6,658,58.2,81.4,11.1,8.1,18,17,35,3.18,9,9,9,4,true,easy,9
+MP0360,Green Curry Firm tofu Meal-Prep Salad,tofu_vegetarian,southeast_asian,salad,4,712,35.5,84.6,25.7,8.6,9,19,28,2.96,7,5,9,4,false,medium,9
+MP0361,Sweet Chili Basil Chicken thigh Rice Bowl,chicken,southeast_asian,rice_bowl,4,756,48.0,88.0,23.5,7.2,12,48,60,2.61,9,9,9,4,true,easy,9
+MP0362,Peanut Lime Beef sirloin Noodle Bowl,beef,southeast_asian,noodle_bowl,5,877,61.5,80.0,34.6,12.0,15,15,30,4.39,9,8,9,4,true,easy,9
+MP0363,Bulgogi Egg Stir-Fry,egg_based,korean,stir_fry,4,512,20.7,70.3,16.4,10.3,18,7,25,2.06,9,9,9,4,false,easy,9
+MP0364,Chili Garlic Lean ground beef Noodle Bowl,beef,chinese_inspired,noodle_bowl,6,727,52.3,71.3,25.8,6.1,9,36,45,3.72,9,8,9,4,true,easy,9
+MP0365,Turmeric Ginger Extra-firm tofu Sheet-Pan Meal,tofu_vegetarian,indian,sheet_pan,4,722,38.8,75.8,29.3,9.9,12,16,28,2.83,10,9,10,4,true,medium,8
+MP0366,Black Pepper Canned tuna Stir-Fry,fish,chinese_inspired,stir_fry,4,584,47.5,75.8,10.1,6.9,15,30,45,3.03,9,9,9,3,true,easy,8
+MP0367,Gochujang Chicken thigh Sheet-Pan Meal,chicken,korean,sheet_pan,5,752,49.7,85.1,23.6,5.8,18,17,35,2.82,10,9,10,4,true,easy,9
+MP0368,Lemon Herb Chicken breast Wrap,chicken,mediterranean,wrap,4,491,53.8,33.1,15.9,6.6,9,31,40,3.42,7,7,8,4,true,easy,8
+MP0369,Herbed Yogurt Lean ground pork Wrap,pork,middle_eastern,wrap,6,510,44.0,25.0,26.0,5.3,12,13,25,2.9,7,7,8,4,true,easy,9
+MP0370,Honey Mustard Egg Roast,egg_based,american_western,roasted_meal,4,593,23.1,83.3,18.6,7.9,15,20,35,1.91,9,9,9,4,false,medium,8
+MP0371,Fajita Tempeh Rice Bowl,tofu_vegetarian,mexican_tex_mex,rice_bowl,4,843,46.2,97.2,29.9,16.6,18,7,25,2.8,9,9,9,4,true,easy,8
+MP0372,Dill Yogurt Brown lentils Grain Bowl,beans_lentils_chickpeas,mediterranean,grain_bowl,5,623,30.6,106.6,8.2,21.8,9,36,45,2.22,9,9,9,4,true,easy,9
+MP0373,Cilantro Lime Lean ground turkey Rice Bowl,turkey,mexican_tex_mex,rice_bowl,4,648,49.3,69.6,19.1,4.2,12,16,28,3.01,9,9,9,4,true,easy,8
+MP0374,Salsa Verde Kidney beans Stew,beans_lentils_chickpeas,mexican_tex_mex,stew,6,576,22.8,104.2,7.6,23.5,15,25,40,2.16,10,10,10,4,true,easy,9
+MP0375,Sumac-Style Pork tenderloin Stew,pork,middle_eastern,stew,4,616,47.2,73.6,14.8,8.0,18,27,45,2.57,10,10,10,4,true,medium,8
+MP0376,Herbed Yogurt Beef sirloin Wrap,beef,middle_eastern,wrap,4,495,47.0,25.0,23.0,5.3,9,26,35,4.1,7,7,8,4,true,easy,9
+MP0377,Tamari Sesame Turkey breast Sheet-Pan Meal,turkey,japanese,sheet_pan,5,574,52.8,68.7,9.8,3.9,12,33,45,3.18,10,9,10,4,true,easy,8
+MP0378,Roasted Tomato Lean ground pork Roast,pork,italian,roasted_meal,4,759,54.9,73.6,27.2,13.1,15,50,65,3.1,9,9,9,4,true,easy,8
+MP0379,Lemon Basil Shrimp Pasta,shrimp_seafood,italian,pasta,6,595,51.4,75.9,9.5,6.5,18,22,40,3.93,9,8,9,3,true,easy,8
+MP0380,Tangy Ginger Egg Noodle Bowl,egg_based,japanese,noodle_bowl,4,559,24.3,77.6,16.8,8.3,9,16,25,1.89,9,8,9,4,false,medium,8
+MP0381,Lemon Basil Chicken thigh Pasta,chicken,italian,pasta,4,741,54.4,75.9,24.4,6.5,12,23,35,2.58,9,8,9,4,true,easy,8
+MP0382,Salsa Verde Egg Sheet-Pan Meal,egg_based,mexican_tex_mex,sheet_pan,5,569,21.9,79.3,18.2,7.6,15,15,30,1.82,10,9,10,4,false,easy,9
+MP0383,Honey Mustard Salmon Grain Bowl,fish,american_western,grain_bowl,4,657,40.8,66.8,25.2,11.2,18,17,35,4.78,9,9,9,3,true,easy,8
+MP0384,Tamari Sesame Scallops Sheet-Pan Meal,shrimp_seafood,japanese,sheet_pan,6,568,46.0,76.5,8.7,7.4,9,51,60,4.91,10,9,10,3,true,easy,8
+MP0385,Gochujang Pork tenderloin Rice Bowl,pork,korean,rice_bowl,4,627,49.8,77.1,13.3,5.7,12,33,45,2.87,9,9,9,4,true,medium,9
+MP0386,Tahini Chicken breast Wrap,chicken,mediterranean,wrap,4,562,56.0,26.2,25.9,6.9,15,15,30,3.36,7,7,8,4,true,easy,9
+MP0387,Spiced Yogurt Lean ground turkey Rice Bowl,turkey,indian,rice_bowl,5,685,57.1,60.4,23.9,9.8,18,22,40,3.63,9,9,9,4,true,easy,8
+MP0388,Tomato Olive White beans Wrap,beans_lentils_chickpeas,mediterranean,wrap,4,520,24.6,78.3,12.0,21.0,9,36,45,2.45,7,7,8,4,true,easy,8
+MP0389,Green Curry Chicken thigh Curry,chicken,southeast_asian,curry,6,747,48.2,79.4,26.3,5.1,12,33,45,3.25,10,10,10,4,true,easy,9
+MP0390,Cilantro Lime Cod Wrap,fish,mexican_tex_mex,wrap,4,415,43.0,33.6,12.1,7.4,15,30,45,3.94,7,7,8,3,true,medium,8
+MP0391,Cilantro Lime Shrimp Burrito Bowl,shrimp_seafood,mexican_tex_mex,burrito_bowl,4,535,44.8,69.6,8.6,4.2,18,10,28,4.06,9,9,9,3,true,easy,8
+MP0392,Buffalo Chicken breast Roast with Bell pepper,chicken,american_western,roasted_meal,5,664,62.4,71.0,14.5,11.4,9,31,40,3.38,9,9,9,4,true,easy,8
+MP0393,Honey Mustard Lean ground beef Pasta,beef,american_western,pasta,4,803,55.4,84.3,27.1,12.5,12,28,40,3.45,9,8,9,4,true,easy,8
+MP0394,Sesame Soy Canned tuna Sheet-Pan Meal,fish,korean,sheet_pan,6,462,46.4,50.1,8.4,8.4,15,20,35,3.59,10,9,10,3,true,easy,8
+MP0395,Cilantro Lime Firm tofu Sheet-Pan Meal,tofu_vegetarian,mexican_tex_mex,sheet_pan,4,562,33.1,56.8,22.5,13.2,18,12,30,2.78,10,9,10,4,true,medium,8
+MP0396,Pineapple Soy Extra-firm tofu Stir-Fry,tofu_vegetarian,chinese_inspired,stir_fry,4,683,39.9,79.5,22.8,9.1,9,21,30,2.16,9,9,9,4,true,easy,8
+MP0397,Smoky Paprika Turkey breast Grain Bowl,turkey,mediterranean,grain_bowl,5,594,55.5,70.2,10.1,8.4,12,23,35,3.16,9,9,9,4,true,easy,8
+MP0398,Lemon Basil Chicken thigh Roast,chicken,italian,roasted_meal,4,591,47.5,47.9,23.3,8.6,15,10,25,2.7,9,9,9,4,true,easy,8
+MP0399,Teriyaki Scallops Rice Bowl,shrimp_seafood,japanese,rice_bowl,6,575,40.3,84.1,8.6,4.4,18,32,50,4.62,9,9,9,3,true,easy,8
+MP0400,Sesame Soy Tempeh Rice Bowl,tofu_vegetarian,korean,rice_bowl,4,758,46.6,79.8,28.0,13.8,9,56,65,3.06,9,9,9,4,true,medium,8
+MP0401,Roasted Tomato Black beans Roast,beans_lentils_chickpeas,italian,roasted_meal,4,692,33.6,116.8,10.1,29.3,12,53,65,2.3,9,9,9,4,true,easy,8
+MP0402,Roasted Tomato Firm tofu Rice Bowl,tofu_vegetarian,mexican_tex_mex,rice_bowl,5,692,36.9,83.8,23.2,10.0,15,20,35,2.53,9,9,9,4,true,easy,8
+MP0403,Tangy Ginger Lean ground turkey Noodle Bowl,turkey,japanese,noodle_bowl,4,689,52.2,76.8,19.2,8.3,18,27,45,3.01,9,8,9,4,true,easy,8
+MP0404,Enchilada-Style Chicken thigh Wrap with Tomato,chicken,mexican_tex_mex,wrap,6,597,47.4,39.4,27.8,9.2,9,31,40,2.99,7,7,8,4,true,easy,8
+MP0405,Sesame Soy Extra-firm tofu Noodle Bowl,tofu_vegetarian,korean,noodle_bowl,4,693,40.4,81.3,22.9,6.4,12,43,55,2.79,9,8,9,4,true,medium,8
+MP0406,Ginger Garlic Turkey breast Noodle Bowl,turkey,chinese_inspired,noodle_bowl,4,627,54.1,79.7,10.2,4.6,15,50,65,3.34,9,8,9,4,true,easy,8
+MP0407,Chipotle Chicken thigh Sheet-Pan Meal with Bell pepper,chicken,mexican_tex_mex,sheet_pan,5,786,50.3,85.8,26.8,9.6,18,22,40,2.92,10,9,10,4,true,easy,8
+MP0408,Shawarma-Spiced Tempeh Meal-Prep Salad,tofu_vegetarian,middle_eastern,salad,4,784,48.8,84.7,27.8,27.9,9,36,45,3.09,7,5,9,4,false,easy,8
+MP0409,Balsamic Herb Egg Meal-Prep Salad,egg_based,mediterranean,salad,6,530,25.5,60.4,20.7,8.0,12,18,30,2.22,7,5,9,3,false,easy,8
+MP0410,Balsamic Herb Chickpeas Sheet-Pan Meal,beans_lentils_chickpeas,mediterranean,sheet_pan,4,690,28.4,117.9,11.7,20.9,15,13,28,2.0,10,9,10,4,true,medium,8
+MP0411,Lemon Basil Firm tofu Soup,tofu_vegetarian,italian,soup,4,705,41.6,81.2,23.8,10.0,18,27,45,2.29,9,10,10,4,true,easy,8
+MP0412,Lemongrass-Style Kidney beans Noodle Bowl,beans_lentils_chickpeas,southeast_asian,noodle_bowl,5,632,28.8,110.5,8.3,17.5,9,16,25,2.43,9,8,9,4,true,easy,9
+MP0413,Gochujang Extra-firm tofu Noodle Bowl,tofu_vegetarian,korean,noodle_bowl,4,730,40.4,90.4,23.0,9.3,12,18,30,2.65,9,8,9,4,true,easy,9
+MP0414,Smoky Paprika Tempeh Roast,tofu_vegetarian,mediterranean,roasted_meal,6,665,43.2,61.5,27.4,18.4,15,40,55,3.16,9,9,9,4,true,easy,8
+MP0415,Black Pepper Egg Sheet-Pan Meal,egg_based,chinese_inspired,sheet_pan,4,561,22.6,76.6,18.2,6.9,18,17,35,1.75,10,9,10,4,false,medium,8
+MP0416,Enchilada-Style Chicken breast Stew,chicken,mexican_tex_mex,stew,4,649,56.2,72.3,15.0,7.9,9,31,40,3.16,10,10,10,4,true,easy,8
+MP0417,Chipotle Chicken thigh Rice Bowl,chicken,mexican_tex_mex,rice_bowl,5,786,50.3,85.8,26.8,9.6,12,23,35,2.92,9,9,9,4,true,easy,8
+MP0418,Roasted Tomato Beef sirloin Rice Bowl,beef,mexican_tex_mex,rice_bowl,4,720,51.2,78.5,22.4,6.5,15,25,40,4.02,9,9,9,4,true,easy,8
+MP0419,Sumac-Style Kidney beans Stew,beans_lentils_chickpeas,middle_eastern,stew,6,645,28.9,105.2,12.1,22.9,18,7,25,1.91,10,10,10,4,true,easy,8
+MP0420,Sesame Tamari Chicken breast Stir-Fry,chicken,chinese_inspired,stir_fry,4,608,55.8,68.7,12.2,3.9,9,31,40,3.03,9,9,9,4,true,medium,8
+MP0421,Turmeric Ginger Shelled edamame Curry,other,indian,curry,4,553,28.2,64.2,20.4,16.7,12,48,60,3.22,10,10,10,4,true,easy,8
+MP0422,Lemon Basil Lean ground beef Soup,beef,italian,soup,5,606,47.5,47.9,24.9,8.6,15,20,35,3.3,9,10,10,4,true,easy,8
+MP0423,Lemon Basil Salmon Pasta,fish,italian,pasta,4,731,48.4,75.9,26.0,6.5,18,32,50,4.3,9,8,9,3,true,easy,8
+MP0424,Smoky Paprika White beans Wrap,beans_lentils_chickpeas,mediterranean,wrap,6,522,22.6,87.1,9.2,20.4,9,26,35,2.19,7,7,8,4,true,easy,8
+MP0425,Green Curry Firm tofu Noodle Bowl,tofu_vegetarian,southeast_asian,noodle_bowl,4,695,38.0,77.0,26.1,10.3,12,28,40,2.98,9,8,9,4,true,medium,9
+MP0426,Curry BBQ Beef sirloin Sheet-Pan Meal,beef,other_fusion,sheet_pan,4,738,51.6,82.3,22.5,4.8,15,13,28,4.31,10,9,10,4,true,easy,8
+MP0427,Tuscan Tomato Chicken breast Soup,chicken,italian,soup,5,680,61.6,76.2,14.3,13.9,18,17,35,3.43,9,10,10,4,true,easy,8
+MP0428,Sweet Chili Chicken thigh Rice Bowl with Broccoli,chicken,chinese_inspired,rice_bowl,4,769,49.5,89.3,23.8,6.5,9,36,45,2.44,9,9,9,4,true,easy,9
+MP0429,Balsamic Lean ground beef Stew,beef,american_western,stew,6,619,49.1,49.3,25.0,8.4,12,28,40,3.55,10,10,10,4,true,easy,8
+MP0430,Doenjang Black beans Stew,beans_lentils_chickpeas,korean,stew,4,691,28.2,124.5,8.9,22.1,15,25,40,2.16,10,10,10,4,true,medium,8
+MP0431,Cilantro Lime Chicken thigh Sheet-Pan Meal,chicken,mexican_tex_mex,sheet_pan,4,480,44.5,21.6,23.9,5.4,18,42,60,2.78,10,9,10,4,true,easy,8
+MP0432,Spiced Yogurt Chicken breast Stew,chicken,indian,stew,5,649,58.6,70.2,14.9,7.6,9,26,35,3.35,10,10,10,4,true,easy,8
+MP0433,Tomato Cumin Lean ground pork Grain Bowl,pork,indian,grain_bowl,4,741,47.0,79.9,25.9,5.9,12,18,30,2.39,9,9,9,4,true,easy,8
+MP0434,Creamy Herb Beef sirloin Sheet-Pan Meal,beef,italian,sheet_pan,6,711,57.1,60.5,26.7,10.9,15,40,55,4.45,10,9,10,4,true,easy,8
+MP0435,Miso Ginger Lean ground beef Sheet-Pan Meal,beef,japanese,sheet_pan,4,756,51.7,78.5,26.1,7.0,18,37,55,3.39,10,9,10,4,true,medium,9
+MP0436,Tangy Ginger Chicken thigh Rice Bowl,chicken,japanese,rice_bowl,4,716,49.0,74.2,24.8,8.8,9,36,45,2.56,9,9,9,4,true,easy,8
+MP0437,Tomato Cumin Extra-firm tofu Stew,tofu_vegetarian,indian,stew,5,719,44.5,73.2,27.6,13.9,12,38,50,2.62,10,10,10,4,true,easy,8
+MP0438,Sweet Chili Halloumi Stir-Fry,other,chinese_inspired,stir_fry,4,815,34.2,90.8,35.0,7.8,15,30,45,3.02,9,9,9,4,true,easy,9
+MP0439,Tahini Tempeh Meal-Prep Salad,tofu_vegetarian,mediterranean,salad,6,906,53.0,76.2,43.2,18.9,18,10,28,3.55,7,5,9,4,false,easy,9
+MP0440,Curry BBQ Shrimp Stir-Fry,shrimp_seafood,other_fusion,stir_fry,4,576,52.5,62.3,13.0,9.2,9,26,35,4.68,9,9,9,3,true,medium,8
+MP0441,Basil Pesto Beef sirloin Grain Bowl with Spinach,beef,italian,grain_bowl,4,795,57.9,57.1,37.2,8.7,12,38,50,4.77,9,9,9,4,true,easy,8
+MP0442,Tomato Cumin Firm tofu Grain Bowl,tofu_vegetarian,indian,grain_bowl,5,696,35.8,85.2,23.6,9.4,15,35,50,2.1,9,9,9,4,true,easy,8
+MP0443,Spicy Garlic Chickpeas Stew,beans_lentils_chickpeas,korean,stew,4,729,26.5,128.2,12.2,20.9,18,32,50,1.72,10,10,10,4,true,easy,9
+MP0444,Balsamic Herb Chicken thigh Meal-Prep Salad,chicken,mediterranean,salad,6,689,49.9,69.1,23.7,15.7,9,46,55,2.68,7,5,9,3,false,easy,8
+MP0445,Buffalo Chicken thigh Pasta,chicken,american_western,pasta,4,739,54.1,75.2,24.6,6.3,12,38,50,2.93,9,8,9,4,true,medium,8
+MP0446,Enchilada-Style Lean ground beef Rice Bowl,beef,mexican_tex_mex,rice_bowl,4,732,48.7,72.3,27.6,7.9,15,20,35,3.38,9,9,9,4,true,easy,8
+MP0447,Garlic Herb Lean ground beef Wrap with Broccoli,beef,american_western,wrap,5,607,50.0,36.3,29.1,9.0,18,17,35,3.51,7,7,8,4,true,easy,8
+MP0448,Tahini Lemon Pork tenderloin Stew,pork,middle_eastern,stew,4,748,56.4,72.2,26.0,9.4,9,19,28,3.28,10,10,10,4,true,easy,9
+MP0449,Smoky Paprika Cod Roast,fish,mediterranean,roasted_meal,6,447,42.7,47.5,9.6,9.6,12,16,28,3.9,9,9,9,3,true,easy,8
+MP0450,Garlic Herb Scallops Roast,shrimp_seafood,american_western,roasted_meal,4,456,39.1,55.5,8.6,10.4,15,45,60,4.92,9,9,9,3,true,medium,8
+MP0451,Masala Egg Sheet-Pan Meal,egg_based,indian,sheet_pan,4,613,25.7,88.8,17.2,9.7,18,37,55,1.59,10,9,10,4,false,easy,8
+MP0452,Roasted Tomato Lean ground beef Burrito Bowl,beef,mexican_tex_mex,burrito_bowl,5,741,49.7,78.5,25.4,6.5,9,16,25,3.42,9,9,9,4,true,easy,8
+MP0453,Smoky BBQ Extra-firm tofu Pasta,tofu_vegetarian,american_western,pasta,4,752,45.1,88.8,24.0,11.3,12,28,40,2.5,9,8,9,4,true,easy,8
+MP0454,Fajita Canned tuna Rice Bowl,fish,mexican_tex_mex,rice_bowl,6,636,48.7,83.2,12.1,7.8,15,35,50,3.01,9,9,9,3,true,easy,8
+MP0455,Miso Ginger Chicken breast Noodle Bowl,chicken,japanese,noodle_bowl,4,689,63.4,78.5,13.5,8.7,18,10,28,3.28,9,8,9,4,true,medium,9
+MP0456,Turmeric Ginger Seitan Stew,other,indian,stew,4,576,44.7,66.5,14.6,9.5,9,16,25,3.39,10,10,10,4,true,easy,8
+MP0457,Gochujang Lime Shelled edamame Rice Bowl,other,other_fusion,rice_bowl,5,646,29.9,92.3,17.5,16.6,12,16,28,2.73,9,9,9,4,true,easy,8
+MP0458,Sweet Chili Basil Salmon Meal-Prep Salad,fish,southeast_asian,salad,4,769,43.2,92.1,25.3,4.8,15,30,45,4.68,7,5,9,3,false,easy,9
+MP0459,Smoky BBQ Lean ground pork Pasta,pork,american_western,pasta,6,783,52.9,83.6,26.3,7.8,18,17,35,2.66,9,8,9,4,true,easy,8
+MP0460,Sweet Soy Cod Rice Bowl,fish,japanese,rice_bowl,4,595,46.3,79.4,10.2,6.8,9,41,50,3.93,9,9,9,3,true,medium,8
+MP0461,Basil Pesto Canned tuna Pasta,fish,italian,pasta,4,692,56.3,68.6,21.4,11.1,12,16,28,3.78,9,8,9,3,true,easy,8
+MP0462,Doenjang Tempeh Stew,tofu_vegetarian,korean,stew,5,814,47.0,95.3,27.2,14.6,15,10,25,3.19,10,10,10,4,true,easy,8
+MP0463,Dill Yogurt Beef sirloin Meal-Prep Salad,beef,mediterranean,salad,4,703,54.1,69.9,23.0,17.1,18,27,45,4.32,7,5,9,3,false,easy,9
+MP0464,Doenjang Salmon Stir-Fry,fish,korean,stir_fry,6,739,45.0,81.3,26.0,5.9,9,36,45,4.68,9,9,9,3,true,easy,8
+MP0465,Buffalo Cod Grain Bowl,fish,american_western,grain_bowl,4,550,44.5,69.2,10.6,6.7,12,18,30,3.86,9,9,9,3,true,medium,8
+MP0466,Balsamic Garlic Shrimp Roast,shrimp_seafood,italian,roasted_meal,4,451,43.8,50.0,8.4,8.7,15,30,45,4.33,9,9,9,3,true,easy,8
+MP0467,Tamari Sesame Chicken thigh Rice Bowl,chicken,japanese,rice_bowl,5,677,48.3,68.7,23.2,3.9,18,42,60,2.66,9,9,9,4,true,easy,8
+MP0468,Chipotle Firm tofu Burrito Bowl,tofu_vegetarian,mexican_tex_mex,burrito_bowl,4,750,37.5,91.0,26.2,13.1,9,21,30,2.63,9,9,9,4,true,easy,8
+MP0469,Bulgogi Pork tenderloin Stir-Fry,pork,korean,stir_fry,6,582,47.1,69.5,12.8,10.3,12,28,40,3.11,9,9,9,4,true,easy,9
+MP0470,Garlic Herb Lean ground turkey Sheet-Pan Meal,turkey,american_western,sheet_pan,4,675,51.4,70.1,21.0,8.8,15,20,35,3.1,10,9,10,4,true,medium,8
+MP0471,Balsamic Garlic Lean ground beef Soup,beef,italian,soup,4,611,46.8,50.0,24.9,8.7,18,32,50,3.58,9,10,10,4,true,easy,8
+MP0472,Balsamic Canned tuna Wrap,fish,american_western,wrap,5,368,45.4,25.6,9.3,5.8,9,36,45,3.26,7,7,8,3,true,easy,8
+MP0473,Honey Mustard Lean ground pork Grain Bowl,pork,american_western,grain_bowl,4,766,52.5,72.8,29.4,10.1,12,23,35,3.09,9,9,9,4,true,easy,8
+MP0474,Miso Herb Chicken breast Soup,chicken,japanese,soup,6,651,57.0,76.3,13.1,6.1,15,35,50,2.74,9,10,10,4,true,easy,8
+MP0475,Spicy Garlic Halloumi Stir-Fry,other,korean,stir_fry,4,805,33.2,89.7,34.8,6.6,18,37,55,2.84,9,9,9,4,true,medium,9
+MP0476,Smoky BBQ Extra-firm tofu Wrap,tofu_vegetarian,american_western,wrap,4,593,39.1,49.1,26.7,12.7,9,31,40,2.66,7,7,8,4,true,easy,8
+MP0477,Spiced Yogurt Egg Rice Bowl,egg_based,indian,rice_bowl,5,555,29.2,61.2,21.5,9.8,12,38,50,2.5,9,9,9,4,false,easy,8
+MP0478,Bulgogi Tempeh Stir-Fry,tofu_vegetarian,korean,stir_fry,4,740,43.1,83.5,26.0,19.0,15,35,50,3.12,9,9,9,4,true,easy,9
+MP0479,Sesame Soy Firm tofu Sheet-Pan Meal,tofu_vegetarian,korean,sheet_pan,6,656,37.8,71.1,24.5,8.6,18,10,28,2.53,10,9,10,4,true,easy,8
+MP0480,Sesame Tamari Pork tenderloin Stir-Fry,pork,chinese_inspired,stir_fry,4,615,48.2,76.7,12.8,4.0,9,26,35,3.06,9,9,9,4,true,medium,8
+MP0481,Balsamic Herb Chicken thigh Sheet-Pan Meal,chicken,mediterranean,sheet_pan,4,596,47.4,46.6,24.4,7.8,12,38,50,3.03,10,9,10,4,true,easy,8
+MP0482,Salsa Verde Salmon Rice Bowl,fish,mexican_tex_mex,rice_bowl,5,714,41.5,80.8,25.0,5.4,15,45,60,4.32,9,9,9,3,true,easy,9
+MP0483,Balsamic Cod Stew,fish,american_western,stew,4,565,46.4,71.4,10.4,6.8,18,22,40,3.76,10,10,10,3,true,easy,8
+MP0484,Ginger Scallion Lean ground pork Stew,pork,korean,stew,6,618,44.3,54.6,24.7,9.6,9,51,60,2.78,10,10,10,4,true,easy,8
+MP0485,Tuscan Tomato Seitan Sheet-Pan Meal,other,italian,sheet_pan,4,540,45.1,67.3,10.1,10.3,12,28,40,3.27,10,9,10,4,true,medium,8
+MP0486,Tahini Extra-firm tofu Grain Bowl,tofu_vegetarian,mediterranean,grain_bowl,4,817,43.2,77.2,37.3,11.4,15,35,50,2.79,9,9,9,4,true,easy,9
+MP0487,Turmeric Ginger Scallops Rice Bowl,shrimp_seafood,indian,rice_bowl,5,596,38.3,80.3,13.5,4.1,18,22,40,4.9,9,9,9,3,true,easy,8
+MP0488,Tahini Turkey breast Wrap,turkey,mediterranean,wrap,4,528,53.0,26.2,23.5,6.9,9,41,50,3.51,7,7,8,4,true,easy,9
+MP0489,Rustic Tomato Shelled edamame Grain Bowl,other,american_western,grain_bowl,6,558,29.1,74.5,15.9,21.0,12,38,50,2.75,9,9,9,4,true,easy,8
+MP0490,Tamari Sesame Egg Sheet-Pan Meal,egg_based,japanese,sheet_pan,4,545,28.6,69.8,16.8,7.4,15,45,60,2.13,10,9,10,4,false,medium,8
+MP0491,Sumac-Style Shrimp Wrap,shrimp_seafood,middle_eastern,wrap,4,467,44.2,50.8,9.7,10.0,18,27,45,4.04,7,7,8,3,true,easy,8
+MP0492,Gochujang Lime Brown lentils Stir-Fry,beans_lentils_chickpeas,other_fusion,stir_fry,5,659,24.2,122.8,7.9,20.1,9,26,35,1.87,9,9,9,4,true,easy,8
+MP0493,Smoky BBQ Pork tenderloin Stew,pork,american_western,stew,4,674,55.2,79.3,15.1,12.9,12,16,28,2.96,10,10,10,4,true,easy,8
+MP0494,Lemongrass-Style Egg Noodle Bowl,egg_based,southeast_asian,noodle_bowl,6,564,22.5,81.5,16.5,4.7,15,30,45,1.99,9,8,9,4,false,easy,9
+MP0495,Coconut Curry Beef sirloin Sheet-Pan Meal,beef,indian,sheet_pan,4,631,49.9,47.0,27.0,9.0,18,22,40,4.49,10,9,10,4,true,medium,8
+MP0496,Coconut Curry Egg Stew,egg_based,indian,stew,4,474,22.0,47.8,21.6,9.0,9,31,40,2.47,10,10,10,4,false,easy,8
+MP0497,Garlic Herb Canned tuna Pasta,fish,american_western,pasta,5,599,54.3,71.8,10.5,13.4,12,28,40,3.37,9,8,9,3,true,easy,8
+MP0498,Cilantro Lime Lean ground turkey Stew,turkey,mexican_tex_mex,stew,4,648,49.3,69.6,19.1,4.2,15,45,60,3.01,10,10,10,4,true,easy,8
+MP0499,Tamari Sesame Kidney beans Noodle Bowl,beans_lentils_chickpeas,japanese,noodle_bowl,6,626,27.9,110.4,8.1,18.3,18,7,25,2.05,9,8,9,4,true,easy,8
+MP0500,Doenjang White beans Noodle Bowl,beans_lentils_chickpeas,korean,noodle_bowl,4,653,28.9,113.2,9.4,18.4,9,16,25,2.23,9,8,9,4,true,medium,8

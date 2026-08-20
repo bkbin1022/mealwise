@@ -54,7 +54,7 @@ export default function Hero() {
         </nav>
         <div className="mt-20 flex flex-col items-center gap-10 text-center sm:mt-24">
           <div className="hero-reveal flex max-w-3xl flex-col items-center gap-6 [animation-delay:80ms]">
-            <h1 className="text-balance font-serif text-5xl leading-[1.04] tracking-[-0.055em] text-[#193426] sm:text-6xl md:text-7xl">Pick ingredidents,<br /><span className="text-[#5f8e4f]">build your week.</span></h1>
+            <h1 className="text-balance font-serif text-5xl leading-[1.04] tracking-[-0.055em] text-[#193426] sm:text-6xl md:text-7xl">Pick ingredients,<br /><span className="text-[#5f8e4f]">build your week.</span></h1>
             <p className="max-w-xl text-pretty text-base leading-7 text-[#52705b] sm:text-lg">Mealpush turns your preferences, goals, and schedule into a weekly menu and a smarter grocery list.</p>
           </div>
           <div id="start" className="hero-reveal flex flex-col items-center gap-4 [animation-delay:160ms]">
