@@ -47,7 +47,7 @@ export default function Hero() {
             <a href="#pricing" className="transition hover:text-[#174c32]">Pricing</a>
           </div>
           <div className="flex items-center justify-self-end gap-2 text-sm font-semibold text-[#315d42]">
-            <a href="#sign-in" className="rounded-full border border-[#315d42]/20 bg-[#e7f0dc] px-4 py-2 transition hover:bg-[#d9e8cc]">Sign in</a>
+            <Link href="/auth" className="rounded-full border border-[#315d42]/20 bg-[#e7f0dc] px-4 py-2 transition hover:bg-[#d9e8cc]">Sign in</Link>
             <a href="#start" className="rounded-full bg-[#315d42] px-4 py-2 text-white transition hover:bg-[#254a34]">Start now</a>
           </div>
         </nav>

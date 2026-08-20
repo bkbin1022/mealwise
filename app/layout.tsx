@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Baloo_2, Nunito } from "next/font/google";
+import { AuthProvider } from "@/components/auth/auth-provider";
 import "./globals.css";
 
 const nunito = Nunito({
@@ -15,14 +16,14 @@ const baloo = Baloo_2({
 });
 
 export const metadata: Metadata = {
-  title: "Mealwise | AI Meal Prep Planner",
-  description: "Mealwise makes weekly meal preparation simple and personal.",
+  title: "Mealwise | AI Meal Planner",
+  description: "Mealwise makes weekly meal planning simple and personal.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${nunito.variable} ${baloo.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col"><AuthProvider>{children}</AuthProvider></body>
     </html>
   );
 }
