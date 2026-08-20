@@ -16,8 +16,8 @@ const baloo = Baloo_2({
 });
 
 export const metadata: Metadata = {
-  title: "Mealwise | AI Meal Planner",
-  description: "Mealwise makes weekly meal planning simple and personal.",
+  title: "Mealpush | AI Meal Planner",
+  description: "Mealpush makes weekly meal planning simple and personal.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

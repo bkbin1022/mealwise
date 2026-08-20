@@ -1,8 +1,9 @@
 "use client";
 
-import Link from "next/link";
-import { FormEvent, Suspense, useState } from "react";
+import { FormEvent, Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import { useAuth } from "@/components/auth/auth-provider";
+import MealpushLogo from "@/components/shared/mealpush-logo";
 import { createClient } from "@/lib/supabase/client";
 
 function MealSelectionIllustration() {
@@ -40,10 +41,17 @@ function MealSelectionIllustration() {
 function AuthForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const { user, loading: sessionLoading } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState<string | null>(searchParams.get("error") ? "Google sign-in could not be completed. Please try again." : null);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!sessionLoading && user) {
+      router.replace("/dashboard");
+    }
+  }, [router, sessionLoading, user]);
 
   async function signInWithEmail(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -55,18 +63,22 @@ function AuthForm() {
       setLoading(false);
       return;
     }
-    router.replace("/");
+    router.replace("/dashboard");
     router.refresh();
   }
 
   async function signInWithGoogle() {
     setLoading(true);
     setMessage(null);
-    const { error } = await createClient().auth.signInWithOAuth({ provider: "google", options: { redirectTo: `${window.location.origin}/auth/callback?next=/` } });
+    const { error } = await createClient().auth.signInWithOAuth({ provider: "google", options: { redirectTo: `${window.location.origin}/auth/callback?next=/dashboard` } });
     if (error) {
       setMessage(error.message);
       setLoading(false);
     }
+  }
+
+  if (sessionLoading || user) {
+    return <main className="min-h-screen bg-[#f7faf5]" />;
   }
 
   return (
@@ -74,16 +86,16 @@ function AuthForm() {
       <div className="mx-auto grid min-h-[calc(100vh-1.5rem)] max-w-[90rem] overflow-hidden rounded-[2rem] bg-white shadow-[0_24px_80px_rgba(49,93,66,0.12)] sm:min-h-[calc(100vh-2.5rem)] lg:h-[calc(100vh-2.5rem)] lg:min-h-0 lg:grid-cols-[3fr_2fr]">
         <section className="relative hidden overflow-hidden bg-[#e7f0dc] p-8 lg:flex lg:flex-col xl:p-10">
           <div className="absolute inset-x-0 top-0 h-72 bg-[radial-gradient(circle_at_50%_0%,#c9e1ae,transparent_70%)]" />
-          <Link href="/" className="relative z-10 text-3xl font-bold leading-none tracking-tight" style={{ fontFamily: "var(--font-baloo)" }}><span className="text-[#174c32]">meal</span><span className="text-[#94bf4a]">wise</span></Link>
+          <div className="relative z-10"><MealpushLogo className="text-3xl" /></div>
           <div className="relative z-10 mt-auto flex flex-1 flex-col items-center justify-center text-center">
             <MealSelectionIllustration />
-            <div className="-mt-4 max-w-md space-y-2"><p className="text-xs font-bold tracking-[0.16em] text-[#5f8e4f] uppercase">Made for your rhythm</p><h1 className="text-3xl font-bold tracking-[-0.045em] text-[#193426] xl:text-4xl">Good meals, already figured out.</h1><p className="text-sm leading-6 text-[#52705b]">Choose what you love. Mealwise makes the rest of the week feel easy.</p></div>
+            <div className="-mt-4 max-w-md space-y-2"><p className="text-xs font-bold tracking-[0.16em] text-[#5f8e4f] uppercase">Made for your rhythm</p><h1 className="text-3xl font-bold tracking-[-0.045em] text-[#193426] xl:text-4xl">Good meals, already figured out.</h1><p className="text-sm leading-6 text-[#52705b]">Choose what you love. Mealpush makes the rest of the week feel easy.</p></div>
           </div>
         </section>
 
         <section className="flex items-center justify-center p-6 sm:p-8 lg:p-8 xl:p-10">
           <div className="w-full max-w-[22rem]">
-            <div className="mb-8 flex items-center justify-between lg:hidden"><Link href="/" className="text-2xl font-bold leading-none tracking-tight" style={{ fontFamily: "var(--font-baloo)" }}><span className="text-[#174c32]">meal</span><span className="text-[#94bf4a]">wise</span></Link><span className="text-sm font-semibold text-[#52705b]">Welcome back</span></div>
+            <div className="mb-8 flex items-center justify-between lg:hidden"><MealpushLogo /><span className="text-sm font-semibold text-[#52705b]">Welcome back</span></div>
             <div className="mb-7 space-y-2"><p className="hidden text-sm font-semibold text-[#5f8e4f] lg:block">Welcome back</p><h2 className="text-3xl font-bold tracking-[-0.045em] text-[#193426] xl:text-4xl">Your week starts here.</h2><p className="text-sm leading-6 text-[#68816d]">Sign in to pick up your next meal plan.</p></div>
             <form className="space-y-4" onSubmit={signInWithEmail}>
               <label className="block space-y-2 text-sm font-bold text-[#315d42]">Email address<input required type="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@example.com" className="w-full rounded-xl border border-[#315d42]/15 bg-[#f9fcf6] px-4 py-3 text-base font-medium text-[#193426] outline-none transition placeholder:text-[#97a89b] focus:border-[#5f8e4f] focus:ring-4 focus:ring-[#dceccb]" /></label>
@@ -94,7 +106,7 @@ function AuthForm() {
             <div className="my-5 flex items-center gap-3 text-xs font-semibold text-[#8a9b8d]"><span className="h-px flex-1 bg-[#315d42]/10" />or continue with<span className="h-px flex-1 bg-[#315d42]/10" /></div>
             <button disabled={loading} type="button" onClick={signInWithGoogle} className="w-full rounded-xl border border-[#315d42]/15 bg-white px-5 py-3.5 text-sm font-bold text-[#315d42] transition hover:bg-[#f7faf5] disabled:cursor-not-allowed disabled:opacity-60">Continue with Google</button>
             {message && <p role="alert" className="mt-5 rounded-xl bg-[#fce8e4] px-4 py-3 text-center text-sm font-semibold text-[#9a3d2f]">{message}</p>}
-            <p className="mt-6 text-center text-xs leading-5 text-[#839488]">By continuing, you agree to Mealwise&apos;s Terms of Use and Privacy Policy.</p>
+            <p className="mt-6 text-center text-xs leading-5 text-[#839488]">By continuing, you agree to Mealpush&apos;s Terms of Use and Privacy Policy.</p>
           </div>
         </section>
       </div>

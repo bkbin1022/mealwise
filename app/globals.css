@@ -17,6 +17,18 @@ body {
   font-family: var(--font-nunito), Arial, Helvetica, sans-serif;
 }
 
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.dashboard-scrollbar {
+  scrollbar-width: none;
+}
+
+.dashboard-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 @keyframes hero-reveal {
   from { opacity: 0; filter: blur(6px); transform: translateY(12px); }
   to { opacity: 1; filter: blur(0); transform: translateY(0); }
@@ -25,6 +37,56 @@ body {
 @keyframes hero-fan {
   from { opacity: 0; transform: translateY(28px) scale(0.96); }
   to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes plan-step-enter {
+  from {
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(18px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes plan-optimizer-orbit {
+  0% { transform: scale(0.88) rotate(0deg); }
+  50% { transform: scale(1.06) rotate(180deg); }
+  100% { transform: scale(0.88) rotate(360deg); }
+}
+
+@keyframes plan-modal-pop {
+  from {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(26px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes plan-modal-backdrop {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes session-step-enter {
+  from {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
 }
 
 .hero-reveal, .hero-fan {
@@ -36,6 +98,32 @@ body {
   animation-delay: 220ms;
 }
 
+.plan-step-enter {
+  animation: plan-step-enter 480ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.plan-optimizer-orbit {
+  animation: plan-optimizer-orbit 1.8s ease-in-out infinite;
+}
+
+.plan-modal-pop {
+  animation: plan-modal-pop 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.plan-modal-backdrop {
+  animation: plan-modal-backdrop 220ms ease-out both;
+}
+
+.session-step-enter {
+  animation: session-step-enter 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .hero-reveal, .hero-fan { animation: none; }
+  .hero-reveal,
+  .hero-fan,
+  .plan-step-enter,
+  .plan-optimizer-orbit,
+  .plan-modal-pop,
+  .plan-modal-backdrop,
+  .session-step-enter { animation: none; }
 }

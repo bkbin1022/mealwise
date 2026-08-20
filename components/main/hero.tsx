@@ -1,4 +1,6 @@
 import Link from "next/link";
+import LandingAuthActions from "@/components/main/landing-auth-actions";
+import MealpushLogo from "@/components/shared/mealpush-logo";
 
 type MealCardProps = { type: "plan" | "plate" | "prep" };
 
@@ -41,23 +43,22 @@ export default function Hero() {
       <div className="absolute inset-x-0 top-0 -z-10 h-[34rem] bg-[radial-gradient(circle_at_50%_5%,#dceccb,transparent_62%)]" />
       <div className="mx-auto max-w-6xl">
         <nav className="hero-reveal grid grid-cols-[1fr_auto_1fr] items-center gap-4" aria-label="Main navigation">
-          <Link href="/" className="text-2xl font-bold leading-none tracking-tight" style={{ fontFamily: "var(--font-baloo)" }}><span className="text-[#174c32]">meal</span><span className="text-[#94bf4a]">wise</span></Link>
+          <MealpushLogo />
           <div className="hidden items-center gap-6 text-sm font-semibold text-[#315d42] sm:flex">
             <a href="#features" className="transition hover:text-[#174c32]">Features</a>
             <a href="#pricing" className="transition hover:text-[#174c32]">Pricing</a>
           </div>
           <div className="flex items-center justify-self-end gap-2 text-sm font-semibold text-[#315d42]">
-            <Link href="/auth" className="rounded-full border border-[#315d42]/20 bg-[#e7f0dc] px-4 py-2 transition hover:bg-[#d9e8cc]">Sign in</Link>
-            <a href="#start" className="rounded-full bg-[#315d42] px-4 py-2 text-white transition hover:bg-[#254a34]">Start now</a>
+            <LandingAuthActions />
           </div>
         </nav>
         <div className="mt-20 flex flex-col items-center gap-10 text-center sm:mt-24">
           <div className="hero-reveal flex max-w-3xl flex-col items-center gap-6 [animation-delay:80ms]">
             <h1 className="text-balance font-serif text-5xl leading-[1.04] tracking-[-0.055em] text-[#193426] sm:text-6xl md:text-7xl">Pick ingredidents,<br /><span className="text-[#5f8e4f]">build your week.</span></h1>
-            <p className="max-w-xl text-pretty text-base leading-7 text-[#52705b] sm:text-lg">Mealwise turns your preferences, goals, and schedule into a weekly menu and a smarter grocery list.</p>
+            <p className="max-w-xl text-pretty text-base leading-7 text-[#52705b] sm:text-lg">Mealpush turns your preferences, goals, and schedule into a weekly menu and a smarter grocery list.</p>
           </div>
           <div id="start" className="hero-reveal flex flex-col items-center gap-4 [animation-delay:160ms]">
-            <div className="flex flex-wrap justify-center gap-3"><a href="#plan" className="rounded-full bg-[#315d42] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#254a34]">Create my plan</a></div>
+            <div className="flex flex-wrap justify-center gap-3"><Link href="/plan" className="rounded-full bg-[#315d42] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#254a34]">Create my plan</Link></div>
             <p className="text-xs font-medium text-[#68816d]">No nutrition expertise needed. Ready in three minutes.</p>
           </div>
           <div className="hero-fan flex w-full max-w-3xl items-center justify-center pt-3">{cards.map((card) => <div key={card.type} className={`aspect-[4/5] shrink-0 overflow-hidden rounded-[1.4rem] bg-white shadow-[0_24px_70px_rgba(49,93,66,0.18)] outline outline-1 outline-[#315d42]/10 ${card.className}`}><span className="sr-only">{card.label}</span><MealCard type={card.type} /></div>)}</div>
