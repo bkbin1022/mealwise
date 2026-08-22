@@ -37,12 +37,12 @@ export default function LandingAuthActions() {
       >
         Sign in
       </Link>
-      <a
-        href="#start"
+      <Link
+        href="/signup"
         className="rounded-full bg-[#315d42] px-4 py-2 text-white transition hover:bg-[#254a34]"
       >
         Start now
-      </a>
+      </Link>
     </>
   );
 }

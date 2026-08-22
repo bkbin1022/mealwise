@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { FormEvent, Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useAuth } from "@/components/auth/auth-provider";
@@ -82,9 +83,9 @@ function AuthForm() {
   }
 
   return (
-    <main className="min-h-screen bg-[#f7faf5] p-3 sm:p-5">
-      <div className="mx-auto grid min-h-[calc(100vh-1.5rem)] max-w-[90rem] overflow-hidden rounded-[2rem] bg-white shadow-[0_24px_80px_rgba(49,93,66,0.12)] sm:min-h-[calc(100vh-2.5rem)] lg:h-[calc(100vh-2.5rem)] lg:min-h-0 lg:grid-cols-[3fr_2fr]">
-        <section className="relative hidden overflow-hidden bg-[#e7f0dc] p-8 lg:flex lg:flex-col xl:p-10">
+    <main className="auth-page-enter min-h-screen bg-[#f7faf5] p-3 sm:p-5">
+      <div className="auth-shell-enter mx-auto grid min-h-[calc(100vh-1.5rem)] max-w-[90rem] overflow-hidden rounded-[2rem] bg-white shadow-[0_24px_80px_rgba(49,93,66,0.12)] sm:min-h-[calc(100vh-2.5rem)] lg:h-[calc(100vh-2.5rem)] lg:min-h-0 lg:grid-cols-[3fr_2fr]">
+        <section className="auth-visual-enter relative hidden overflow-hidden bg-[#e7f0dc] p-8 lg:flex lg:flex-col xl:p-10">
           <div className="absolute inset-x-0 top-0 h-72 bg-[radial-gradient(circle_at_50%_0%,#c9e1ae,transparent_70%)]" />
           <div className="relative z-10"><MealpushLogo className="text-3xl" /></div>
           <div className="relative z-10 mt-auto flex flex-1 flex-col items-center justify-center text-center">
@@ -94,7 +95,7 @@ function AuthForm() {
         </section>
 
         <section className="flex items-center justify-center p-6 sm:p-8 lg:p-8 xl:p-10">
-          <div className="w-full max-w-[22rem]">
+          <div className="auth-form-enter w-full max-w-[22rem]">
             <div className="mb-8 flex items-center justify-between lg:hidden"><MealpushLogo /><span className="text-sm font-semibold text-[#52705b]">Welcome back</span></div>
             <div className="mb-7 space-y-2"><p className="hidden text-sm font-semibold text-[#5f8e4f] lg:block">Welcome back</p><h2 className="text-3xl font-bold tracking-[-0.045em] text-[#193426] xl:text-4xl">Your week starts here.</h2><p className="text-sm leading-6 text-[#68816d]">Sign in to pick up your next meal plan.</p></div>
             <form className="space-y-4" onSubmit={signInWithEmail}>
@@ -106,6 +107,7 @@ function AuthForm() {
             <div className="my-5 flex items-center gap-3 text-xs font-semibold text-[#8a9b8d]"><span className="h-px flex-1 bg-[#315d42]/10" />or continue with<span className="h-px flex-1 bg-[#315d42]/10" /></div>
             <button disabled={loading} type="button" onClick={signInWithGoogle} className="w-full rounded-xl border border-[#315d42]/15 bg-white px-5 py-3.5 text-sm font-bold text-[#315d42] transition hover:bg-[#f7faf5] disabled:cursor-not-allowed disabled:opacity-60">Continue with Google</button>
             {message && <p role="alert" className="mt-5 rounded-xl bg-[#fce8e4] px-4 py-3 text-center text-sm font-semibold text-[#9a3d2f]">{message}</p>}
+            <p className="mt-5 text-center text-sm text-[#718478]">New to Mealpush? <Link href="/signup" className="font-extrabold text-[#5f8e4f] hover:text-[#315d42]">Create an account</Link></p>
             <p className="mt-6 text-center text-xs leading-5 text-[#839488]">By continuing, you agree to Mealpush&apos;s Terms of Use and Privacy Policy.</p>
           </div>
         </section>

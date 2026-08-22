@@ -39,6 +39,46 @@ button:not(:disabled) {
   to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
+@keyframes auth-page-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes auth-shell-enter {
+  from {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(20px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: none;
+  }
+}
+
+@keyframes auth-visual-enter {
+  from {
+    opacity: 0;
+    transform: translateX(-22px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes auth-form-enter {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @keyframes plan-step-enter {
   from {
     opacity: 0;
@@ -48,7 +88,7 @@ button:not(:disabled) {
   to {
     opacity: 1;
     filter: blur(0);
-    transform: translateY(0) scale(1);
+    transform: none;
   }
 }
 
@@ -98,6 +138,22 @@ button:not(:disabled) {
   animation-delay: 220ms;
 }
 
+.auth-page-enter {
+  animation: auth-page-enter 320ms ease-out both;
+}
+
+.auth-shell-enter {
+  animation: auth-shell-enter 620ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.auth-visual-enter {
+  animation: auth-visual-enter 650ms 100ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.auth-form-enter {
+  animation: auth-form-enter 600ms 170ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
 .plan-step-enter {
   animation: plan-step-enter 480ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
@@ -121,6 +177,10 @@ button:not(:disabled) {
 @media (prefers-reduced-motion: reduce) {
   .hero-reveal,
   .hero-fan,
+  .auth-page-enter,
+  .auth-shell-enter,
+  .auth-visual-enter,
+  .auth-form-enter,
   .plan-step-enter,
   .plan-optimizer-orbit,
   .plan-modal-pop,

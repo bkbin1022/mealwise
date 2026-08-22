@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { type FormEvent, useCallback, useEffect, useMemo, useState } from "react";
+import { createPortal } from "react-dom";
 import { useAuth } from "@/components/auth/auth-provider";
+import IngredientIcon from "@/components/plan/ingredient-icon";
 import MealpushLogo from "@/components/shared/mealpush-logo";
 import { createClient } from "@/lib/supabase/client";
 import {
@@ -43,6 +45,91 @@ const questions: Record<
   },
 };
 
+type IngredientGroup = {
+  label: string;
+  ingredients: Ingredient[];
+};
+
+const ingredientGroupOrder: Record<IngredientCategory, string[]> = {
+  Protein: ["Poultry", "Meat", "Seafood", "Eggs", "Plant-based"],
+  Carbs: ["Grains", "Pasta & noodles", "Potatoes", "Breads & wraps", "Oats"],
+  Vegetables: [
+    "Leafy greens",
+    "Cruciferous",
+    "Tomatoes & peppers",
+    "Roots & aromatics",
+    "Other vegetables",
+  ],
+  Fats: ["Avocado", "Oils", "Nuts & seeds", "Spreads & other fats"],
+  Extras: ["Dairy", "Fruit", "Sauces & condiments", "Herbs & seasonings", "Pantry & other"],
+};
+
+function includesAny(value: string, terms: string[]) {
+  return terms.some((term) => value.includes(term));
+}
+
+function ingredientGroupFor(ingredient: Ingredient) {
+  const value = `${ingredient.id} ${ingredient.name}`.toLowerCase();
+
+  switch (ingredient.category) {
+    case "Protein":
+      if (includesAny(value, ["chicken", "turkey", "duck"])) return "Poultry";
+      if (includesAny(value, ["salmon", "shrimp", "cod", "tuna", "scallop", "fish"])) return "Seafood";
+      if (includesAny(value, ["tofu", "tempeh", "seitan", "edamame", "bean", "lentil", "chickpea"])) {
+        return "Plant-based";
+      }
+      if (value.includes("egg")) return "Eggs";
+      return "Meat";
+    case "Carbs":
+      if (includesAny(value, ["pasta", "noodle"])) return "Pasta & noodles";
+      if (value.includes("potato")) return "Potatoes";
+      if (includesAny(value, ["tortilla", "wrap", "bread", "pita"])) return "Breads & wraps";
+      if (value.includes("oat")) return "Oats";
+      return "Grains";
+    case "Vegetables":
+      if (includesAny(value, ["spinach", "kale", "lettuce", "arugula", "cabbage", "greens"])) {
+        return "Leafy greens";
+      }
+      if (includesAny(value, ["broccoli", "cauliflower", "brussels"])) return "Cruciferous";
+      if (includesAny(value, ["tomato", "pepper"])) return "Tomatoes & peppers";
+      if (includesAny(value, ["carrot", "onion", "garlic", "beet", "turnip"])) {
+        return "Roots & aromatics";
+      }
+      return "Other vegetables";
+    case "Fats":
+      if (value.includes("avocado")) return "Avocado";
+      if (value.includes("oil")) return "Oils";
+      if (includesAny(value, ["almond", "cashew", "walnut", "peanut", "seed"])) return "Nuts & seeds";
+      return "Spreads & other fats";
+    case "Extras":
+      if (includesAny(value, ["yogurt", "feta", "cheese", "milk"])) return "Dairy";
+      if (includesAny(value, ["lemon", "lime", "orange", "apple", "berry", "fruit"])) return "Fruit";
+      if (includesAny(value, ["sauce", "vinegar", "tahini", "pesto", "mustard", "miso", "gochujang", "soy"])) {
+        return "Sauces & condiments";
+      }
+      if (includesAny(value, ["herb", "basil", "cilantro", "dill", "parsley", "ginger", "garlic", "spice"])) {
+        return "Herbs & seasonings";
+      }
+      return "Pantry & other";
+  }
+}
+
+function groupIngredients(category: IngredientCategory, ingredients: Ingredient[]): IngredientGroup[] {
+  const grouped = new Map<string, Ingredient[]>();
+
+  for (const ingredient of ingredients) {
+    const group = ingredientGroupFor(ingredient);
+    grouped.set(group, [...(grouped.get(group) ?? []), ingredient]);
+  }
+
+  return [...grouped.entries()]
+    .sort(
+      ([first], [second]) =>
+        ingredientGroupOrder[category].indexOf(first) - ingredientGroupOrder[category].indexOf(second),
+    )
+    .map(([label, groupedIngredients]) => ({ label, ingredients: groupedIngredients }));
+}
+
 type Flow = "ingredients" | "optimizing" | "results";
 
 function currentWeekKey() {
@@ -53,34 +140,6 @@ function currentWeekKey() {
   const month = String(sunday.getMonth() + 1).padStart(2, "0");
   const day = String(sunday.getDate()).padStart(2, "0");
   return `${year}-${month}-${day}`;
-}
-
-function IngredientArt({ ingredient }: Readonly<{ ingredient: Ingredient }>) {
-  const [base, dark, light] = ingredient.colors;
-
-  return (
-    <svg viewBox="0 0 64 64" aria-hidden="true" className="size-16 shrink-0">
-      <circle cx="32" cy="32" r="29" fill={light} />
-      <path
-        d="M18 35C18 23 24 16 34 16C44 16 50 24 48 35C46 46 39 51 30 50C22 49 18 43 18 35Z"
-        fill={base}
-      />
-      <path
-        d="M23 27C29 22 39 21 45 27"
-        stroke={dark}
-        strokeWidth="4"
-        strokeLinecap="round"
-      />
-      <circle cx="27" cy="35" r="3" fill={dark} opacity=".85" />
-      <circle cx="39" cy="38" r="4" fill={dark} opacity=".7" />
-      <path
-        d="M29 17C30 11 35 8 41 9"
-        stroke="#315D42"
-        strokeWidth="4"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
 }
 
 function IngredientCard({
@@ -123,7 +182,7 @@ function IngredientCard({
           </svg>
         )}
       </span>
-      <IngredientArt ingredient={ingredient} />
+      <IngredientIcon ingredient={ingredient} />
       <span className="text-lg font-extrabold leading-tight">{ingredient.name}</span>
       {ingredient.recipeCount !== undefined && (
         <span className="text-[10px] font-bold text-[#819086]">
@@ -506,9 +565,9 @@ function SignupModal({ onClose }: Readonly<{ onClose: () => void }>) {
     }
   }
 
-  return (
+  return createPortal(
     <div
-      className="plan-modal-backdrop fixed inset-0 z-50 flex items-center justify-center bg-[#10261a]/60 p-3 backdrop-blur-sm sm:p-6"
+      className="plan-modal-backdrop fixed inset-0 z-[100] flex h-[100dvh] items-center justify-center overflow-y-auto overscroll-contain bg-[#10261a]/60 p-3 backdrop-blur-sm sm:p-6"
       onClick={(event) => {
         if (event.target === event.currentTarget) onClose();
       }}
@@ -517,7 +576,7 @@ function SignupModal({ onClose }: Readonly<{ onClose: () => void }>) {
         role="dialog"
         aria-modal="true"
         aria-labelledby="signup-title"
-        className="plan-modal-pop grid max-h-[92vh] w-full max-w-6xl overflow-y-auto rounded-[2rem] bg-white shadow-[0_36px_100px_rgba(16,38,26,0.34)] lg:grid-cols-[3fr_2fr] lg:overflow-hidden"
+        className="plan-modal-pop grid max-h-[calc(100dvh-1.5rem)] w-full max-w-6xl overflow-y-auto overscroll-contain rounded-[2rem] bg-white shadow-[0_36px_100px_rgba(16,38,26,0.34)] sm:max-h-[calc(100dvh-3rem)] lg:grid-cols-[3fr_2fr] lg:overflow-hidden"
       >
         <div className="relative hidden min-h-[38rem] overflow-hidden bg-[#e7f0dc] p-8 lg:flex lg:flex-col">
           <div className="absolute inset-x-0 top-0 h-72 bg-[radial-gradient(circle_at_50%_0%,#c9e1ae,transparent_70%)]" />
@@ -640,7 +699,8 @@ function SignupModal({ onClose }: Readonly<{ onClose: () => void }>) {
           </div>
         </div>
       </section>
-    </div>
+    </div>,
+    document.body,
   );
 }
 
@@ -808,13 +868,35 @@ export default function IngredientPlanner({
   const [categoryIndex, setCategoryIndex] = useState(0);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [recommendations, setRecommendations] = useState<MealRecommendation[]>([]);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [activeIngredientGroup, setActiveIngredientGroup] = useState("");
 
   const category = ingredientCategories[categoryIndex];
   const question = questions[category];
-  const visibleIngredients = useMemo(
+  const categoryIngredients = useMemo(
     () => availableIngredients.filter((ingredient) => ingredient.category === category),
     [availableIngredients, category],
   );
+  const ingredientGroups = useMemo(
+    () => groupIngredients(category, categoryIngredients),
+    [category, categoryIngredients],
+  );
+  const resolvedIngredientGroup =
+    activeIngredientGroup === "all" ||
+    ingredientGroups.some((group) => group.label === activeIngredientGroup)
+      ? activeIngredientGroup
+      : (ingredientGroups[0]?.label ?? "all");
+  const visibleIngredients = useMemo(() => {
+    const normalizedSearch = searchQuery.trim().toLocaleLowerCase();
+
+    return categoryIngredients.filter((ingredient) => {
+      const matchesSearch = !normalizedSearch || ingredient.name.toLocaleLowerCase().includes(normalizedSearch);
+      const matchesGroup =
+        resolvedIngredientGroup === "all" || ingredientGroupFor(ingredient) === resolvedIngredientGroup;
+
+      return matchesSearch && (normalizedSearch ? true : matchesGroup);
+    });
+  }, [categoryIngredients, resolvedIngredientGroup, searchQuery]);
   const selected = selectedIds
     .map((id) => availableIngredients.find((ingredient) => ingredient.id === id))
     .filter((ingredient): ingredient is Ingredient => Boolean(ingredient));
@@ -835,17 +917,23 @@ export default function IngredientPlanner({
       return;
     }
 
+    setSearchQuery("");
+    setActiveIngredientGroup("");
     setCategoryIndex((index) => index + 1);
   }
 
   function goBack() {
     if (categoryIndex === 0) return;
+    setSearchQuery("");
+    setActiveIngredientGroup("");
     setCategoryIndex((index) => index - 1);
   }
 
   function restart() {
     setSelectedIds([]);
     setRecommendations([]);
+    setSearchQuery("");
+    setActiveIngredientGroup("");
     setCategoryIndex(0);
     setFlow("ingredients");
   }
@@ -943,15 +1031,99 @@ export default function IngredientPlanner({
             </p>
           </div>
 
-          <div className="mx-auto mt-8 grid w-full max-w-5xl grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
-            {visibleIngredients.map((ingredient) => (
-              <IngredientCard
-                key={ingredient.id}
-                ingredient={ingredient}
-                selected={selectedIds.includes(ingredient.id)}
-                onToggle={() => toggleIngredient(ingredient.id)}
-              />
-            ))}
+          <div className="mx-auto mt-8 w-full max-w-5xl">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+              <label className="relative block min-w-0 flex-1">
+                <span className="sr-only">Search {category.toLocaleLowerCase()}</span>
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  className="pointer-events-none absolute left-4 top-1/2 size-5 -translate-y-1/2 text-[#6f8773]"
+                >
+                  <circle cx="10.8" cy="10.8" r="5.8" fill="none" stroke="currentColor" strokeWidth="2" />
+                  <path d="m15.2 15.2 4.1 4.1" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                </svg>
+                <input
+                  type="search"
+                  value={searchQuery}
+                  onChange={(event) => {
+                    setSearchQuery(event.target.value);
+                    if (event.target.value.trim()) setActiveIngredientGroup("all");
+                  }}
+                  placeholder={`Search ${category.toLocaleLowerCase()}...`}
+                  className="w-full rounded-2xl border border-[#315d42]/15 bg-white py-3 pl-12 pr-4 text-sm font-semibold text-[#193426] outline-none transition placeholder:text-[#91a094] focus:border-[#5f8e4f] focus:ring-4 focus:ring-[#dceccb]"
+                />
+              </label>
+              {searchQuery && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSearchQuery("");
+                    setActiveIngredientGroup("");
+                  }}
+                  className="shrink-0 rounded-xl px-3 py-2 text-sm font-extrabold text-[#5f8e4f] transition hover:bg-[#e7f0dc] hover:text-[#315d42]"
+                >
+                  Clear search
+                </button>
+              )}
+            </div>
+
+            <div
+              aria-label={`${category} categories`}
+              className="mt-4 flex gap-2 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            >
+              {ingredientGroups.map((group) => (
+                <button
+                  type="button"
+                  key={group.label}
+                  onClick={() => {
+                    setSearchQuery("");
+                    setActiveIngredientGroup(group.label);
+                  }}
+                  aria-pressed={resolvedIngredientGroup === group.label}
+                  className={`shrink-0 rounded-full border px-4 py-2 text-xs font-extrabold transition ${
+                    resolvedIngredientGroup === group.label
+                      ? "border-[#315d42] bg-[#315d42] text-white"
+                      : "border-[#315d42]/12 bg-white text-[#5e7563] hover:border-[#94bf4a] hover:bg-[#f1f7ea]"
+                  }`}
+                >
+                  {group.label} <span className="ml-1 opacity-70">{group.ingredients.length}</span>
+                </button>
+              ))}
+              <button
+                type="button"
+                onClick={() => {
+                  setSearchQuery("");
+                  setActiveIngredientGroup("all");
+                }}
+                aria-pressed={resolvedIngredientGroup === "all"}
+                className={`shrink-0 rounded-full border px-4 py-2 text-xs font-extrabold transition ${
+                  resolvedIngredientGroup === "all"
+                    ? "border-[#315d42] bg-[#315d42] text-white"
+                    : "border-[#315d42]/12 bg-white text-[#5e7563] hover:border-[#94bf4a] hover:bg-[#f1f7ea]"
+                }`}
+              >
+                All choices <span className="ml-1 opacity-70">{categoryIngredients.length}</span>
+              </button>
+            </div>
+
+            {visibleIngredients.length ? (
+              <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
+                {visibleIngredients.map((ingredient) => (
+                  <IngredientCard
+                    key={ingredient.id}
+                    ingredient={ingredient}
+                    selected={selectedIds.includes(ingredient.id)}
+                    onToggle={() => toggleIngredient(ingredient.id)}
+                  />
+                ))}
+              </div>
+            ) : (
+              <div className="mt-5 rounded-[1.5rem] border border-dashed border-[#315d42]/18 bg-white/65 px-6 py-12 text-center">
+                <p className="text-base font-extrabold text-[#315d42]">No {category.toLocaleLowerCase()} found.</p>
+                <p className="mt-2 text-sm text-[#728779]">Try a different name or browse another category.</p>
+              </div>
+            )}
           </div>
 
           <div className="mx-auto mt-auto flex w-full max-w-5xl items-end justify-between gap-4 pb-2 pt-8">

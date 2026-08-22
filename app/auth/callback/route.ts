@@ -4,9 +4,14 @@ import { createClient } from "@/lib/supabase/server";
 export async function GET(request: Request) {
   const { searchParams, origin } = new URL(request.url);
   const code = searchParams.get("code");
-  const next = searchParams.get("next")?.startsWith("/")
-    ? searchParams.get("next")!
+  const requestedNextPath = searchParams.get("next");
+  const next = requestedNextPath?.startsWith("/") && !requestedNextPath.startsWith("//")
+    ? requestedNextPath
     : "/";
+  const requestedFailurePath = searchParams.get("failure");
+  const failurePath = requestedFailurePath?.startsWith("/") && !requestedFailurePath.startsWith("//")
+    ? requestedFailurePath
+    : "/auth";
 
   if (code) {
     const supabase = await createClient();
@@ -17,5 +22,5 @@ export async function GET(request: Request) {
     }
   }
 
-  return NextResponse.redirect(`${origin}/auth?error=oauth_callback_failed`);
+  return NextResponse.redirect(`${origin}${failurePath}?error=oauth_callback_failed`);
 }
